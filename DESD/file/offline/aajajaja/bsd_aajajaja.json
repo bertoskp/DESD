@@ -1,0 +1,1717 @@
+{
+  "behavioralSpace": {
+    "states": [
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 28,
+        "in": [
+          9
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          0,
+          1
+        ],
+        "starting": true
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 29,
+        "in": [
+          0
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          2,
+          3
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 30,
+        "in": [
+          1
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          4
+        ],
+        "relevancyLabels": [
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 31,
+        "in": [
+          2
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          5,
+          6
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 32,
+        "in": [
+          3,
+          23
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          7,
+          8
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 33,
+        "in": [
+          4
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 34,
+        "in": [
+          5
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          9,
+          10
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 35,
+        "in": [
+          6
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          11
+        ],
+        "relevancyLabels": [
+          "fcs"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 36,
+        "in": [
+          7
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          12
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 37,
+        "in": [
+          8
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          13,
+          14
+        ],
+        "relevancyLabels": [
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 38,
+        "in": [
+          10,
+          30
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          15,
+          16
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 39,
+        "in": [
+          11
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcs"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 40,
+        "in": [
+          12,
+          32
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          17,
+          18
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 41,
+        "in": [
+          13,
+          34
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 42,
+        "in": [
+          14
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 43,
+        "in": [
+          15
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          19
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 44,
+        "in": [
+          16
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          20,
+          21
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 45,
+        "in": [
+          17
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          22,
+          23
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 46,
+        "in": [
+          18
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          24
+        ],
+        "relevancyLabels": [
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 47,
+        "in": [
+          19,
+          39
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          25,
+          26
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 48,
+        "in": [
+          20,
+          41
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 49,
+        "in": [
+          21
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 50,
+        "in": [
+          22
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          27,
+          28
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 51,
+        "in": [
+          24
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 52,
+        "in": [
+          25
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          29,
+          30
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 53,
+        "in": [
+          26
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          31
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fcs"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 54,
+        "in": [
+          27
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          32,
+          33
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 55,
+        "in": [
+          28
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          34
+        ],
+        "relevancyLabels": [
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 56,
+        "in": [
+          29
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          35,
+          36
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 57,
+        "in": [
+          31
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fcs"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 58,
+        "in": [
+          33,
+          53
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          37,
+          38
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 59,
+        "in": [
+          35
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          39,
+          40
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 60,
+        "in": [
+          36
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          41
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 61,
+        "in": [
+          37
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          42
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 62,
+        "in": [
+          38
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          43,
+          44
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 63,
+        "in": [
+          40,
+          58
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          45,
+          46
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 64,
+        "in": [
+          42,
+          57
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          47,
+          48
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 65,
+        "in": [
+          43,
+          59
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 66,
+        "in": [
+          44
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 67,
+        "in": [
+          45
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          49
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 68,
+        "in": [
+          46
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          50,
+          51
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 69,
+        "in": [
+          47
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          52,
+          53
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 70,
+        "in": [
+          48
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          54
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 71,
+        "in": [
+          49,
+          52
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          55,
+          56
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 72,
+        "in": [
+          50,
+          54
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 73,
+        "in": [
+          51
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 74,
+        "in": [
+          55
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          57,
+          58
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 75,
+        "in": [
+          56
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          59
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob",
+          "fos"
+        ]
+      }
+    ],
+    "transitions": [
+      {
+        "id": 0,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 1,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 2,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 3,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 4,
+        "name": "b5"
+      },
+      {
+        "id": 5,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 6,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 7,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 8,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 9,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 10,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 11,
+        "name": "b6"
+      },
+      {
+        "id": 12,
+        "name": "b5"
+      },
+      {
+        "id": 13,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 14,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 15,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 16,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 17,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 18,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 19,
+        "name": "b6"
+      },
+      {
+        "id": 20,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 21,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 22,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 23,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 24,
+        "name": "b5"
+      },
+      {
+        "id": 25,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 26,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 27,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 28,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 29,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 30,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 31,
+        "name": "b6"
+      },
+      {
+        "id": 32,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 33,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 34,
+        "name": "b6"
+      },
+      {
+        "id": 35,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 36,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 37,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 38,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 39,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 40,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 41,
+        "name": "b5"
+      },
+      {
+        "id": 42,
+        "name": "b6"
+      },
+      {
+        "id": 43,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 44,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 45,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 46,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 47,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 48,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 49,
+        "name": "b5"
+      },
+      {
+        "id": 50,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 51,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 52,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 53,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 54,
+        "name": "b6"
+      },
+      {
+        "id": 55,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 56,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 57,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 58,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 59,
+        "name": "b5"
+      }
+    ]
+  },
+  "meta": {
+    "type": "bs",
+    "version": 1
+  }
+}

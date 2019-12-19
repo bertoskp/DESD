@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/DictionaryMerge.cpp \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/DictionaryMerge.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../stdIncludes.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/Dictionary.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/DictionaryState.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/../stdIncludes.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/BehavioralTransition.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/NFATransitionInterface.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/NFAStateInterface.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/BehavioralState.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/NFASpaceInterface.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Utils/Logger.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Utils/../stdIncludes.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/DFAConstructor.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/BehavioralSpace.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../manipulators/BSBuilderDFA.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/Network.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/Component.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/State.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/Transition.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/Event.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/Link.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/SimpleNetwork.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/SimpleState.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Data/SimpleTransition.h

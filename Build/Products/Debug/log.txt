@@ -1,0 +1,2644 @@
+[LOG 2019-07-24T13:35:29Z] Loaded Network successfully.
+[LOG 2019-07-24T13:35:29Z]   States: 5
+[LOG 2019-07-24T13:35:29Z]   Transitions: 10
+[LOG 2019-07-24T13:35:29Z]   Links: 1
+[LOG 2019-07-24T13:35:29Z]   Components: 2
+[SEC 2019-07-24T13:35:29Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-24T13:35:29Z] No filters.
+[LOG 2019-07-24T13:35:29Z] BS construction completed.
+[LOG 2019-07-24T13:35:29Z]   States: 14
+[LOG 2019-07-24T13:35:29Z]   Transitions: 20
+[LOG 2019-07-24T13:35:29Z] Time elapsed (ms): 3
+[LOG 2019-07-26T09:26:40Z] Loaded Network successfully.
+[LOG 2019-07-26T09:26:40Z]   States: 5
+[LOG 2019-07-26T09:26:40Z]   Transitions: 10
+[LOG 2019-07-26T09:26:40Z]   Links: 1
+[LOG 2019-07-26T09:26:40Z]   Components: 2
+[SEC 2019-07-26T09:26:40Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-26T09:26:40Z] No filters.
+[LOG 2019-07-26T09:26:40Z] BS construction completed.
+[LOG 2019-07-26T09:26:40Z]   States: 14
+[LOG 2019-07-26T09:26:40Z]   Transitions: 20
+[LOG 2019-07-26T09:26:40Z] Time elapsed (ms): 3
+[LOG 2019-07-26T13:19:50Z] Loaded Network successfully.
+[LOG 2019-07-26T13:19:50Z]   States: 5
+[LOG 2019-07-26T13:19:50Z]   Transitions: 10
+[LOG 2019-07-26T13:19:50Z]   Links: 1
+[LOG 2019-07-26T13:19:50Z]   Components: 2
+[SEC 2019-07-26T13:19:50Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-26T13:19:50Z] No filters.
+[LOG 2019-07-26T13:19:50Z] BS construction completed.
+[LOG 2019-07-26T13:19:50Z]   States: 14
+[LOG 2019-07-26T13:19:50Z]   Transitions: 20
+[LOG 2019-07-26T13:19:50Z] Time elapsed (ms): 3
+[LOG 2019-07-26T13:19:53Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-26T13:19:53Z]   States: 14
+[LOG 2019-07-26T13:19:53Z]   Transitions: 20
+[SEC 2019-07-26T13:19:53Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-26T13:19:53Z] Labeled BS construction completed.
+[LOG 2019-07-26T13:19:53Z]   States: 48
+[LOG 2019-07-26T13:19:53Z]   Transitions: 60
+[LOG 2019-07-26T13:19:53Z] Time elapsed (ms): 4
+[LOG 2019-07-29T08:08:23Z] Loaded Network successfully.
+[LOG 2019-07-29T08:08:23Z]   States: 9
+[LOG 2019-07-29T08:08:23Z]   Transitions: 19
+[LOG 2019-07-29T08:08:23Z]   Links: 4
+[LOG 2019-07-29T08:08:23Z]   Components: 3
+[SEC 2019-07-29T08:08:23Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-29T08:08:23Z] No filters.
+[LOG 2019-07-29T08:08:23Z] BS construction completed.
+[LOG 2019-07-29T08:08:23Z]   States: 81
+[LOG 2019-07-29T08:08:23Z]   Transitions: 139
+[LOG 2019-07-29T08:08:23Z] Time elapsed (ms): 8
+[LOG 2019-07-29T08:08:27Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:08:27Z]   States: 81
+[LOG 2019-07-29T08:08:27Z]   Transitions: 139
+[SEC 2019-07-29T08:08:27Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-29T08:08:27Z] Labeled BS construction completed.
+[LOG 2019-07-29T08:08:27Z]   States: 218
+[LOG 2019-07-29T08:08:27Z]   Transitions: 380
+[LOG 2019-07-29T08:08:27Z] Time elapsed (ms): 35
+[LOG 2019-07-29T08:12:36Z] Loaded Network successfully.
+[LOG 2019-07-29T08:12:36Z]   States: 5
+[LOG 2019-07-29T08:12:36Z]   Transitions: 10
+[LOG 2019-07-29T08:12:36Z]   Links: 1
+[LOG 2019-07-29T08:12:36Z]   Components: 2
+[SEC 2019-07-29T08:12:36Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-29T08:12:36Z] No filters.
+[LOG 2019-07-29T08:12:36Z] BS construction completed.
+[LOG 2019-07-29T08:12:36Z]   States: 14
+[LOG 2019-07-29T08:12:36Z]   Transitions: 20
+[LOG 2019-07-29T08:12:36Z] Time elapsed (ms): 2
+[LOG 2019-07-29T08:12:38Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:12:38Z]   States: 14
+[LOG 2019-07-29T08:12:38Z]   Transitions: 20
+[SEC 2019-07-29T08:12:38Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-29T08:12:38Z] Labeled BS construction completed.
+[LOG 2019-07-29T08:12:38Z]   States: 48
+[LOG 2019-07-29T08:12:38Z]   Transitions: 60
+[LOG 2019-07-29T08:12:38Z] Time elapsed (ms): 5
+[LOG 2019-07-29T08:12:40Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:12:40Z]   States: 48
+[LOG 2019-07-29T08:12:40Z]   Transitions: 60
+[SEC 2019-07-29T08:12:40Z] ~~~~~~~~~~Dictionary Construction
+[LOG 2019-07-29T08:12:40Z] STATO dfa 0
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b2 obs:  cls }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] {}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 1
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] OUT{ b5 }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:12:40Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ b5 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] {}{ fob}{ fos}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 2
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b1 obs:  opn }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] {}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 3
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:12:40Z] OUT{ b5 }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fcs fob}{ fob}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 4
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:12:40Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] OUT{ b6 }
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ b6 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] {}{ fcb}{ fcs}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 5
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:12:40Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] OUT{ b5 }
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ b5 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fob}{ fob fos}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 6
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fcs fob}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 7
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:12:40Z] OUT{ b6 }
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fcb}{ fcb fos}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 8
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b1 obs:  opn }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] { fob}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 9
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fcb fos}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 10
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ b6 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:12:40Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] OUT{ b6 }
+[LOG 2019-07-29T08:12:40Z] { fcb}{ fcb fcs}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 11
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] OUT{ b6 }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:12:40Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] { fcb fob}{ fcs fob}{ fob}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 12
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b2 obs:  cls }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] { fcb}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 13
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:12:40Z] OUT{ b6 }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fcb fob}{ fcb fob fos}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 14
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] { fob}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 15
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:12:40Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] OUT{ b5 }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] { fcb}{ fcb fob}{ fcb fos}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 16
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fcb fob fos}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 17
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:12:40Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] OUT{ b6 }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fcb fcs fob}{ fcb fob}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 18
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] { fcb}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 19
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:12:40Z] OUT{ b5 }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fcb fcs fob}{ fcb fob}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 20
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:12:40Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] { fcb fob}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 21
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] STATO1
+[LOG 2019-07-29T08:12:40Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] STATO2
+[LOG 2019-07-29T08:12:40Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:12:40Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:12:40Z] STATO3
+[LOG 2019-07-29T08:12:40Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:12:40Z] OUT{ b5 }
+[LOG 2019-07-29T08:12:40Z] { fcb fob}{ fcb fob fos}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 22
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:12:40Z] OUT
+[LOG 2019-07-29T08:12:40Z] { fcb fcs fob}
+[LOG 2019-07-29T08:12:40Z] STATO dfa 23
+[LOG 2019-07-29T08:12:40Z] STATO0
+[LOG 2019-07-29T08:12:40Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:12:40Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:12:40Z] { fcb fob}
+[LOG 2019-07-29T08:12:40Z] Dictionary construction completed.
+[LOG 2019-07-29T08:12:40Z]   States: 24
+[LOG 2019-07-29T08:12:40Z]   Transitions: 32
+[LOG 2019-07-29T08:12:40Z] Time elapsed (ms): 60
+[LOG 2019-07-29T08:13:43Z] Loaded Network successfully.
+[LOG 2019-07-29T08:13:43Z]   States: 4
+[LOG 2019-07-29T08:13:43Z]   Transitions: 5
+[LOG 2019-07-29T08:13:43Z]   Links: 2
+[LOG 2019-07-29T08:13:43Z]   Components: 2
+[SEC 2019-07-29T08:13:43Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-29T08:13:43Z] No filters.
+[LOG 2019-07-29T08:13:43Z] BS construction completed.
+[LOG 2019-07-29T08:13:43Z]   States: 15
+[LOG 2019-07-29T08:13:43Z]   Transitions: 18
+[LOG 2019-07-29T08:13:43Z] Time elapsed (ms): 1
+[LOG 2019-07-29T08:13:45Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:13:45Z]   States: 15
+[LOG 2019-07-29T08:13:45Z]   Transitions: 18
+[SEC 2019-07-29T08:13:45Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-29T08:13:45Z] Labeled BS construction completed.
+[LOG 2019-07-29T08:13:45Z]   States: 28
+[LOG 2019-07-29T08:13:45Z]   Transitions: 34
+[LOG 2019-07-29T08:13:45Z] Time elapsed (ms): 2
+[LOG 2019-07-29T08:13:48Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:13:48Z]   States: 28
+[LOG 2019-07-29T08:13:48Z]   Transitions: 34
+[SEC 2019-07-29T08:13:48Z] ~~~~~~~~~~Dictionary Construction
+[LOG 2019-07-29T08:13:48Z] STATO dfa 0
+[LOG 2019-07-29T08:13:48Z] STATO0
+[LOG 2019-07-29T08:13:48Z] IN
+[LOG 2019-07-29T08:13:48Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] {}
+[LOG 2019-07-29T08:13:48Z] STATO dfa 1
+[LOG 2019-07-29T08:13:48Z] STATO0
+[LOG 2019-07-29T08:13:48Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] {}
+[LOG 2019-07-29T08:13:48Z] STATO dfa 2
+[LOG 2019-07-29T08:13:48Z] STATO0
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] STATO1
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] STATO2
+[LOG 2019-07-29T08:13:48Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO3
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] STATO4
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] STATO5
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO6
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT
+[LOG 2019-07-29T08:13:48Z] {}{ f}{ f r}{ r}
+[LOG 2019-07-29T08:13:48Z] STATO dfa 3
+[LOG 2019-07-29T08:13:48Z] STATO0
+[LOG 2019-07-29T08:13:48Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] STATO1
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] STATO2
+[LOG 2019-07-29T08:13:48Z] IN{ t3a obs:  o3 }{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO3
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] {}{ f r}{ r}
+[LOG 2019-07-29T08:13:48Z] STATO dfa 4
+[LOG 2019-07-29T08:13:48Z] STATO0
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] STATO1
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] STATO2
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO3
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] STATO4
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT
+[LOG 2019-07-29T08:13:48Z] STATO5
+[LOG 2019-07-29T08:13:48Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] STATO6
+[LOG 2019-07-29T08:13:48Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO7
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] { f r}{ r}
+[LOG 2019-07-29T08:13:48Z] STATO dfa 5
+[LOG 2019-07-29T08:13:48Z] STATO0
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] OUT
+[LOG 2019-07-29T08:13:48Z] STATO1
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] STATO2
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] STATO3
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO4
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] STATO5
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] STATO6
+[LOG 2019-07-29T08:13:48Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] { f r}{ r}
+[LOG 2019-07-29T08:13:48Z] STATO dfa 6
+[LOG 2019-07-29T08:13:48Z] STATO0
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] STATO1
+[LOG 2019-07-29T08:13:48Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] STATO2
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] STATO3
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO4
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] STATO5
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT
+[LOG 2019-07-29T08:13:48Z] STATO6
+[LOG 2019-07-29T08:13:48Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO7
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] { f r}
+[LOG 2019-07-29T08:13:48Z] STATO dfa 7
+[LOG 2019-07-29T08:13:48Z] STATO0
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] STATO1
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO2
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] STATO3
+[LOG 2019-07-29T08:13:48Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T08:13:48Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] STATO4
+[LOG 2019-07-29T08:13:48Z] IN{ t3b }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] STATO5
+[LOG 2019-07-29T08:13:48Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:13:48Z] OUT
+[LOG 2019-07-29T08:13:48Z] STATO6
+[LOG 2019-07-29T08:13:48Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:13:48Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:13:48Z] { f r}
+[LOG 2019-07-29T08:13:48Z] Dictionary construction completed.
+[LOG 2019-07-29T08:13:48Z]   States: 8
+[LOG 2019-07-29T08:13:48Z]   Transitions: 8
+[LOG 2019-07-29T08:13:48Z] Time elapsed (ms): 35
+[LOG 2019-07-29T08:21:07Z] Loaded Network successfully.
+[LOG 2019-07-29T08:21:07Z]   States: 5
+[LOG 2019-07-29T08:21:07Z]   Transitions: 10
+[LOG 2019-07-29T08:21:07Z]   Links: 1
+[LOG 2019-07-29T08:21:07Z]   Components: 2
+[SEC 2019-07-29T08:21:07Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-29T08:21:07Z] No filters.
+[LOG 2019-07-29T08:21:08Z] BS construction completed.
+[LOG 2019-07-29T08:21:08Z]   States: 14
+[LOG 2019-07-29T08:21:08Z]   Transitions: 20
+[LOG 2019-07-29T08:21:08Z] Time elapsed (ms): 2
+[LOG 2019-07-29T08:21:10Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:21:10Z]   States: 14
+[LOG 2019-07-29T08:21:10Z]   Transitions: 20
+[SEC 2019-07-29T08:21:10Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-29T08:21:10Z] Labeled BS construction completed.
+[LOG 2019-07-29T08:21:10Z]   States: 48
+[LOG 2019-07-29T08:21:10Z]   Transitions: 60
+[LOG 2019-07-29T08:21:10Z] Time elapsed (ms): 3
+[LOG 2019-07-29T08:21:12Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:21:12Z]   States: 48
+[LOG 2019-07-29T08:21:12Z]   Transitions: 60
+[SEC 2019-07-29T08:21:12Z] ~~~~~~~~~~Dictionary Construction
+[LOG 2019-07-29T08:21:12Z] STATO dfa 0
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b2 obs:  cls }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] {}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 1
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] OUT{ b5 }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ b5 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:21:12Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] {}{ fob}{ fos}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 2
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b1 obs:  opn }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] {}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 3
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:21:12Z] OUT{ b5 }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fcs fob}{ fob}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 4
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:21:12Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] OUT{ b6 }
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b6 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] {}{ fcb}{ fcs}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 5
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:21:12Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] OUT{ b5 }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b5 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fob}{ fob fos}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 6
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fcs fob}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 7
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:21:12Z] OUT{ b6 }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] { fcb}{ fcb fos}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 8
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b1 obs:  opn }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] { fob}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 9
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fcb fos}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 10
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:21:12Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] OUT{ b6 }
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ b6 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] { fcb}{ fcb fcs}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 11
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:21:12Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] OUT{ b6 }
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fcb fob}{ fcs fob}{ fob}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 12
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b2 obs:  cls }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] { fcb}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 13
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:21:12Z] OUT{ b6 }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fcb fob}{ fcb fob fos}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 14
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] { fob}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 15
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:21:12Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] OUT{ b5 }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] { fcb}{ fcb fob}{ fcb fos}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 16
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fcb fob fos}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 17
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:21:12Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] OUT{ b6 }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fcb fcs fob}{ fcb fob}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 18
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] { fcb}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 19
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:21:12Z] OUT{ b5 }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fcb fcs fob}{ fcb fob}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 20
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:21:12Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] { fcb fob}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 21
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] STATO1
+[LOG 2019-07-29T08:21:12Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] STATO2
+[LOG 2019-07-29T08:21:12Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:21:12Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:21:12Z] STATO3
+[LOG 2019-07-29T08:21:12Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:21:12Z] OUT{ b5 }
+[LOG 2019-07-29T08:21:12Z] { fcb fob}{ fcb fob fos}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 22
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:21:12Z] OUT
+[LOG 2019-07-29T08:21:12Z] { fcb fcs fob}
+[LOG 2019-07-29T08:21:12Z] STATO dfa 23
+[LOG 2019-07-29T08:21:12Z] STATO0
+[LOG 2019-07-29T08:21:12Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:21:12Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:21:12Z] { fcb fob}
+[LOG 2019-07-29T08:21:12Z] Dictionary construction completed.
+[LOG 2019-07-29T08:21:12Z]   States: 24
+[LOG 2019-07-29T08:21:12Z]   Transitions: 32
+[LOG 2019-07-29T08:21:12Z] Time elapsed (ms): 64
+[LOG 2019-07-29T08:21:46Z] Loaded Network successfully.
+[LOG 2019-07-29T08:21:46Z]   States: 9
+[LOG 2019-07-29T08:21:46Z]   Transitions: 19
+[LOG 2019-07-29T08:21:46Z]   Links: 4
+[LOG 2019-07-29T08:21:46Z]   Components: 3
+[SEC 2019-07-29T08:21:46Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-29T08:21:46Z] No filters.
+[LOG 2019-07-29T08:21:46Z] BS construction completed.
+[LOG 2019-07-29T08:21:46Z]   States: 81
+[LOG 2019-07-29T08:21:46Z]   Transitions: 139
+[LOG 2019-07-29T08:21:46Z] Time elapsed (ms): 12
+[LOG 2019-07-29T08:21:49Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:21:49Z]   States: 81
+[LOG 2019-07-29T08:21:49Z]   Transitions: 139
+[SEC 2019-07-29T08:21:49Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-29T08:21:49Z] Labeled BS construction completed.
+[LOG 2019-07-29T08:21:49Z]   States: 218
+[LOG 2019-07-29T08:21:49Z]   Transitions: 380
+[LOG 2019-07-29T08:21:49Z] Time elapsed (ms): 34
+[LOG 2019-07-29T08:21:50Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:21:50Z]   States: 218
+[LOG 2019-07-29T08:21:50Z]   Transitions: 380
+[SEC 2019-07-29T08:21:50Z] ~~~~~~~~~~Dictionary Construction
+[LOG 2019-07-29T08:21:52Z] STATO dfa 0
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] {}{ abortAcknowledged}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 1
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayout }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] {}{ abortAcknowledged fullPayout newInvestment}{ fullPayout newInvestment}{ newInvestment}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 2
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayout }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged fullPayout newInvestment}{ fullPayout newInvestment}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 3
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO23
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO24
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO25
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO26
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO27
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO28
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO29
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged newInvestment partialPayout}{ fullPayout newInvestment}{ newInvestment}{ newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 4
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO23
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO24
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO25
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO26
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO27
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO28
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO29
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged fullPayout newInvestment partialPayout}{ fullPayout newInvestment}{ fullPayout newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 5
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] { newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 6
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_AbortNoInvestment }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_Aborted rel: abortAcknowledged }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetThirdWeek obs:  resetCalendar }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetFourthWeek obs:  resetCalendar }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetThirdWeek obs:  resetCalendar }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetFourthWeek obs:  resetCalendar }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged newInvestment partialPayout}{ newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 7
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] { fullPayout newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 8
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetFourthWeek obs:  resetCalendar }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayout }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetThirdWeek obs:  resetCalendar }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetThirdWeek obs:  resetCalendar }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetFourthWeek obs:  resetCalendar }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged fullPayout newInvestment partialPayout}{ fullPayout newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 9
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetThirdWeek obs:  resetCalendar }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_Begin rel: newInvestment }{ T_ConsumeSecondWeek }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_MakeInvestment obs:  newInvestment }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_AbortMadeInvestment }{ T_ConsumeSecondWeek }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayout }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayout }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO23
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO24
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO25
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetFourthWeek obs:  resetCalendar }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO26
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO27
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO28
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO29
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO30
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO31
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged fullPayout newInvestment partialPayout}{ fullPayout newInvestment partialPayout}{ newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 10
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetFourthWeek obs:  resetCalendar }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayout }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayout }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetSecondWeek obs:  resetCalendar }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }{ T_ConsumeFirstWeek }{ T_ConsumeSecondWeek }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_ResetThirdWeek obs:  resetCalendar }{ T_MakeInvestment obs:  newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }{ T_ConsumeFirstWeek }{ T_ConsumeSecondWeek }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO23
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO24
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO25
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO26
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO27
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO28
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO29
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO30
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO31
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged fullPayout newInvestment partialPayout}{ fullPayout newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 11
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayout }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayout }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_MakeInvestment obs:  newInvestment }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Begin rel: newInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_Begin rel: newInvestment }{ T_ConsumeFirstWeek }{ T_ConsumeSecondWeek }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }{ T_ResetSecondWeek obs:  resetCalendar }{ T_ResetThirdWeek obs:  resetCalendar }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortMadeInvestment }{ T_ConsumeFirstWeek }{ T_ConsumeSecondWeek }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_AbortMadeInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayout obs:  partialPayoutRequest }{ T_AbortMadeInvestment }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged fullPayout newInvestment partialPayout}{ fullPayout newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 12
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }{ T_ConsumeSecondWeek }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO23
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO24
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO25
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO26
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO27
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO28
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO29
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO30
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO31
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO32
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged newInvestment partialPayout}{ fullPayout newInvestment partialPayout}{ newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 13
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }{ T_ConsumeFirstWeek }{ T_ConsumeSecondWeek }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO23
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO24
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO25
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO26
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO27
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO28
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO29
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO30
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO31
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO32
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged fullPayout newInvestment partialPayout}{ fullPayout newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] STATO dfa 14
+[LOG 2019-07-29T08:21:52Z] STATO0
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO1
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO2
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO3
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO4
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO5
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO6
+[LOG 2019-07-29T08:21:52Z] IN{ T_FullPayoutGranted rel: fullPayout }{ T_PartialPayout obs:  partialPayoutRequest }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO7
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO8
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO9
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO10
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO11
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToThirdWeek }{ T_ResetSecondWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO12
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO13
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO14
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToThirdWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO15
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO16
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO17
+[LOG 2019-07-29T08:21:52Z] IN{ T_PartialPayout obs:  partialPayoutRequest }{ T_ConsumeFirstWeek }{ T_ConsumeSecondWeek }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToSecondWeek }
+[LOG 2019-07-29T08:21:52Z] STATO18
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT
+[LOG 2019-07-29T08:21:52Z] STATO19
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFourthWeek }{ T_ResetThirdWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO20
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO21
+[LOG 2019-07-29T08:21:52Z] IN{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO22
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayoutGranted rel: partialPayout }{ T_PartialPayoutGranted rel: partialPayout }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_MakeInvestment obs:  newInvestment }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] STATO23
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO24
+[LOG 2019-07-29T08:21:52Z] IN{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_ToFirstWeek }{ T_ResetFourthWeek obs:  resetCalendar }
+[LOG 2019-07-29T08:21:52Z] STATO25
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_AbortNoInvestment }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_Aborted rel: abortAcknowledged }
+[LOG 2019-07-29T08:21:52Z] STATO26
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeSecondWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFourthWeek }
+[LOG 2019-07-29T08:21:52Z] STATO27
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFourthWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ConsumeThirdWeek }
+[LOG 2019-07-29T08:21:52Z] STATO28
+[LOG 2019-07-29T08:21:52Z] IN{ T_ConsumeThirdWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_ToFirstWeek }
+[LOG 2019-07-29T08:21:52Z] STATO29
+[LOG 2019-07-29T08:21:52Z] IN{ T_ToFirstWeek }{ T_PartialPayout obs:  partialPayoutRequest }
+[LOG 2019-07-29T08:21:52Z] OUT{ T_PartialPayoutGranted rel: partialPayout }{ T_FullPayoutGranted rel: fullPayout }
+[LOG 2019-07-29T08:21:52Z] { abortAcknowledged fullPayout newInvestment partialPayout}{ fullPayout newInvestment partialPayout}
+[LOG 2019-07-29T08:21:52Z] Dictionary construction completed.
+[LOG 2019-07-29T08:21:52Z]   States: 15
+[LOG 2019-07-29T08:21:52Z]   Transitions: 25
+[LOG 2019-07-29T08:21:52Z] Time elapsed (ms): 1650
+[LOG 2019-07-29T08:50:17Z] Loaded Network successfully.
+[LOG 2019-07-29T08:50:17Z]   States: 4
+[LOG 2019-07-29T08:50:17Z]   Transitions: 5
+[LOG 2019-07-29T08:50:17Z]   Links: 2
+[LOG 2019-07-29T08:50:17Z]   Components: 2
+[SEC 2019-07-29T08:50:17Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-29T08:50:17Z] No filters.
+[LOG 2019-07-29T08:50:17Z] BS construction completed.
+[LOG 2019-07-29T08:50:17Z]   States: 15
+[LOG 2019-07-29T08:50:17Z]   Transitions: 18
+[LOG 2019-07-29T08:50:17Z] Time elapsed (ms): 4
+[LOG 2019-07-29T08:50:20Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:50:20Z]   States: 15
+[LOG 2019-07-29T08:50:20Z]   Transitions: 18
+[SEC 2019-07-29T08:50:20Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-29T08:50:20Z] Labeled BS construction completed.
+[LOG 2019-07-29T08:50:20Z]   States: 28
+[LOG 2019-07-29T08:50:20Z]   Transitions: 34
+[LOG 2019-07-29T08:50:20Z] Time elapsed (ms): 3
+[LOG 2019-07-29T08:50:22Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:50:22Z]   States: 28
+[LOG 2019-07-29T08:50:22Z]   Transitions: 34
+[SEC 2019-07-29T08:50:22Z] ~~~~~~~~~~Dictionary Construction
+[LOG 2019-07-29T08:50:22Z] STATO dfa 0
+[LOG 2019-07-29T08:50:22Z] STATO0
+[LOG 2019-07-29T08:50:22Z] IN
+[LOG 2019-07-29T08:50:22Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] {}
+[LOG 2019-07-29T08:50:22Z] STATO dfa 1
+[LOG 2019-07-29T08:50:22Z] STATO0
+[LOG 2019-07-29T08:50:22Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] {}
+[LOG 2019-07-29T08:50:22Z] STATO dfa 2
+[LOG 2019-07-29T08:50:22Z] STATO0
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] STATO1
+[LOG 2019-07-29T08:50:22Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO2
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] STATO3
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] STATO4
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO5
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] STATO6
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT
+[LOG 2019-07-29T08:50:22Z] {}{ f}{ f r}{ r}
+[LOG 2019-07-29T08:50:22Z] STATO dfa 3
+[LOG 2019-07-29T08:50:22Z] STATO0
+[LOG 2019-07-29T08:50:22Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] STATO1
+[LOG 2019-07-29T08:50:22Z] IN{ t3a obs:  o3 }{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO2
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] STATO3
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] {}{ f r}{ r}
+[LOG 2019-07-29T08:50:22Z] STATO dfa 4
+[LOG 2019-07-29T08:50:22Z] STATO0
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO1
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] STATO2
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT
+[LOG 2019-07-29T08:50:22Z] STATO3
+[LOG 2019-07-29T08:50:22Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] STATO4
+[LOG 2019-07-29T08:50:22Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO5
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] STATO6
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] STATO7
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] { f r}{ r}
+[LOG 2019-07-29T08:50:22Z] STATO dfa 5
+[LOG 2019-07-29T08:50:22Z] STATO0
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] STATO1
+[LOG 2019-07-29T08:50:22Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO2
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] STATO3
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] STATO4
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] OUT
+[LOG 2019-07-29T08:50:22Z] STATO5
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO6
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] { f r}{ r}
+[LOG 2019-07-29T08:50:22Z] STATO dfa 6
+[LOG 2019-07-29T08:50:22Z] STATO0
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO1
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] STATO2
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT
+[LOG 2019-07-29T08:50:22Z] STATO3
+[LOG 2019-07-29T08:50:22Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO4
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] STATO5
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] STATO6
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] STATO7
+[LOG 2019-07-29T08:50:22Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] { f r}
+[LOG 2019-07-29T08:50:22Z] STATO dfa 7
+[LOG 2019-07-29T08:50:22Z] STATO0
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] STATO1
+[LOG 2019-07-29T08:50:22Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] STATO2
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO3
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T08:50:22Z] STATO4
+[LOG 2019-07-29T08:50:22Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T08:50:22Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T08:50:22Z] STATO5
+[LOG 2019-07-29T08:50:22Z] IN{ t3b }
+[LOG 2019-07-29T08:50:22Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] STATO6
+[LOG 2019-07-29T08:50:22Z] IN{ t2b rel: r }
+[LOG 2019-07-29T08:50:22Z] OUT
+[LOG 2019-07-29T08:50:22Z] { f r}
+[LOG 2019-07-29T08:50:22Z] Dictionary construction completed.
+[LOG 2019-07-29T08:50:22Z]   States: 8
+[LOG 2019-07-29T08:50:22Z]   Transitions: 8
+[LOG 2019-07-29T08:50:22Z] Time elapsed (ms): 39
+[LOG 2019-07-29T08:53:01Z] Loaded Network successfully.
+[LOG 2019-07-29T08:53:01Z]   States: 5
+[LOG 2019-07-29T08:53:01Z]   Transitions: 10
+[LOG 2019-07-29T08:53:01Z]   Links: 1
+[LOG 2019-07-29T08:53:01Z]   Components: 2
+[SEC 2019-07-29T08:53:01Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-29T08:53:01Z] No filters.
+[LOG 2019-07-29T08:53:01Z] BS construction completed.
+[LOG 2019-07-29T08:53:01Z]   States: 14
+[LOG 2019-07-29T08:53:01Z]   Transitions: 20
+[LOG 2019-07-29T08:53:01Z] Time elapsed (ms): 8
+[LOG 2019-07-29T08:53:04Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:53:04Z]   States: 14
+[LOG 2019-07-29T08:53:04Z]   Transitions: 20
+[SEC 2019-07-29T08:53:04Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-29T08:53:04Z] Labeled BS construction completed.
+[LOG 2019-07-29T08:53:04Z]   States: 48
+[LOG 2019-07-29T08:53:04Z]   Transitions: 60
+[LOG 2019-07-29T08:53:04Z] Time elapsed (ms): 7
+[LOG 2019-07-29T08:53:06Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T08:53:06Z]   States: 48
+[LOG 2019-07-29T08:53:06Z]   Transitions: 60
+[SEC 2019-07-29T08:53:06Z] ~~~~~~~~~~Dictionary Construction
+[LOG 2019-07-29T08:53:06Z] STATO dfa 0
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b2 obs:  cls }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] {}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 1
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b5 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:53:06Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] OUT{ b5 }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] {}{ fob}{ fos}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 2
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b1 obs:  opn }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] {}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 3
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:53:06Z] OUT{ b5 }
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcs fob}{ fob}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 4
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:53:06Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] OUT{ b6 }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b6 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] {}{ fcb}{ fcs}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 5
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:53:06Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] OUT{ b5 }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b5 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fob}{ fob fos}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 6
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcs fob}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 7
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:53:06Z] OUT{ b6 }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcb}{ fcb fos}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 8
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b1 obs:  opn }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] { fob}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 9
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcb fos}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 10
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:53:06Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] OUT{ b6 }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b6 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcb}{ fcb fcs}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 11
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:53:06Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] OUT{ b6 }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] { fcb fob}{ fcs fob}{ fob}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 12
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b2 obs:  cls }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] { fcb}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 13
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:53:06Z] OUT{ b6 }
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcb fob}{ fcb fob fos}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 14
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] { fob}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 15
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:53:06Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] OUT{ b5 }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] { fcb}{ fcb fob}{ fcb fos}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 16
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcb fob fos}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 17
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:53:06Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] OUT{ b6 }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcb fcs fob}{ fcb fob}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 18
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] { fcb}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 19
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T08:53:06Z] OUT{ b5 }
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcb fcs fob}{ fcb fob}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 20
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T08:53:06Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] { fcb fob}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 21
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] STATO1
+[LOG 2019-07-29T08:53:06Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] STATO2
+[LOG 2019-07-29T08:53:06Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T08:53:06Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T08:53:06Z] STATO3
+[LOG 2019-07-29T08:53:06Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T08:53:06Z] OUT{ b5 }
+[LOG 2019-07-29T08:53:06Z] { fcb fob}{ fcb fob fos}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 22
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T08:53:06Z] OUT
+[LOG 2019-07-29T08:53:06Z] { fcb fcs fob}
+[LOG 2019-07-29T08:53:06Z] STATO dfa 23
+[LOG 2019-07-29T08:53:06Z] STATO0
+[LOG 2019-07-29T08:53:06Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T08:53:06Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T08:53:06Z] { fcb fob}
+[LOG 2019-07-29T08:53:06Z] Dictionary construction completed.
+[LOG 2019-07-29T08:53:06Z]   States: 24
+[LOG 2019-07-29T08:53:06Z]   Transitions: 32
+[LOG 2019-07-29T08:53:06Z] Time elapsed (ms): 60
+[LOG 2019-07-29T12:14:33Z] Loaded Network successfully.
+[LOG 2019-07-29T12:14:33Z]   States: 5
+[LOG 2019-07-29T12:14:33Z]   Transitions: 10
+[LOG 2019-07-29T12:14:33Z]   Links: 1
+[LOG 2019-07-29T12:14:33Z]   Components: 2
+[SEC 2019-07-29T12:14:33Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-29T12:14:33Z] No filters.
+[LOG 2019-07-29T12:14:33Z] BS construction completed.
+[LOG 2019-07-29T12:14:33Z]   States: 14
+[LOG 2019-07-29T12:14:33Z]   Transitions: 20
+[LOG 2019-07-29T12:14:33Z] Time elapsed (ms): 1
+[LOG 2019-07-29T12:14:36Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T12:14:36Z]   States: 14
+[LOG 2019-07-29T12:14:36Z]   Transitions: 20
+[SEC 2019-07-29T12:14:36Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-29T12:14:36Z] Labeled BS construction completed.
+[LOG 2019-07-29T12:14:36Z]   States: 48
+[LOG 2019-07-29T12:14:36Z]   Transitions: 60
+[LOG 2019-07-29T12:14:36Z] Time elapsed (ms): 3
+[LOG 2019-07-29T12:14:37Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T12:14:37Z]   States: 48
+[LOG 2019-07-29T12:14:37Z]   Transitions: 60
+[SEC 2019-07-29T12:14:37Z] ~~~~~~~~~~Dictionary Construction
+[LOG 2019-07-29T12:14:37Z] STATO dfa 0
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b2 obs:  cls }
+[LOG 2019-07-29T12:14:37Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] {}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 1
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] OUT{ b5 }
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:37Z] IN{ b5 }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] STATO2
+[LOG 2019-07-29T12:14:37Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T12:14:37Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:37Z] STATO3
+[LOG 2019-07-29T12:14:37Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:37Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] {}{ fob}{ fos}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 2
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b1 obs:  opn }
+[LOG 2019-07-29T12:14:37Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] {}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 3
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T12:14:37Z] OUT{ b5 }
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:37Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T12:14:37Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] STATO2
+[LOG 2019-07-29T12:14:37Z] IN{ b3 rel: fob }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] STATO3
+[LOG 2019-07-29T12:14:37Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:37Z] { fcs fob}{ fob}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 4
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:37Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T12:14:37Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] STATO2
+[LOG 2019-07-29T12:14:37Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] OUT{ b6 }
+[LOG 2019-07-29T12:14:37Z] STATO3
+[LOG 2019-07-29T12:14:37Z] IN{ b6 }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] {}{ fcb}{ fcs}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 5
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T12:14:37Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:37Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] OUT{ b5 }
+[LOG 2019-07-29T12:14:37Z] STATO2
+[LOG 2019-07-29T12:14:37Z] IN{ b5 }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] STATO3
+[LOG 2019-07-29T12:14:37Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:37Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] { fob}{ fob fos}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 6
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] { fcs fob}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 7
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T12:14:37Z] OUT{ b6 }
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:37Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] STATO2
+[LOG 2019-07-29T12:14:37Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T12:14:37Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] STATO3
+[LOG 2019-07-29T12:14:37Z] IN{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] { fcb}{ fcb fos}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 8
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b1 obs:  opn }
+[LOG 2019-07-29T12:14:37Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] { fob}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 9
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] { fcb fos}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 10
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T12:14:37Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:37Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] OUT{ b6 }
+[LOG 2019-07-29T12:14:37Z] STATO2
+[LOG 2019-07-29T12:14:37Z] IN{ b6 }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] STATO3
+[LOG 2019-07-29T12:14:37Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] { fcb}{ fcb fcs}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 11
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:37Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T12:14:37Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] STATO2
+[LOG 2019-07-29T12:14:37Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] OUT{ b6 }
+[LOG 2019-07-29T12:14:37Z] STATO3
+[LOG 2019-07-29T12:14:37Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] { fcb fob}{ fcs fob}{ fob}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 12
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b2 obs:  cls }
+[LOG 2019-07-29T12:14:37Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] { fcb}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 13
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T12:14:37Z] OUT{ b6 }
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:37Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] STATO2
+[LOG 2019-07-29T12:14:37Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T12:14:37Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] STATO3
+[LOG 2019-07-29T12:14:37Z] IN{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] { fcb fob}{ fcb fob fos}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 14
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T12:14:37Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] { fob}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 15
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:37Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T12:14:37Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:37Z] STATO2
+[LOG 2019-07-29T12:14:37Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] OUT{ b5 }
+[LOG 2019-07-29T12:14:37Z] STATO3
+[LOG 2019-07-29T12:14:37Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:37Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:37Z] { fcb}{ fcb fob}{ fcb fos}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 16
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T12:14:37Z] OUT
+[LOG 2019-07-29T12:14:37Z] { fcb fob fos}
+[LOG 2019-07-29T12:14:37Z] STATO dfa 17
+[LOG 2019-07-29T12:14:37Z] STATO0
+[LOG 2019-07-29T12:14:37Z] IN{ b4 rel: fcb }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:37Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:37Z] STATO1
+[LOG 2019-07-29T12:14:38Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T12:14:38Z] OUT{ b2 obs:  cls }{ b4 rel: fcb }
+[LOG 2019-07-29T12:14:38Z] STATO2
+[LOG 2019-07-29T12:14:38Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:38Z] OUT{ b6 }
+[LOG 2019-07-29T12:14:38Z] STATO3
+[LOG 2019-07-29T12:14:38Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T12:14:38Z] OUT
+[LOG 2019-07-29T12:14:38Z] { fcb fcs fob}{ fcb fob}
+[LOG 2019-07-29T12:14:38Z] STATO dfa 18
+[LOG 2019-07-29T12:14:38Z] STATO0
+[LOG 2019-07-29T12:14:38Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T12:14:38Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:38Z] { fcb}
+[LOG 2019-07-29T12:14:38Z] STATO dfa 19
+[LOG 2019-07-29T12:14:38Z] STATO0
+[LOG 2019-07-29T12:14:38Z] IN{ s2 obs:  sby }
+[LOG 2019-07-29T12:14:38Z] OUT{ b5 }
+[LOG 2019-07-29T12:14:38Z] STATO1
+[LOG 2019-07-29T12:14:38Z] IN{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:38Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:38Z] STATO2
+[LOG 2019-07-29T12:14:38Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T12:14:38Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:38Z] STATO3
+[LOG 2019-07-29T12:14:38Z] IN{ b3 rel: fob }
+[LOG 2019-07-29T12:14:38Z] OUT
+[LOG 2019-07-29T12:14:38Z] { fcb fcs fob}{ fcb fob}
+[LOG 2019-07-29T12:14:38Z] STATO dfa 20
+[LOG 2019-07-29T12:14:38Z] STATO0
+[LOG 2019-07-29T12:14:38Z] IN{ b5 }{ b2 obs:  cls }
+[LOG 2019-07-29T12:14:38Z] OUT{ s1 obs:  act }{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:38Z] { fcb fob}
+[LOG 2019-07-29T12:14:38Z] STATO dfa 21
+[LOG 2019-07-29T12:14:38Z] STATO0
+[LOG 2019-07-29T12:14:38Z] IN{ b3 rel: fob }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:38Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:38Z] STATO1
+[LOG 2019-07-29T12:14:38Z] IN{ b2 obs:  cls }{ b5 }
+[LOG 2019-07-29T12:14:38Z] OUT
+[LOG 2019-07-29T12:14:38Z] STATO2
+[LOG 2019-07-29T12:14:38Z] IN{ s1 obs:  act }
+[LOG 2019-07-29T12:14:38Z] OUT{ b1 obs:  opn }{ b3 rel: fob }
+[LOG 2019-07-29T12:14:38Z] STATO3
+[LOG 2019-07-29T12:14:38Z] IN{ s3 obs:  act rel: fos }
+[LOG 2019-07-29T12:14:38Z] OUT{ b5 }
+[LOG 2019-07-29T12:14:38Z] { fcb fob}{ fcb fob fos}
+[LOG 2019-07-29T12:14:38Z] STATO dfa 22
+[LOG 2019-07-29T12:14:38Z] STATO0
+[LOG 2019-07-29T12:14:38Z] IN{ b1 obs:  opn }{ b6 }
+[LOG 2019-07-29T12:14:38Z] OUT
+[LOG 2019-07-29T12:14:38Z] { fcb fcs fob}
+[LOG 2019-07-29T12:14:38Z] STATO dfa 23
+[LOG 2019-07-29T12:14:38Z] STATO0
+[LOG 2019-07-29T12:14:38Z] IN{ b6 }{ b1 obs:  opn }
+[LOG 2019-07-29T12:14:38Z] OUT{ s2 obs:  sby }{ s4 obs:  sby rel: fcs }
+[LOG 2019-07-29T12:14:38Z] { fcb fob}
+[LOG 2019-07-29T12:14:38Z] Dictionary construction completed.
+[LOG 2019-07-29T12:14:38Z]   States: 24
+[LOG 2019-07-29T12:14:38Z]   Transitions: 32
+[LOG 2019-07-29T12:14:38Z] Time elapsed (ms): 64
+[LOG 2019-07-29T12:30:20Z] Loaded Network successfully.
+[LOG 2019-07-29T12:30:20Z]   States: 4
+[LOG 2019-07-29T12:30:20Z]   Transitions: 5
+[LOG 2019-07-29T12:30:20Z]   Links: 2
+[LOG 2019-07-29T12:30:20Z]   Components: 2
+[SEC 2019-07-29T12:30:20Z] ~~~~~~~~~~Behavioral Space Construction
+[LOG 2019-07-29T12:30:20Z] No filters.
+[LOG 2019-07-29T12:30:20Z] BS construction completed.
+[LOG 2019-07-29T12:30:20Z]   States: 15
+[LOG 2019-07-29T12:30:20Z]  Final States: 4
+[LOG 2019-07-29T12:30:20Z]   Transitions: 18
+[LOG 2019-07-29T12:30:20Z] Time elapsed (ms): 3
+[LOG 2019-07-29T12:30:36Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T12:30:36Z]   States: 15
+[LOG 2019-07-29T12:30:36Z]   Transitions: 18
+[SEC 2019-07-29T12:30:36Z] ~~~~~~~~~~Behavioral Space Labeling
+[LOG 2019-07-29T12:30:36Z] Labeled BS construction completed.
+[LOG 2019-07-29T12:30:36Z]   States: 28
+[LOG 2019-07-29T12:30:36Z]   Transitions: 34
+[LOG 2019-07-29T12:30:36Z] Time elapsed (ms): 2
+[LOG 2019-07-29T12:30:39Z] Loaded Behavioral Space successfully.
+[LOG 2019-07-29T12:30:39Z]   States: 28
+[LOG 2019-07-29T12:30:39Z]   Transitions: 34
+[SEC 2019-07-29T12:30:39Z] ~~~~~~~~~~Dictionary Construction
+[LOG 2019-07-29T12:30:39Z] STATO dfa 0
+[LOG 2019-07-29T12:30:39Z] STATO0
+[LOG 2019-07-29T12:30:39Z] IN
+[LOG 2019-07-29T12:30:39Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] {}
+[LOG 2019-07-29T12:30:39Z] STATO dfa 1
+[LOG 2019-07-29T12:30:39Z] STATO0
+[LOG 2019-07-29T12:30:39Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] {}
+[LOG 2019-07-29T12:30:39Z] STATO dfa 2
+[LOG 2019-07-29T12:30:39Z] STATO0
+[LOG 2019-07-29T12:30:39Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO1
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] STATO2
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] STATO3
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] STATO4
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO5
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] STATO6
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT
+[LOG 2019-07-29T12:30:39Z] {}{ f}{ f r}{ r}
+[LOG 2019-07-29T12:30:39Z] STATO dfa 3
+[LOG 2019-07-29T12:30:39Z] STATO0
+[LOG 2019-07-29T12:30:39Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] STATO1
+[LOG 2019-07-29T12:30:39Z] IN{ t3a obs:  o3 }{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO2
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] STATO3
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] {}{ f r}{ r}
+[LOG 2019-07-29T12:30:39Z] STATO dfa 4
+[LOG 2019-07-29T12:30:39Z] STATO0
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO1
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] STATO2
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] STATO3
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT
+[LOG 2019-07-29T12:30:39Z] STATO4
+[LOG 2019-07-29T12:30:39Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] STATO5
+[LOG 2019-07-29T12:30:39Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO6
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] STATO7
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] { f r}{ r}
+[LOG 2019-07-29T12:30:39Z] STATO dfa 5
+[LOG 2019-07-29T12:30:39Z] STATO0
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] OUT
+[LOG 2019-07-29T12:30:39Z] STATO1
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] STATO2
+[LOG 2019-07-29T12:30:39Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO3
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] STATO4
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] STATO5
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO6
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] { f r}{ r}
+[LOG 2019-07-29T12:30:39Z] STATO dfa 6
+[LOG 2019-07-29T12:30:39Z] STATO0
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO1
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] STATO2
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] STATO3
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT
+[LOG 2019-07-29T12:30:39Z] STATO4
+[LOG 2019-07-29T12:30:39Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO5
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] STATO6
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] STATO7
+[LOG 2019-07-29T12:30:39Z] IN{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] { f r}
+[LOG 2019-07-29T12:30:39Z] STATO dfa 7
+[LOG 2019-07-29T12:30:39Z] STATO0
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] STATO1
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2a obs:  o2 }
+[LOG 2019-07-29T12:30:39Z] STATO2
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO3
+[LOG 2019-07-29T12:30:39Z] IN{ t3c rel: f }{ t3a obs:  o3 }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] STATO4
+[LOG 2019-07-29T12:30:39Z] IN{ t3a obs:  o3 }
+[LOG 2019-07-29T12:30:39Z] OUT{ t3b }{ t3c rel: f }
+[LOG 2019-07-29T12:30:39Z] STATO5
+[LOG 2019-07-29T12:30:39Z] IN{ t3b }
+[LOG 2019-07-29T12:30:39Z] OUT{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] STATO6
+[LOG 2019-07-29T12:30:39Z] IN{ t2b rel: r }
+[LOG 2019-07-29T12:30:39Z] OUT
+[LOG 2019-07-29T12:30:39Z] { f r}
+[LOG 2019-07-29T12:30:39Z] Dictionary construction completed.
+[LOG 2019-07-29T12:30:39Z]   States: 8
+[LOG 2019-07-29T12:30:39Z]   Transitions: 8
+[LOG 2019-07-29T12:30:39Z] Time elapsed (ms): 33

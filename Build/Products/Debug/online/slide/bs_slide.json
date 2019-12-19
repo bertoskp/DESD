@@ -1,0 +1,542 @@
+{
+  "behavioralSpace": {
+    "states": [
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "final": true,
+        "id": 0,
+        "in": [
+          9
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          0
+        ],
+        "starting": true
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 1,
+        "in": [
+          0,
+          12
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          1
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 2,
+        "in": [
+          1
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          2,
+          3
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "final": true,
+        "id": 3,
+        "in": [
+          2
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          4,
+          5
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "final": true,
+        "id": 4,
+        "in": [
+          3
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          6
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 5,
+        "in": [
+          4
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          7
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 6,
+        "in": [
+          5,
+          16
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          8
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 7,
+        "in": [
+          6
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          9,
+          10
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 8,
+        "in": [
+          7,
+          8
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          11,
+          12
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "final": true,
+        "id": 9,
+        "in": [
+          10
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": null
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 10,
+        "in": [
+          11
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          13
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 11,
+        "in": [
+          13
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          14
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 12,
+        "in": [
+          14
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          15,
+          16
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 13,
+        "in": [
+          15
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          17
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 14,
+        "in": [
+          17
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": null
+      }
+    ],
+    "transitions": [
+      {
+        "id": 0,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 1,
+        "name": "t2a",
+        "observability": "o2"
+      },
+      {
+        "id": 2,
+        "name": "t3b"
+      },
+      {
+        "id": 3,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 4,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 5,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 6,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 7,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 8,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 9,
+        "name": "t3b"
+      },
+      {
+        "id": 10,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 11,
+        "name": "t3b"
+      },
+      {
+        "id": 12,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 13,
+        "name": "t2a",
+        "observability": "o2"
+      },
+      {
+        "id": 14,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 15,
+        "name": "t3b"
+      },
+      {
+        "id": 16,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 17,
+        "name": "t2b",
+        "relevancy": "r"
+      }
+    ]
+  },
+  "meta": {
+    "type": "bs",
+    "version": 1
+  }
+}

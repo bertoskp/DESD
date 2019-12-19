@@ -1,0 +1,1293 @@
+{
+  "meta": {
+    "type": "network",
+    "version": 2
+  },
+  "network": {
+    "components": [
+      {
+        "name": "IC",
+        "states": [
+          {
+            "in": [
+              "T1"
+            ],
+            "name": "s0",
+            "out": [
+              "T0"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T0"
+            ],
+            "name": "s1",
+            "out": [
+              "T1"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": null,
+            "name": "T0",
+            "observation": "o0",
+            "out": [
+              {
+                "link": "L0",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L1",
+              "value": "e2"
+            },
+            "name": "T1",
+            "observation": "o1",
+            "out": [
+              {
+                "link": "L0",
+                "value": "e4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C0",
+        "states": [
+          {
+            "in": [
+              "T3",
+              "T5",
+              "T7"
+            ],
+            "name": "s2",
+            "out": [
+              "T1",
+              "T5",
+              "T6"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T1"
+            ],
+            "name": "s3",
+            "out": [
+              "T2",
+              "T3"
+            ]
+          },
+          {
+            "in": [
+              "T2",
+              "T4",
+              "T6"
+            ],
+            "name": "s4",
+            "out": [
+              "T4",
+              "T7"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L0",
+              "value": "e0"
+            },
+            "name": "T1",
+            "out": null
+          },
+          {
+            "in": null,
+            "name": "T2",
+            "out": [
+              {
+                "link": "L2",
+                "value": "e0"
+              }
+            ],
+            "relevancy": "f2"
+          },
+          {
+            "in": null,
+            "name": "T3",
+            "observation": "o3",
+            "out": [
+              {
+                "link": "L2",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L0",
+              "value": "e4"
+            },
+            "name": "T4",
+            "observation": "o4",
+            "out": [
+              {
+                "link": "L2",
+                "value": "e4"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L0",
+              "value": "e4"
+            },
+            "name": "T5",
+            "observation": "o5",
+            "out": [
+              {
+                "link": "L2",
+                "value": "e4"
+              }
+            ],
+            "relevancy": "f5"
+          },
+          {
+            "in": {
+              "link": "L3",
+              "value": "e2"
+            },
+            "name": "T6",
+            "out": [
+              {
+                "link": "L1",
+                "value": "e2"
+              }
+            ],
+            "relevancy": "f6"
+          },
+          {
+            "in": {
+              "link": "L3",
+              "value": "e2"
+            },
+            "name": "T7",
+            "out": [
+              {
+                "link": "L1",
+                "value": "e2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C1",
+        "states": [
+          {
+            "in": [
+              "T10",
+              "T12",
+              "T14"
+            ],
+            "name": "s5",
+            "out": [
+              "T8",
+              "T12",
+              "T13"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T8"
+            ],
+            "name": "s6",
+            "out": [
+              "T9",
+              "T10"
+            ]
+          },
+          {
+            "in": [
+              "T9",
+              "T11",
+              "T13"
+            ],
+            "name": "s7",
+            "out": [
+              "T11",
+              "T14"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L2",
+              "value": "e0"
+            },
+            "name": "T8",
+            "out": null
+          },
+          {
+            "in": null,
+            "name": "T9",
+            "out": [
+              {
+                "link": "L4",
+                "value": "e0"
+              }
+            ],
+            "relevancy": "f2"
+          },
+          {
+            "in": null,
+            "name": "T10",
+            "observation": "o3",
+            "out": [
+              {
+                "link": "L4",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L2",
+              "value": "e4"
+            },
+            "name": "T11",
+            "observation": "o4",
+            "out": [
+              {
+                "link": "L4",
+                "value": "e4"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L2",
+              "value": "e4"
+            },
+            "name": "T12",
+            "observation": "o5",
+            "out": [
+              {
+                "link": "L4",
+                "value": "e4"
+              }
+            ],
+            "relevancy": "f5"
+          },
+          {
+            "in": {
+              "link": "L5",
+              "value": "e2"
+            },
+            "name": "T13",
+            "out": [
+              {
+                "link": "L3",
+                "value": "e2"
+              }
+            ],
+            "relevancy": "f6"
+          },
+          {
+            "in": {
+              "link": "L5",
+              "value": "e2"
+            },
+            "name": "T14",
+            "out": [
+              {
+                "link": "L3",
+                "value": "e2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C2",
+        "states": [
+          {
+            "in": [
+              "T17",
+              "T19",
+              "T21"
+            ],
+            "name": "s8",
+            "out": [
+              "T15",
+              "T19",
+              "T20"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T15"
+            ],
+            "name": "s9",
+            "out": [
+              "T16",
+              "T17"
+            ]
+          },
+          {
+            "in": [
+              "T16",
+              "T18",
+              "T20"
+            ],
+            "name": "s10",
+            "out": [
+              "T18",
+              "T21"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L4",
+              "value": "e0"
+            },
+            "name": "T15",
+            "out": null
+          },
+          {
+            "in": null,
+            "name": "T16",
+            "out": [
+              {
+                "link": "L6",
+                "value": "e0"
+              }
+            ],
+            "relevancy": "f2"
+          },
+          {
+            "in": null,
+            "name": "T17",
+            "observation": "o3",
+            "out": [
+              {
+                "link": "L6",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L4",
+              "value": "e4"
+            },
+            "name": "T18",
+            "observation": "o4",
+            "out": [
+              {
+                "link": "L6",
+                "value": "e4"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L4",
+              "value": "e4"
+            },
+            "name": "T19",
+            "observation": "o5",
+            "out": [
+              {
+                "link": "L6",
+                "value": "e4"
+              }
+            ],
+            "relevancy": "f5"
+          },
+          {
+            "in": {
+              "link": "L7",
+              "value": "e2"
+            },
+            "name": "T20",
+            "out": [
+              {
+                "link": "L5",
+                "value": "e2"
+              }
+            ],
+            "relevancy": "f6"
+          },
+          {
+            "in": {
+              "link": "L7",
+              "value": "e2"
+            },
+            "name": "T21",
+            "out": [
+              {
+                "link": "L5",
+                "value": "e2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C3",
+        "states": [
+          {
+            "in": [
+              "T24",
+              "T26",
+              "T28"
+            ],
+            "name": "s11",
+            "out": [
+              "T22",
+              "T26",
+              "T27"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T22"
+            ],
+            "name": "s12",
+            "out": [
+              "T23",
+              "T24"
+            ]
+          },
+          {
+            "in": [
+              "T23",
+              "T25",
+              "T27"
+            ],
+            "name": "s13",
+            "out": [
+              "T25",
+              "T28"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L6",
+              "value": "e0"
+            },
+            "name": "T22",
+            "out": null
+          },
+          {
+            "in": null,
+            "name": "T23",
+            "out": [
+              {
+                "link": "L8",
+                "value": "e0"
+              }
+            ],
+            "relevancy": "f2"
+          },
+          {
+            "in": null,
+            "name": "T24",
+            "observation": "o3",
+            "out": [
+              {
+                "link": "L8",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L6",
+              "value": "e4"
+            },
+            "name": "T25",
+            "observation": "o4",
+            "out": [
+              {
+                "link": "L8",
+                "value": "e4"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L6",
+              "value": "e4"
+            },
+            "name": "T26",
+            "observation": "o5",
+            "out": [
+              {
+                "link": "L8",
+                "value": "e4"
+              }
+            ],
+            "relevancy": "f5"
+          },
+          {
+            "in": {
+              "link": "L9",
+              "value": "e2"
+            },
+            "name": "T27",
+            "out": [
+              {
+                "link": "L7",
+                "value": "e2"
+              }
+            ],
+            "relevancy": "f6"
+          },
+          {
+            "in": {
+              "link": "L9",
+              "value": "e2"
+            },
+            "name": "T28",
+            "out": [
+              {
+                "link": "L7",
+                "value": "e2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C4",
+        "states": [
+          {
+            "in": [
+              "T31",
+              "T33",
+              "T35"
+            ],
+            "name": "s14",
+            "out": [
+              "T29",
+              "T33",
+              "T34"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T29"
+            ],
+            "name": "s15",
+            "out": [
+              "T30",
+              "T31"
+            ]
+          },
+          {
+            "in": [
+              "T30",
+              "T32",
+              "T34"
+            ],
+            "name": "s16",
+            "out": [
+              "T32",
+              "T35"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L8",
+              "value": "e0"
+            },
+            "name": "T29",
+            "out": null
+          },
+          {
+            "in": null,
+            "name": "T30",
+            "out": [
+              {
+                "link": "L10",
+                "value": "e0"
+              }
+            ],
+            "relevancy": "f2"
+          },
+          {
+            "in": null,
+            "name": "T31",
+            "observation": "o3",
+            "out": [
+              {
+                "link": "L10",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L8",
+              "value": "e4"
+            },
+            "name": "T32",
+            "observation": "o4",
+            "out": [
+              {
+                "link": "L10",
+                "value": "e4"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L8",
+              "value": "e4"
+            },
+            "name": "T33",
+            "observation": "o5",
+            "out": [
+              {
+                "link": "L10",
+                "value": "e4"
+              }
+            ],
+            "relevancy": "f5"
+          },
+          {
+            "in": {
+              "link": "L11",
+              "value": "e2"
+            },
+            "name": "T34",
+            "out": [
+              {
+                "link": "L9",
+                "value": "e2"
+              }
+            ],
+            "relevancy": "f6"
+          },
+          {
+            "in": {
+              "link": "L11",
+              "value": "e2"
+            },
+            "name": "T35",
+            "out": [
+              {
+                "link": "L9",
+                "value": "e2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C5",
+        "states": [
+          {
+            "in": [
+              "T38",
+              "T40",
+              "T42"
+            ],
+            "name": "s17",
+            "out": [
+              "T36",
+              "T40",
+              "T41"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T36"
+            ],
+            "name": "s18",
+            "out": [
+              "T37",
+              "T38"
+            ]
+          },
+          {
+            "in": [
+              "T37",
+              "T39",
+              "T41"
+            ],
+            "name": "s19",
+            "out": [
+              "T39",
+              "T42"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L10",
+              "value": "e0"
+            },
+            "name": "T36",
+            "out": null
+          },
+          {
+            "in": null,
+            "name": "T37",
+            "out": [
+              {
+                "link": "L12",
+                "value": "e0"
+              }
+            ],
+            "relevancy": "f2"
+          },
+          {
+            "in": null,
+            "name": "T38",
+            "observation": "o3",
+            "out": [
+              {
+                "link": "L12",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L10",
+              "value": "e4"
+            },
+            "name": "T39",
+            "observation": "o4",
+            "out": [
+              {
+                "link": "L12",
+                "value": "e4"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L10",
+              "value": "e4"
+            },
+            "name": "T40",
+            "observation": "o5",
+            "out": [
+              {
+                "link": "L12",
+                "value": "e4"
+              }
+            ],
+            "relevancy": "f5"
+          },
+          {
+            "in": {
+              "link": "L13",
+              "value": "e2"
+            },
+            "name": "T41",
+            "out": [
+              {
+                "link": "L11",
+                "value": "e2"
+              }
+            ],
+            "relevancy": "f6"
+          },
+          {
+            "in": {
+              "link": "L13",
+              "value": "e2"
+            },
+            "name": "T42",
+            "out": [
+              {
+                "link": "L11",
+                "value": "e2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C6",
+        "states": [
+          {
+            "in": [
+              "T45",
+              "T47",
+              "T49"
+            ],
+            "name": "s20",
+            "out": [
+              "T43",
+              "T47",
+              "T48"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T43"
+            ],
+            "name": "s21",
+            "out": [
+              "T44",
+              "T45"
+            ]
+          },
+          {
+            "in": [
+              "T44",
+              "T46",
+              "T48"
+            ],
+            "name": "s22",
+            "out": [
+              "T46",
+              "T49"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L12",
+              "value": "e0"
+            },
+            "name": "T43",
+            "out": null
+          },
+          {
+            "in": null,
+            "name": "T44",
+            "out": [
+              {
+                "link": "L14",
+                "value": "e0"
+              }
+            ],
+            "relevancy": "f2"
+          },
+          {
+            "in": null,
+            "name": "T45",
+            "observation": "o3",
+            "out": [
+              {
+                "link": "L14",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L12",
+              "value": "e4"
+            },
+            "name": "T46",
+            "observation": "o4",
+            "out": [
+              {
+                "link": "L14",
+                "value": "e4"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L12",
+              "value": "e4"
+            },
+            "name": "T47",
+            "observation": "o5",
+            "out": [
+              {
+                "link": "L14",
+                "value": "e4"
+              }
+            ],
+            "relevancy": "f5"
+          },
+          {
+            "in": {
+              "link": "L15",
+              "value": "e2"
+            },
+            "name": "T48",
+            "out": [
+              {
+                "link": "L13",
+                "value": "e2"
+              }
+            ],
+            "relevancy": "f6"
+          },
+          {
+            "in": {
+              "link": "L15",
+              "value": "e2"
+            },
+            "name": "T49",
+            "out": [
+              {
+                "link": "L13",
+                "value": "e2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C7",
+        "states": [
+          {
+            "in": [
+              "T52",
+              "T54",
+              "T56"
+            ],
+            "name": "s23",
+            "out": [
+              "T50",
+              "T54",
+              "T55"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T50"
+            ],
+            "name": "s24",
+            "out": [
+              "T51",
+              "T52"
+            ]
+          },
+          {
+            "in": [
+              "T51",
+              "T53",
+              "T55"
+            ],
+            "name": "s25",
+            "out": [
+              "T53",
+              "T56"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L14",
+              "value": "e0"
+            },
+            "name": "T50",
+            "out": null
+          },
+          {
+            "in": null,
+            "name": "T51",
+            "out": [
+              {
+                "link": "L16",
+                "value": "e0"
+              }
+            ],
+            "relevancy": "f2"
+          },
+          {
+            "in": null,
+            "name": "T52",
+            "observation": "o3",
+            "out": [
+              {
+                "link": "L16",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L14",
+              "value": "e4"
+            },
+            "name": "T53",
+            "observation": "o4",
+            "out": [
+              {
+                "link": "L16",
+                "value": "e4"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L14",
+              "value": "e4"
+            },
+            "name": "T54",
+            "observation": "o5",
+            "out": [
+              {
+                "link": "L16",
+                "value": "e4"
+              }
+            ],
+            "relevancy": "f5"
+          },
+          {
+            "in": {
+              "link": "L17",
+              "value": "e2"
+            },
+            "name": "T55",
+            "out": [
+              {
+                "link": "L15",
+                "value": "e2"
+              }
+            ],
+            "relevancy": "f6"
+          },
+          {
+            "in": {
+              "link": "L17",
+              "value": "e2"
+            },
+            "name": "T56",
+            "out": [
+              {
+                "link": "L15",
+                "value": "e2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C8",
+        "states": [
+          {
+            "in": [
+              "T59",
+              "T61",
+              "T63"
+            ],
+            "name": "s26",
+            "out": [
+              "T57",
+              "T61",
+              "T62"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T57"
+            ],
+            "name": "s27",
+            "out": [
+              "T58",
+              "T59"
+            ]
+          },
+          {
+            "in": [
+              "T58",
+              "T60",
+              "T62"
+            ],
+            "name": "s28",
+            "out": [
+              "T60",
+              "T63"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L16",
+              "value": "e0"
+            },
+            "name": "T57",
+            "out": null
+          },
+          {
+            "in": null,
+            "name": "T58",
+            "out": [
+              {
+                "link": "L18",
+                "value": "e0"
+              }
+            ],
+            "relevancy": "f2"
+          },
+          {
+            "in": null,
+            "name": "T59",
+            "observation": "o3",
+            "out": [
+              {
+                "link": "L18",
+                "value": "e0"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L16",
+              "value": "e4"
+            },
+            "name": "T60",
+            "observation": "o4",
+            "out": [
+              {
+                "link": "L18",
+                "value": "e4"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L16",
+              "value": "e4"
+            },
+            "name": "T61",
+            "observation": "o5",
+            "out": [
+              {
+                "link": "L18",
+                "value": "e4"
+              }
+            ],
+            "relevancy": "f5"
+          },
+          {
+            "in": {
+              "link": "L19",
+              "value": "e2"
+            },
+            "name": "T62",
+            "out": [
+              {
+                "link": "L17",
+                "value": "e2"
+              }
+            ],
+            "relevancy": "f6"
+          },
+          {
+            "in": {
+              "link": "L19",
+              "value": "e2"
+            },
+            "name": "T63",
+            "out": [
+              {
+                "link": "L17",
+                "value": "e2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "IF",
+        "states": [
+          {
+            "in": [
+              "T65"
+            ],
+            "name": "s29",
+            "out": [
+              "T64"
+            ],
+            "starting": true
+          },
+          {
+            "in": [
+              "T64"
+            ],
+            "name": "s30",
+            "out": [
+              "T65"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "in": {
+              "link": "L18",
+              "value": "e0"
+            },
+            "name": "T64",
+            "observation": "o1",
+            "out": [
+              {
+                "link": "L19",
+                "value": "e2"
+              }
+            ]
+          },
+          {
+            "in": {
+              "link": "L18",
+              "value": "e4"
+            },
+            "name": "T65",
+            "observation": "o2",
+            "out": null
+          }
+        ]
+      }
+    ],
+    "links": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L9",
+      "L10",
+      "L11",
+      "L12",
+      "L13",
+      "L14",
+      "L15",
+      "L16",
+      "L17",
+      "L18",
+      "L19"
+    ]
+  }
+}

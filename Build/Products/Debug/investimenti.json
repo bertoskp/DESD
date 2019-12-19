@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "type": "network",
+    "version": 2
+  },
+  "network": {
+    "links": [
+      "L_ClientToCompany",
+      "L_CompanyToClient",
+      "L_CalendarToCompany",
+      "L_CompanyToCalendar"
+    ],
+    "components": [
+      {
+        "name": "C_Client",
+        "states": [
+          {
+            "name": "S_NoInvestment",
+            "starting": true,
+            "in": [
+              "T_FullPayout",
+              "T_PartialPayout"
+            ],
+            "out": [
+              "T_MakeInvestment",
+              "T_AbortNoInvestment"
+            ]
+          },
+          {
+            "name": "S_MadeInvestment",
+            "in": [
+              "T_MakeInvestment"
+            ],
+            "out": [
+              "T_PartialPayout",
+              "T_FullPayout",
+              "T_AbortMadeInvestment"
+            ]
+          },
+          {
+            "name": "S_Abort",
+            "in": [
+              "T_AbortMadeInvestment",
+              "T_AbortNoInvestment"
+            ],
+            "out": []
+          }
+        ],
+        "transitions": [
+          {
+            "name": "T_MakeInvestment",
+            "in": null,
+            "out": [
+              {
+                "link": "L_ClientToCompany",
+                "value": "E_MadeInvestment"
+              }
+            ],
+            "observation": "newInvestment"
+          },
+          {
+            "name": "T_PartialPayout",
+            "in": null,
+            "out": [
+              {
+                "link": "L_ClientToCompany",
+                "value": "E_PartialPayoutRequest"
+              }
+            ],
+            "observation": "partialPayoutRequest"
+          },
+          {
+            "name": "T_FullPayout",
+            "in": {
+              "link": "L_CompanyToClient",
+              "value": "E_FullPayoutGranted"
+            },
+            "out": []
+          },
+          {
+            "name": "T_AbortNoInvestment",
+            "in": null,
+            "out": [
+              {
+                "link": "L_ClientToCompany",
+                "value": "E_Abort"
+              }
+            ]
+          },
+          {
+            "name": "T_AbortMadeInvestment",
+            "in": null,
+            "out": [
+              {
+                "link": "L_ClientToCompany",
+                "value": "E_Abort"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C_Company",
+        "states": [
+          {
+            "name": "S_WaitingInvestment",
+            "starting": true,
+            "in": [
+              "T_PartialPayoutGranted",
+              "T_FullPayoutGranted",
+              "T_Aborted"
+              ],
+            "out": [
+              "T_Begin",
+              "T_Aborted"
+              ]
+          },
+          {
+            "name": "S_PerformingInvestment",
+            "in": [
+              "T_Begin",
+              "T_ConsumeFirstWeek",
+              "T_ConsumeSecondWeek",
+              "T_ConsumeThirdWeek"
+            ],
+            "out": [
+              "T_PartialPayoutGranted",
+              "T_ConsumeFirstWeek",
+              "T_ConsumeSecondWeek",
+              "T_ConsumeThirdWeek",
+              "T_FullPayoutGranted"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "name": "T_Aborted",
+            "in": {
+              "link": "L_ClientToCompany",
+              "value": "E_Abort"
+            },
+            "out": [],
+            "relevancy": "abortAcknowledged"
+          },
+          {
+            "name": "T_Begin",
+            "in": {
+              "link": "L_ClientToCompany",
+              "value": "E_MadeInvestment"
+            },
+            "out": [
+              {
+              "link": "L_CompanyToCalendar",
+              "value": "E_StartCalendar"
+            }
+              ],
+            "relevancy": "newInvestment"
+          },
+          {
+            "name": "T_PartialPayoutGranted",
+            "in": {
+              "link": "L_ClientToCompany",
+              "value": "E_PartialPayoutRequest"
+            },
+            "out": [
+              {
+                "link": "L_CompanyToCalendar",
+              "value": "E_ResetCalendar"
+              }
+              ],
+            "relevancy": "partialPayout"
+          },
+          {
+            "name": "T_ConsumeFirstWeek",
+            "in": {
+              "link": "L_CalendarToCompany",
+              "value": "E_SecondWeek"
+            },
+            "out": []
+          },
+          {
+            "name": "T_ConsumeSecondWeek",
+            "in": {
+              "link": "L_CalendarToCompany",
+              "value": "E_ThirdWeek"
+            },
+            "out": []
+          },
+          {
+            "name": "T_ConsumeThirdWeek",
+            "in": {
+              "link": "L_CalendarToCompany",
+              "value": "E_FourthWeek"
+            },
+            "out": []
+          },
+          {
+            "name": "T_FullPayoutGranted",
+            "in": {
+              "link": "L_CalendarToCompany",
+              "value": "E_Finished"
+            },
+            "out": [
+              {
+                "link": "L_CompanyToClient",
+                "value": "E_FullPayoutGranted"
+              }
+              ],
+            "relevancy": "fullPayout"
+          }
+        ]
+      },
+      {
+        "name": "C_Calendar",
+        "states": [
+          {
+            "name": "S_FirstWeek",
+            "starting": true,
+            "in": [
+              "T_ToFirstWeek",
+              "T_ResetSecondWeek",
+              "T_ResetThirdWeek",
+              "T_ResetFourthWeek"
+            ],
+            "out": [
+              "T_ToSecondWeek"
+            ]
+          },
+          {
+            "name": "S_SecondWeek",
+            "in": [
+              "T_ToSecondWeek"
+            ],
+            "out": [
+              "T_ToThirdWeek",
+              "T_ResetSecondWeek"
+            ]
+          },
+          {
+            "name": "S_ThirdWeek",
+            "in": [
+              "T_ToThirdWeek"
+            ],
+            "out": [
+              "T_ToFourthWeek",
+              "T_ResetThirdWeek"
+            ]
+          },
+          {
+            "name": "S_FourthWeek",
+            "in": [
+              "T_ToFourthWeek"
+            ],
+            "out": [
+              "T_ToFirstWeek",
+              "T_ResetFourthWeek"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "name": "T_ToSecondWeek",
+            "in": {
+              "link": "L_CompanyToCalendar",
+                "value": "E_StartCalendar"
+              },
+            "out": [
+              {
+                "link": "L_CalendarToCompany",
+                "value": "E_SecondWeek"
+              }
+            ]
+          },
+          {
+            "name": "T_ToThirdWeek",
+            "in": null,
+            "out": [
+              {
+                "link": "L_CalendarToCompany",
+                "value": "E_ThirdWeek"
+              }
+            ]
+          },
+          {
+            "name": "T_ToFourthWeek",
+            "in": null,
+            "out": [
+              {
+                "link": "L_CalendarToCompany",
+                "value": "E_FourthWeek"
+              }
+            ]
+          },
+          {
+            "name": "T_ToFirstWeek",
+            "in": null,
+            "out": [
+              {
+                "link": "L_CalendarToCompany",
+                "value": "E_Finished"
+              }
+            ]
+          },
+          {
+            "name": "T_ResetSecondWeek",
+            "in": {
+              "link": "L_CompanyToCalendar",
+              "value": "E_ResetCalendar"
+            },
+            "out": [],
+            "observation": "resetCalendar"
+          },
+          {
+            "name": "T_ResetThirdWeek",
+            "in": {
+              "link": "L_CompanyToCalendar",
+              "value": "E_ResetCalendar"
+            },
+            "out": [],
+            "observation": "resetCalendar"
+          },
+          {
+            "name": "T_ResetFourthWeek",
+            "in": {
+              "link": "L_CompanyToCalendar",
+              "value": "E_ResetCalendar"
+            },
+            "out": [],
+            "observation": "resetCalendar"
+          }
+        ]
+      }
+
+    ]
+  }
+}

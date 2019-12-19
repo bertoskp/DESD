@@ -1,0 +1,2918 @@
+{
+  "dictionary": {
+    "behavioralTransitions": [
+      {
+        "id": 0,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 1,
+        "name": "t2a",
+        "observability": "o2"
+      },
+      {
+        "id": 2,
+        "name": "t3b"
+      },
+      {
+        "id": 3,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 4,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 5,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 6,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 7,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 8,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 9,
+        "name": "t3b"
+      },
+      {
+        "id": 10,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 11,
+        "name": "t3b"
+      },
+      {
+        "id": 12,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 13,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 14,
+        "name": "t2a",
+        "observability": "o2"
+      },
+      {
+        "id": 15,
+        "name": "t2a",
+        "observability": "o2"
+      },
+      {
+        "id": 16,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 17,
+        "name": "t3b"
+      },
+      {
+        "id": 18,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 19,
+        "name": "t3b"
+      },
+      {
+        "id": 20,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 21,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 22,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 23,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 24,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 25,
+        "name": "t2b",
+        "relevancy": "r"
+      },
+      {
+        "id": 26,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 27,
+        "name": "t3b"
+      },
+      {
+        "id": 28,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 29,
+        "name": "t2a",
+        "observability": "o2"
+      },
+      {
+        "id": 30,
+        "name": "t3a",
+        "observability": "o3"
+      },
+      {
+        "id": 31,
+        "name": "t3b"
+      },
+      {
+        "id": 32,
+        "name": "t3c",
+        "relevancy": "f"
+      },
+      {
+        "id": 33,
+        "name": "t2b",
+        "relevancy": "r"
+      }
+    ],
+    "bhState": [
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "final": true,
+        "id": 30,
+        "in": null,
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          0
+        ],
+        "starting": true
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 31,
+        "in": [
+          0
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          1
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 32,
+        "in": [
+          1
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          2,
+          3
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "final": true,
+        "id": 33,
+        "in": [
+          2
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          4,
+          5
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "final": true,
+        "id": 34,
+        "in": [
+          3
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          6
+        ],
+        "relevancyLabels": [
+          "f"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 35,
+        "in": [
+          4
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          7
+        ],
+        "relevancyLabels": [
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 36,
+        "in": [
+          5
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          8
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 37,
+        "in": [
+          6,
+          23
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          9,
+          10
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 38,
+        "in": [
+          7,
+          8
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          11,
+          12
+        ],
+        "relevancyLabels": [
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "final": true,
+        "id": 39,
+        "in": [
+          9
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          13
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "final": true,
+        "id": 40,
+        "in": [
+          10
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 41,
+        "in": [
+          11
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          14
+        ],
+        "relevancyLabels": [
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 42,
+        "in": [
+          12,
+          13,
+          28
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          15
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 43,
+        "in": [
+          14
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          16
+        ],
+        "relevancyLabels": [
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 44,
+        "in": [
+          15
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          17,
+          18
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 45,
+        "in": [
+          16
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          19,
+          20
+        ],
+        "relevancyLabels": [
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "final": true,
+        "id": 46,
+        "in": [
+          17
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          21,
+          22
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "final": true,
+        "id": 47,
+        "in": [
+          18
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          23
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 48,
+        "in": [
+          19
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          24
+        ],
+        "relevancyLabels": [
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 49,
+        "in": [
+          20,
+          22,
+          32
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          25
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 50,
+        "in": [
+          21
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          26
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 51,
+        "in": [
+          24
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 52,
+        "in": [
+          25,
+          26
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          27,
+          28
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 53,
+        "in": [
+          27
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          29
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 54,
+        "in": [
+          29
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "empty"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          30
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "31"
+          }
+        ],
+        "id": 55,
+        "in": [
+          30
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": [
+          31,
+          32
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "21"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 56,
+        "in": [
+          31
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          33
+        ],
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "C2",
+            "state": "20"
+          },
+          {
+            "component": "C3",
+            "state": "30"
+          }
+        ],
+        "id": 57,
+        "in": [
+          33
+        ],
+        "linksState": [
+          {
+            "link": "L2",
+            "value": "e2"
+          },
+          {
+            "link": "L3",
+            "value": "e3"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "f",
+          "r"
+        ]
+      }
+    ],
+    "states": [
+      {
+        "diagnosis": [
+          []
+        ],
+        "final": true,
+        "id": 0,
+        "in": null,
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "final": true,
+            "id": 30,
+            "in": null,
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              0
+            ],
+            "starting": true
+          }
+        ],
+        "out": [
+          0
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          []
+        ],
+        "id": 1,
+        "in": [
+          0
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 31,
+            "in": [
+              0
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              1
+            ]
+          }
+        ],
+        "out": [
+          1
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [],
+          [
+            "f"
+          ],
+          [
+            "f",
+            "r"
+          ],
+          [
+            "r"
+          ]
+        ],
+        "final": true,
+        "id": 2,
+        "in": [
+          1
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 32,
+            "in": [
+              1
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              2,
+              3
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "final": true,
+            "id": 33,
+            "in": [
+              2
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              4,
+              5
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "final": true,
+            "id": 34,
+            "in": [
+              3
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              6
+            ],
+            "relevancyLabels": [
+              "f"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 35,
+            "in": [
+              4
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              7
+            ],
+            "relevancyLabels": [
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 37,
+            "in": [
+              6,
+              23
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              9,
+              10
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "final": true,
+            "id": 39,
+            "in": [
+              9
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              13
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "final": true,
+            "id": 40,
+            "in": [
+              10
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          }
+        ],
+        "out": [
+          2
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [],
+          [
+            "f",
+            "r"
+          ],
+          [
+            "r"
+          ]
+        ],
+        "id": 3,
+        "in": [
+          2
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 36,
+            "in": [
+              5
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              8
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 38,
+            "in": [
+              7,
+              8
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              11,
+              12
+            ],
+            "relevancyLabels": [
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 41,
+            "in": [
+              11
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              14
+            ],
+            "relevancyLabels": [
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 42,
+            "in": [
+              12,
+              13,
+              28
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              15
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          }
+        ],
+        "out": [
+          3
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "f",
+            "r"
+          ],
+          [
+            "r"
+          ]
+        ],
+        "final": true,
+        "id": 4,
+        "in": [
+          3
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 37,
+            "in": [
+              6,
+              23
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              9,
+              10
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "final": true,
+            "id": 47,
+            "in": [
+              18
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              23
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "final": true,
+            "id": 39,
+            "in": [
+              9
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              13
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "final": true,
+            "id": 40,
+            "in": [
+              10
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 43,
+            "in": [
+              14
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              16
+            ],
+            "relevancyLabels": [
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 44,
+            "in": [
+              15
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              17,
+              18
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "final": true,
+            "id": 46,
+            "in": [
+              17
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              21,
+              22
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 50,
+            "in": [
+              21
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              26
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          }
+        ],
+        "out": [
+          4
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "f",
+            "r"
+          ],
+          [
+            "r"
+          ]
+        ],
+        "id": 5,
+        "in": [
+          4
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 51,
+            "in": [
+              24
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 42,
+            "in": [
+              12,
+              13,
+              28
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              15
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 45,
+            "in": [
+              16
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              19,
+              20
+            ],
+            "relevancyLabels": [
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 48,
+            "in": [
+              19
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              24
+            ],
+            "relevancyLabels": [
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 53,
+            "in": [
+              27
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              29
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 52,
+            "in": [
+              25,
+              26
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              27,
+              28
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 49,
+            "in": [
+              20,
+              22,
+              32
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              25
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          }
+        ],
+        "out": [
+          5
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "f",
+            "r"
+          ]
+        ],
+        "final": true,
+        "id": 6,
+        "in": [
+          5,
+          7
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 37,
+            "in": [
+              6,
+              23
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              9,
+              10
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "final": true,
+            "id": 47,
+            "in": [
+              18
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              23
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "final": true,
+            "id": 39,
+            "in": [
+              9
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              13
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "final": true,
+            "id": 40,
+            "in": [
+              10
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 44,
+            "in": [
+              15
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              17,
+              18
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "final": true,
+            "id": 46,
+            "in": [
+              17
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              21,
+              22
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 50,
+            "in": [
+              21
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              26
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 54,
+            "in": [
+              29
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "empty"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              30
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          }
+        ],
+        "out": [
+          6
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "f",
+            "r"
+          ]
+        ],
+        "id": 7,
+        "in": [
+          6
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 42,
+            "in": [
+              12,
+              13,
+              28
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              15
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 53,
+            "in": [
+              27
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              29
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 52,
+            "in": [
+              25,
+              26
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              27,
+              28
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 49,
+            "in": [
+              20,
+              22,
+              32
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              25
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "31"
+              }
+            ],
+            "id": 55,
+            "in": [
+              30
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": [
+              31,
+              32
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "21"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 56,
+            "in": [
+              31
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              33
+            ],
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "C2",
+                "state": "20"
+              },
+              {
+                "component": "C3",
+                "state": "30"
+              }
+            ],
+            "id": 57,
+            "in": [
+              33
+            ],
+            "linksState": [
+              {
+                "link": "L2",
+                "value": "e2"
+              },
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "f",
+              "r"
+            ]
+          }
+        ],
+        "out": [
+          7
+        ],
+        "pairs": [],
+        "starting": true
+      }
+    ],
+    "tinfo": [
+      {
+        "destination": 31,
+        "id": 0,
+        "label": "o3",
+        "start": 30
+      },
+      {
+        "destination": 32,
+        "id": 1,
+        "label": "o2",
+        "start": 31
+      },
+      {
+        "destination": 33,
+        "id": 2,
+        "label": "",
+        "start": 32
+      },
+      {
+        "destination": 34,
+        "id": 3,
+        "label": "",
+        "start": 32
+      },
+      {
+        "destination": 35,
+        "id": 4,
+        "label": "",
+        "start": 33
+      },
+      {
+        "destination": 36,
+        "id": 5,
+        "label": "o3",
+        "start": 33
+      },
+      {
+        "destination": 37,
+        "id": 6,
+        "label": "",
+        "start": 34
+      },
+      {
+        "destination": 38,
+        "id": 7,
+        "label": "o3",
+        "start": 35
+      },
+      {
+        "destination": 38,
+        "id": 8,
+        "label": "",
+        "start": 36
+      },
+      {
+        "destination": 39,
+        "id": 9,
+        "label": "",
+        "start": 37
+      },
+      {
+        "destination": 40,
+        "id": 10,
+        "label": "",
+        "start": 37
+      },
+      {
+        "destination": 41,
+        "id": 11,
+        "label": "",
+        "start": 38
+      },
+      {
+        "destination": 42,
+        "id": 12,
+        "label": "",
+        "start": 38
+      },
+      {
+        "destination": 42,
+        "id": 13,
+        "label": "o3",
+        "start": 39
+      },
+      {
+        "destination": 43,
+        "id": 14,
+        "label": "o2",
+        "start": 41
+      },
+      {
+        "destination": 44,
+        "id": 15,
+        "label": "o2",
+        "start": 42
+      },
+      {
+        "destination": 45,
+        "id": 16,
+        "label": "o3",
+        "start": 43
+      },
+      {
+        "destination": 46,
+        "id": 17,
+        "label": "",
+        "start": 44
+      },
+      {
+        "destination": 47,
+        "id": 18,
+        "label": "",
+        "start": 44
+      },
+      {
+        "destination": 48,
+        "id": 19,
+        "label": "",
+        "start": 45
+      },
+      {
+        "destination": 49,
+        "id": 20,
+        "label": "",
+        "start": 45
+      },
+      {
+        "destination": 50,
+        "id": 21,
+        "label": "",
+        "start": 46
+      },
+      {
+        "destination": 49,
+        "id": 22,
+        "label": "o3",
+        "start": 46
+      },
+      {
+        "destination": 37,
+        "id": 23,
+        "label": "",
+        "start": 47
+      },
+      {
+        "destination": 51,
+        "id": 24,
+        "label": "",
+        "start": 48
+      },
+      {
+        "destination": 52,
+        "id": 25,
+        "label": "",
+        "start": 49
+      },
+      {
+        "destination": 52,
+        "id": 26,
+        "label": "o3",
+        "start": 50
+      },
+      {
+        "destination": 53,
+        "id": 27,
+        "label": "",
+        "start": 52
+      },
+      {
+        "destination": 42,
+        "id": 28,
+        "label": "",
+        "start": 52
+      },
+      {
+        "destination": 54,
+        "id": 29,
+        "label": "o2",
+        "start": 53
+      },
+      {
+        "destination": 55,
+        "id": 30,
+        "label": "o3",
+        "start": 54
+      },
+      {
+        "destination": 56,
+        "id": 31,
+        "label": "",
+        "start": 55
+      },
+      {
+        "destination": 49,
+        "id": 32,
+        "label": "",
+        "start": 55
+      },
+      {
+        "destination": 57,
+        "id": 33,
+        "label": "",
+        "start": 56
+      }
+    ],
+    "transitions": [
+      {
+        "id": 0,
+        "label": "o3"
+      },
+      {
+        "id": 1,
+        "label": "o2"
+      },
+      {
+        "id": 5,
+        "label": "o2"
+      },
+      {
+        "id": 2,
+        "label": "o3"
+      },
+      {
+        "id": 3,
+        "label": "o2"
+      },
+      {
+        "id": 4,
+        "label": "o3"
+      },
+      {
+        "id": 6,
+        "label": "o3"
+      },
+      {
+        "id": 7,
+        "label": "o2"
+      }
+    ]
+  },
+  "meta": {
+    "type": "dictionary",
+    "version": 1
+  }
+}

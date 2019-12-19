@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "type": "simplenetwork",
+    "version": 1
+  },
+  "network": {
+    "states": [
+      {
+        "starting": true,
+        "id": 0,
+        "in": null,
+        "out": [
+          0
+        ]
+      },
+      {
+        "id": 2,
+        "in": [
+          0
+        ],
+        "out": [
+          1
+        ]
+      },
+      {
+        "final": true,
+        "id": 3,
+        "in": [
+          1
+        ],
+        "out": null
+      }
+    ],
+    "transitions": [
+      {
+        "id": 0,
+        "label": "o3"
+      },
+      {
+        "id": 1,
+        "label": "o2"
+      }
+    ]
+  }
+}

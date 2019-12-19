@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "type": "network",
+    "version": 2
+  },
+  "network": {
+    "links": [
+      "L1"
+    ],
+    "components": [
+
+      {
+        "name": "S",
+        "states": [
+          {
+            "name": "S0",
+            "starting": true,
+            "in": [
+
+              "s2"
+            ],
+            "out": [
+              "s1",
+              "s3"
+            ]
+          },
+          {
+            "name": "S1",
+            "in": [
+              "s1"
+            ],
+            "out": [
+              "s2",
+              "s4"
+            ]
+          },
+          {
+            "name": "S2",
+            "in": [
+              "s3",
+              "s4"
+            ],
+            "out": []
+          }
+        ],
+        "transitions": [
+          {
+            "name": "s1",
+            "in": null,
+            "out": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "observation": "act"
+          },
+          {
+            "name": "s2",
+            "in": null,
+            "out": [{
+              "link": "L1",
+              "value": "cl"
+            }],
+            "observation": "sby"
+          },
+          {
+            "name": "s3",
+            "in": null,
+            "out": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "observation": "act",
+            "relevancy": "fos"
+          },
+          {
+            "name": "s4",
+            "in": null,
+            "out": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "observation": "sby",
+            "relevancy": "fcs"
+          }
+
+        ]
+      },
+      {
+        "name": "B",
+        "states": [
+          {
+            "name": "B0",
+            "starting": true,
+            "in": [
+              "b3",
+              "b5",
+              "b2"
+            ],
+            "out": [
+              "b1",
+              "b3",
+              "b5"
+            ]
+          },
+          {
+            "name": "B1",
+            "in": [
+              "b1",
+              "b4",
+              "b6"
+            ],
+            "out": [
+              "b2",
+              "b4",
+              "b6"
+            ]
+          }
+
+        ],
+        "transitions": [
+          {
+            "name": "b1",
+            "in":
+            {
+              "link": "L1",
+              "value": "op"
+            }
+          ,
+            "out": [],
+            "observation": "opn"
+          },
+          {
+            "name": "b2",
+            "in":
+            {
+              "link": "L1",
+              "value": "cl"
+            }
+          ,
+            "out": [],
+            "observation": "cls"
+          },
+          {
+            "name": "b3",
+            "in":
+            {
+              "link": "L1",
+              "value": "op"
+            }
+          ,
+            "out": [],
+            "relevancy": "fob"
+          },
+          {
+            "name": "b4",
+            "in": {
+
+              "link": "L1",
+              "value": "cl"
+            },
+            "out": [],
+            "relevancy": "fcb"
+          },
+          {
+            "name": "b5",
+            "in": {
+
+              "link": "L1",
+              "value": "cl"
+            },
+            "out": []
+
+          }
+        ,
+          {
+            "name": "b6",
+            "in": {
+
+              "link": "L1",
+              "value": "op"
+            },
+            "out": []
+
+          }
+        ]
+      }
+    ]
+  }
+}

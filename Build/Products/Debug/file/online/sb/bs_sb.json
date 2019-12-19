@@ -1,0 +1,479 @@
+{
+  "behavioralSpace": {
+    "states": [
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 0,
+        "in": [
+          9,
+          12
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          0,
+          1
+        ],
+        "starting": true
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 1,
+        "in": [
+          0
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          2,
+          3
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 2,
+        "in": [
+          1
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          4
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 3,
+        "in": [
+          2,
+          17
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          5,
+          6
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 4,
+        "in": [
+          3
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          7,
+          8
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 5,
+        "in": [
+          4,
+          14,
+          18
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 6,
+        "in": [
+          5
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          9,
+          10
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 7,
+        "in": [
+          6
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          11
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 8,
+        "in": [
+          7
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          12
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 9,
+        "in": [
+          8
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          13,
+          14
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 10,
+        "in": [
+          10
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          15,
+          16
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 11,
+        "in": [
+          11,
+          13,
+          19
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 12,
+        "in": [
+          15
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          17
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 13,
+        "in": [
+          16
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          18,
+          19
+        ]
+      }
+    ],
+    "transitions": [
+      {
+        "id": 0,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 1,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 2,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 3,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 4,
+        "name": "b5"
+      },
+      {
+        "id": 5,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 6,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 7,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 8,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 9,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 10,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 11,
+        "name": "b6"
+      },
+      {
+        "id": 12,
+        "name": "b5"
+      },
+      {
+        "id": 13,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 14,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 15,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 16,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 17,
+        "name": "b6"
+      },
+      {
+        "id": 18,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 19,
+        "name": "b4",
+        "relevancy": "fcb"
+      }
+    ]
+  },
+  "meta": {
+    "type": "bs",
+    "version": 1
+  }
+}

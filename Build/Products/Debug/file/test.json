@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "type": "network",
+    "version": 2
+  },
+  "network": {
+    "links": [
+      "L2",
+      "L3"
+    ],
+    "components": [
+      {
+        "name": "C2",
+        "states": [
+          {
+            "name": "20",
+            "starting": true,
+            "in": [
+              "t2b"
+            ],
+            "out": [
+              "t2a"
+            ]
+          },
+          {
+            "name": "21",
+            "in": [
+              "t2a"
+            ],
+            "out": [
+              "t2b"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "name": "t2a",
+            "in": {
+              "link": "L2",
+              "value": "e2"
+            },
+            "out": [
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "observation": "o2"
+          },
+          {
+            "name": "t2b",
+            "in": null,
+            "out": [
+              {
+                "link": "L3",
+                "value": "e3"
+              }
+            ],
+            "relevancy": "r"
+          }
+        ]
+      },
+      {
+        "name": "C3",
+        "states": [
+          {
+            "name": "30",
+            "starting": true,
+            "in": [
+              "t3b"
+            ],
+            "out": [
+              "t3a"
+            ]
+          },
+          {
+            "name": "31",
+            "in": [
+              "t3a",
+              "t3c"
+            ],
+            "out": [
+              "t3b",
+              "t3c"
+            ]
+          }
+        ],
+        "transitions": [
+          {
+            "name": "t3a",
+            "in": null,
+            "out": [
+              {
+                "link": "L2",
+                "value": "e2"
+              }
+            ],
+            "observation": "o3"
+          },
+          {
+            "name": "t3b",
+            "in": {
+              "link": "L3",
+              "value": "e3"
+            },
+            "out": []
+          },
+          {
+            "name": "t3c",
+            "in": {
+              "link": "L3",
+              "value": "e3"
+            },
+            "out": [],
+            "relevancy": "f"
+          }
+        ]
+      }
+    ]
+  }
+}

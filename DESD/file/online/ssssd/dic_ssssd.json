@@ -1,0 +1,4522 @@
+{
+  "dictionary": {
+    "behavioralTransitions": [
+      {
+        "id": 0,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 1,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 2,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 3,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 4,
+        "name": "b5"
+      },
+      {
+        "id": 5,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 6,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 7,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 8,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 9,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 10,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 11,
+        "name": "b6"
+      },
+      {
+        "id": 12,
+        "name": "b5"
+      },
+      {
+        "id": 13,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 14,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 15,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 16,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 17,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 18,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 19,
+        "name": "b6"
+      },
+      {
+        "id": 20,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 21,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 22,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 23,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 24,
+        "name": "b5"
+      },
+      {
+        "id": 25,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 26,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 27,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 28,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 29,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 30,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 31,
+        "name": "b6"
+      },
+      {
+        "id": 32,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 33,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 34,
+        "name": "b6"
+      },
+      {
+        "id": 35,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 36,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 37,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 38,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 39,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 40,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 41,
+        "name": "b5"
+      },
+      {
+        "id": 42,
+        "name": "b6"
+      },
+      {
+        "id": 43,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 44,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 45,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 46,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 47,
+        "name": "s2",
+        "observability": "sby"
+      },
+      {
+        "id": 48,
+        "name": "s4",
+        "observability": "sby",
+        "relevancy": "fcs"
+      },
+      {
+        "id": 49,
+        "name": "b5"
+      },
+      {
+        "id": 50,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 51,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 52,
+        "name": "b2",
+        "observability": "cls"
+      },
+      {
+        "id": 53,
+        "name": "b4",
+        "relevancy": "fcb"
+      },
+      {
+        "id": 54,
+        "name": "b6"
+      },
+      {
+        "id": 55,
+        "name": "s1",
+        "observability": "act"
+      },
+      {
+        "id": 56,
+        "name": "s3",
+        "observability": "act",
+        "relevancy": "fos"
+      },
+      {
+        "id": 57,
+        "name": "b1",
+        "observability": "opn"
+      },
+      {
+        "id": 58,
+        "name": "b3",
+        "relevancy": "fob"
+      },
+      {
+        "id": 59,
+        "name": "b5"
+      }
+    ],
+    "bhState": [
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 28,
+        "in": [
+          9
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          0,
+          1
+        ],
+        "starting": true
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 29,
+        "in": [
+          0
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          2,
+          3
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 30,
+        "in": [
+          1
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          4
+        ],
+        "relevancyLabels": [
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 31,
+        "in": [
+          2
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          5,
+          6
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 32,
+        "in": [
+          3,
+          23
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          7,
+          8
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 33,
+        "in": [
+          4
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 34,
+        "in": [
+          5
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          9,
+          10
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 35,
+        "in": [
+          6
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          11
+        ],
+        "relevancyLabels": [
+          "fcs"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 36,
+        "in": [
+          7
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          12
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 37,
+        "in": [
+          8
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          13,
+          14
+        ],
+        "relevancyLabels": [
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 38,
+        "in": [
+          10,
+          30
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          15,
+          16
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 39,
+        "in": [
+          11
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcs"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 40,
+        "in": [
+          12,
+          32
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          17,
+          18
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 41,
+        "in": [
+          13,
+          34
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 42,
+        "in": [
+          14
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 43,
+        "in": [
+          15
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          19
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 44,
+        "in": [
+          16
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          20,
+          21
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 45,
+        "in": [
+          17
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          22,
+          23
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 46,
+        "in": [
+          18
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          24
+        ],
+        "relevancyLabels": [
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 47,
+        "in": [
+          19,
+          39
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          25,
+          26
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 48,
+        "in": [
+          20,
+          41
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 49,
+        "in": [
+          21
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 50,
+        "in": [
+          22
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          27,
+          28
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 51,
+        "in": [
+          24
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 52,
+        "in": [
+          25
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          29,
+          30
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 53,
+        "in": [
+          26
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          31
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fcs"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 54,
+        "in": [
+          27
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          32,
+          33
+        ],
+        "relevancyLabels": [
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 55,
+        "in": [
+          28
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          34
+        ],
+        "relevancyLabels": [
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 56,
+        "in": [
+          29
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          35,
+          36
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 57,
+        "in": [
+          31
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fcs"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 58,
+        "in": [
+          33,
+          53
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          37,
+          38
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 59,
+        "in": [
+          35
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          39,
+          40
+        ],
+        "relevancyLabels": [
+          "fcb"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 60,
+        "in": [
+          36
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          41
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 61,
+        "in": [
+          37
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          42
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 62,
+        "in": [
+          38
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          43,
+          44
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 63,
+        "in": [
+          40,
+          58
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          45,
+          46
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "final": true,
+        "id": 64,
+        "in": [
+          42,
+          57
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          47,
+          48
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 65,
+        "in": [
+          43,
+          59
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 66,
+        "in": [
+          44
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fob",
+          "fos"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 67,
+        "in": [
+          45
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          49
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 68,
+        "in": [
+          46
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          50,
+          51
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "id": 69,
+        "in": [
+          47
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          52,
+          53
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 70,
+        "in": [
+          48
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          54
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S0"
+          }
+        ],
+        "final": true,
+        "id": 71,
+        "in": [
+          49,
+          52
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": [
+          55,
+          56
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B1"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 72,
+        "in": [
+          50,
+          54
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "final": true,
+        "id": 73,
+        "in": [
+          51
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "empty"
+          }
+        ],
+        "out": null,
+        "relevancyLabels": [
+          "fcb",
+          "fcs",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S1"
+          }
+        ],
+        "id": 74,
+        "in": [
+          55
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "op"
+          }
+        ],
+        "out": [
+          57,
+          58
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob"
+        ]
+      },
+      {
+        "componentsState": [
+          {
+            "component": "B",
+            "state": "B0"
+          },
+          {
+            "component": "S",
+            "state": "S2"
+          }
+        ],
+        "id": 75,
+        "in": [
+          56
+        ],
+        "linksState": [
+          {
+            "link": "L1",
+            "value": "cl"
+          }
+        ],
+        "out": [
+          59
+        ],
+        "relevancyLabels": [
+          "fcb",
+          "fob",
+          "fos"
+        ]
+      }
+    ],
+    "states": [
+      {
+        "diagnosis": [
+          []
+        ],
+        "final": true,
+        "id": 0,
+        "in": [
+          7
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 28,
+            "in": [
+              9
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              0,
+              1
+            ],
+            "starting": true
+          }
+        ],
+        "out": [
+          0
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [],
+          [
+            "fob"
+          ],
+          [
+            "fos"
+          ]
+        ],
+        "final": true,
+        "id": 1,
+        "in": [
+          0
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 30,
+            "in": [
+              1
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              4
+            ],
+            "relevancyLabels": [
+              "fos"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 33,
+            "in": [
+              4
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fos"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "id": 29,
+            "in": [
+              0
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              2,
+              3
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 32,
+            "in": [
+              3,
+              23
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              7,
+              8
+            ],
+            "relevancyLabels": [
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          1,
+          2
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          []
+        ],
+        "final": true,
+        "id": 2,
+        "in": [
+          1
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 31,
+            "in": [
+              2
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              5,
+              6
+            ]
+          }
+        ],
+        "out": [
+          3
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcs",
+            "fob"
+          ],
+          [
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 3,
+        "in": [
+          2,
+          9
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 40,
+            "in": [
+              12,
+              32
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              17,
+              18
+            ],
+            "relevancyLabels": [
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "id": 36,
+            "in": [
+              7
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              12
+            ],
+            "relevancyLabels": [
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 37,
+            "in": [
+              8
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              13,
+              14
+            ],
+            "relevancyLabels": [
+              "fcs",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 42,
+            "in": [
+              14
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcs",
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          4,
+          5
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [],
+          [
+            "fcb"
+          ],
+          [
+            "fcs"
+          ]
+        ],
+        "final": true,
+        "id": 4,
+        "in": [
+          3
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "id": 34,
+            "in": [
+              5
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              9,
+              10
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 35,
+            "in": [
+              6
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              11
+            ],
+            "relevancyLabels": [
+              "fcs"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 38,
+            "in": [
+              10,
+              30
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              15,
+              16
+            ],
+            "relevancyLabels": [
+              "fcb"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 39,
+            "in": [
+              11
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcs"
+            ]
+          }
+        ],
+        "out": [
+          6,
+          7
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fob"
+          ],
+          [
+            "fob",
+            "fos"
+          ]
+        ],
+        "final": true,
+        "id": 5,
+        "in": [
+          4,
+          20
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 32,
+            "in": [
+              3,
+              23
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              7,
+              8
+            ],
+            "relevancyLabels": [
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "id": 45,
+            "in": [
+              17
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              22,
+              23
+            ],
+            "relevancyLabels": [
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 46,
+            "in": [
+              18
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              24
+            ],
+            "relevancyLabels": [
+              "fob",
+              "fos"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 51,
+            "in": [
+              24
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fob",
+              "fos"
+            ]
+          }
+        ],
+        "out": [
+          8,
+          9
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcs",
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 6,
+        "in": [
+          5
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 41,
+            "in": [
+              13,
+              34
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcs",
+              "fob"
+            ]
+          }
+        ],
+        "out": null,
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb"
+          ],
+          [
+            "fcb",
+            "fos"
+          ]
+        ],
+        "final": true,
+        "id": 7,
+        "in": [
+          6,
+          13
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "id": 43,
+            "in": [
+              15
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              19
+            ],
+            "relevancyLabels": [
+              "fcb"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 44,
+            "in": [
+              16
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              20,
+              21
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fos"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 47,
+            "in": [
+              19,
+              39
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              25,
+              26
+            ],
+            "relevancyLabels": [
+              "fcb"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 49,
+            "in": [
+              21
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fos"
+            ]
+          }
+        ],
+        "out": [
+          10,
+          11
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 8,
+        "in": [
+          8
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 50,
+            "in": [
+              22
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              27,
+              28
+            ],
+            "relevancyLabels": [
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          12
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fos"
+          ]
+        ],
+        "final": true,
+        "id": 9,
+        "in": [
+          10
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 48,
+            "in": [
+              20,
+              41
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fos"
+            ]
+          }
+        ],
+        "out": null,
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb"
+          ],
+          [
+            "fcb",
+            "fcs"
+          ]
+        ],
+        "final": true,
+        "id": 10,
+        "in": [
+          11,
+          25
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 38,
+            "in": [
+              10,
+              30
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              15,
+              16
+            ],
+            "relevancyLabels": [
+              "fcb"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "id": 52,
+            "in": [
+              25
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              29,
+              30
+            ],
+            "relevancyLabels": [
+              "fcb"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 53,
+            "in": [
+              26
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              31
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fcs"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 57,
+            "in": [
+              31
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fcs"
+            ]
+          }
+        ],
+        "out": [
+          13,
+          14
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fob"
+          ],
+          [
+            "fcs",
+            "fob"
+          ],
+          [
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 11,
+        "in": [
+          12
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 41,
+            "in": [
+              13,
+              34
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcs",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "id": 54,
+            "in": [
+              27
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              32,
+              33
+            ],
+            "relevancyLabels": [
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 55,
+            "in": [
+              28
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              34
+            ],
+            "relevancyLabels": [
+              "fcs",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 58,
+            "in": [
+              33,
+              53
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              37,
+              38
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          15,
+          16
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb"
+          ]
+        ],
+        "final": true,
+        "id": 12,
+        "in": [
+          14
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 56,
+            "in": [
+              29
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              35,
+              36
+            ],
+            "relevancyLabels": [
+              "fcb"
+            ]
+          }
+        ],
+        "out": [
+          17
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fob"
+          ],
+          [
+            "fcb",
+            "fob",
+            "fos"
+          ]
+        ],
+        "final": true,
+        "id": 13,
+        "in": [
+          15,
+          23
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 64,
+            "in": [
+              42,
+              57
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              47,
+              48
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "id": 61,
+            "in": [
+              37
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              42
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 66,
+            "in": [
+              44
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fob",
+              "fos"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 62,
+            "in": [
+              38
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              43,
+              44
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob",
+              "fos"
+            ]
+          }
+        ],
+        "out": [
+          18,
+          19
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 14,
+        "in": [
+          16
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 40,
+            "in": [
+              12,
+              32
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              17,
+              18
+            ],
+            "relevancyLabels": [
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          20
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb"
+          ],
+          [
+            "fcb",
+            "fob"
+          ],
+          [
+            "fcb",
+            "fos"
+          ]
+        ],
+        "final": true,
+        "id": 15,
+        "in": [
+          17
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 48,
+            "in": [
+              20,
+              41
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fos"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 60,
+            "in": [
+              36
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              41
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fos"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "id": 59,
+            "in": [
+              35
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              39,
+              40
+            ],
+            "relevancyLabels": [
+              "fcb"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 63,
+            "in": [
+              40,
+              58
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              45,
+              46
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          21,
+          22
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fob",
+            "fos"
+          ]
+        ],
+        "final": true,
+        "id": 16,
+        "in": [
+          18
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 65,
+            "in": [
+              43,
+              59
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fob",
+              "fos"
+            ]
+          }
+        ],
+        "out": null,
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fcs",
+            "fob"
+          ],
+          [
+            "fcb",
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 17,
+        "in": [
+          19,
+          31
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 70,
+            "in": [
+              48
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              54
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fcs",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "id": 69,
+            "in": [
+              47
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              52,
+              53
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 72,
+            "in": [
+              50,
+              54
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fcs",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 58,
+            "in": [
+              33,
+              53
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              37,
+              38
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          23,
+          24
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb"
+          ]
+        ],
+        "final": true,
+        "id": 18,
+        "in": [
+          21
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 47,
+            "in": [
+              19,
+              39
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              25,
+              26
+            ],
+            "relevancyLabels": [
+              "fcb"
+            ]
+          }
+        ],
+        "out": [
+          25
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fcs",
+            "fob"
+          ],
+          [
+            "fcb",
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 19,
+        "in": [
+          22,
+          30
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "id": 67,
+            "in": [
+              45
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              49
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 68,
+            "in": [
+              46
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              50,
+              51
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fcs",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 71,
+            "in": [
+              49,
+              52
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              55,
+              56
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 73,
+            "in": [
+              51
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fcs",
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          26,
+          27
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 20,
+        "in": [
+          24
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S0"
+              }
+            ],
+            "final": true,
+            "id": 71,
+            "in": [
+              49,
+              52
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              55,
+              56
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          28
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fob"
+          ],
+          [
+            "fcb",
+            "fob",
+            "fos"
+          ]
+        ],
+        "final": true,
+        "id": 21,
+        "in": [
+          26,
+          28
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 65,
+            "in": [
+              43,
+              59
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fob",
+              "fos"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "id": 74,
+            "in": [
+              55
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "op"
+              }
+            ],
+            "out": [
+              57,
+              58
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "id": 75,
+            "in": [
+              56
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "cl"
+              }
+            ],
+            "out": [
+              59
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob",
+              "fos"
+            ]
+          },
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B0"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 63,
+            "in": [
+              40,
+              58
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              45,
+              46
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          29,
+          30
+        ],
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fcs",
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 22,
+        "in": [
+          27
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S2"
+              }
+            ],
+            "final": true,
+            "id": 72,
+            "in": [
+              50,
+              54
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": null,
+            "relevancyLabels": [
+              "fcb",
+              "fcs",
+              "fob"
+            ]
+          }
+        ],
+        "out": null,
+        "pairs": [],
+        "starting": true
+      },
+      {
+        "diagnosis": [
+          [
+            "fcb",
+            "fob"
+          ]
+        ],
+        "final": true,
+        "id": 23,
+        "in": [
+          29
+        ],
+        "nfaStates": [
+          {
+            "componentsState": [
+              {
+                "component": "B",
+                "state": "B1"
+              },
+              {
+                "component": "S",
+                "state": "S1"
+              }
+            ],
+            "final": true,
+            "id": 64,
+            "in": [
+              42,
+              57
+            ],
+            "linksState": [
+              {
+                "link": "L1",
+                "value": "empty"
+              }
+            ],
+            "out": [
+              47,
+              48
+            ],
+            "relevancyLabels": [
+              "fcb",
+              "fob"
+            ]
+          }
+        ],
+        "out": [
+          31
+        ],
+        "pairs": [],
+        "starting": true
+      }
+    ],
+    "tinfo": [
+      {
+        "destination": 29,
+        "id": 0,
+        "label": "act",
+        "start": 28
+      },
+      {
+        "destination": 30,
+        "id": 1,
+        "label": "act",
+        "start": 28
+      },
+      {
+        "destination": 31,
+        "id": 2,
+        "label": "opn",
+        "start": 29
+      },
+      {
+        "destination": 32,
+        "id": 3,
+        "label": "",
+        "start": 29
+      },
+      {
+        "destination": 33,
+        "id": 4,
+        "label": "",
+        "start": 30
+      },
+      {
+        "destination": 34,
+        "id": 5,
+        "label": "sby",
+        "start": 31
+      },
+      {
+        "destination": 35,
+        "id": 6,
+        "label": "sby",
+        "start": 31
+      },
+      {
+        "destination": 36,
+        "id": 7,
+        "label": "sby",
+        "start": 32
+      },
+      {
+        "destination": 37,
+        "id": 8,
+        "label": "sby",
+        "start": 32
+      },
+      {
+        "destination": 28,
+        "id": 9,
+        "label": "cls",
+        "start": 34
+      },
+      {
+        "destination": 38,
+        "id": 10,
+        "label": "",
+        "start": 34
+      },
+      {
+        "destination": 39,
+        "id": 11,
+        "label": "",
+        "start": 35
+      },
+      {
+        "destination": 40,
+        "id": 12,
+        "label": "",
+        "start": 36
+      },
+      {
+        "destination": 41,
+        "id": 13,
+        "label": "opn",
+        "start": 37
+      },
+      {
+        "destination": 42,
+        "id": 14,
+        "label": "",
+        "start": 37
+      },
+      {
+        "destination": 43,
+        "id": 15,
+        "label": "act",
+        "start": 38
+      },
+      {
+        "destination": 44,
+        "id": 16,
+        "label": "act",
+        "start": 38
+      },
+      {
+        "destination": 45,
+        "id": 17,
+        "label": "act",
+        "start": 40
+      },
+      {
+        "destination": 46,
+        "id": 18,
+        "label": "act",
+        "start": 40
+      },
+      {
+        "destination": 47,
+        "id": 19,
+        "label": "",
+        "start": 43
+      },
+      {
+        "destination": 48,
+        "id": 20,
+        "label": "cls",
+        "start": 44
+      },
+      {
+        "destination": 49,
+        "id": 21,
+        "label": "",
+        "start": 44
+      },
+      {
+        "destination": 50,
+        "id": 22,
+        "label": "opn",
+        "start": 45
+      },
+      {
+        "destination": 32,
+        "id": 23,
+        "label": "",
+        "start": 45
+      },
+      {
+        "destination": 51,
+        "id": 24,
+        "label": "",
+        "start": 46
+      },
+      {
+        "destination": 52,
+        "id": 25,
+        "label": "sby",
+        "start": 47
+      },
+      {
+        "destination": 53,
+        "id": 26,
+        "label": "sby",
+        "start": 47
+      },
+      {
+        "destination": 54,
+        "id": 27,
+        "label": "sby",
+        "start": 50
+      },
+      {
+        "destination": 55,
+        "id": 28,
+        "label": "sby",
+        "start": 50
+      },
+      {
+        "destination": 56,
+        "id": 29,
+        "label": "cls",
+        "start": 52
+      },
+      {
+        "destination": 38,
+        "id": 30,
+        "label": "",
+        "start": 52
+      },
+      {
+        "destination": 57,
+        "id": 31,
+        "label": "",
+        "start": 53
+      },
+      {
+        "destination": 40,
+        "id": 32,
+        "label": "cls",
+        "start": 54
+      },
+      {
+        "destination": 58,
+        "id": 33,
+        "label": "",
+        "start": 54
+      },
+      {
+        "destination": 41,
+        "id": 34,
+        "label": "",
+        "start": 55
+      },
+      {
+        "destination": 59,
+        "id": 35,
+        "label": "act",
+        "start": 56
+      },
+      {
+        "destination": 60,
+        "id": 36,
+        "label": "act",
+        "start": 56
+      },
+      {
+        "destination": 61,
+        "id": 37,
+        "label": "act",
+        "start": 58
+      },
+      {
+        "destination": 62,
+        "id": 38,
+        "label": "act",
+        "start": 58
+      },
+      {
+        "destination": 47,
+        "id": 39,
+        "label": "opn",
+        "start": 59
+      },
+      {
+        "destination": 63,
+        "id": 40,
+        "label": "",
+        "start": 59
+      },
+      {
+        "destination": 48,
+        "id": 41,
+        "label": "",
+        "start": 60
+      },
+      {
+        "destination": 64,
+        "id": 42,
+        "label": "",
+        "start": 61
+      },
+      {
+        "destination": 65,
+        "id": 43,
+        "label": "cls",
+        "start": 62
+      },
+      {
+        "destination": 66,
+        "id": 44,
+        "label": "",
+        "start": 62
+      },
+      {
+        "destination": 67,
+        "id": 45,
+        "label": "sby",
+        "start": 63
+      },
+      {
+        "destination": 68,
+        "id": 46,
+        "label": "sby",
+        "start": 63
+      },
+      {
+        "destination": 69,
+        "id": 47,
+        "label": "sby",
+        "start": 64
+      },
+      {
+        "destination": 70,
+        "id": 48,
+        "label": "sby",
+        "start": 64
+      },
+      {
+        "destination": 71,
+        "id": 49,
+        "label": "",
+        "start": 67
+      },
+      {
+        "destination": 72,
+        "id": 50,
+        "label": "opn",
+        "start": 68
+      },
+      {
+        "destination": 73,
+        "id": 51,
+        "label": "",
+        "start": 68
+      },
+      {
+        "destination": 71,
+        "id": 52,
+        "label": "cls",
+        "start": 69
+      },
+      {
+        "destination": 58,
+        "id": 53,
+        "label": "",
+        "start": 69
+      },
+      {
+        "destination": 72,
+        "id": 54,
+        "label": "",
+        "start": 70
+      },
+      {
+        "destination": 74,
+        "id": 55,
+        "label": "act",
+        "start": 71
+      },
+      {
+        "destination": 75,
+        "id": 56,
+        "label": "act",
+        "start": 71
+      },
+      {
+        "destination": 64,
+        "id": 57,
+        "label": "opn",
+        "start": 74
+      },
+      {
+        "destination": 63,
+        "id": 58,
+        "label": "",
+        "start": 74
+      },
+      {
+        "destination": 65,
+        "id": 59,
+        "label": "",
+        "start": 75
+      }
+    ],
+    "transitions": [
+      {
+        "id": 2,
+        "label": "sby"
+      },
+      {
+        "id": 0,
+        "label": "act"
+      },
+      {
+        "id": 6,
+        "label": "act"
+      },
+      {
+        "id": 10,
+        "label": "cls"
+      },
+      {
+        "id": 9,
+        "label": "sby"
+      },
+      {
+        "id": 11,
+        "label": "sby"
+      },
+      {
+        "id": 14,
+        "label": "cls"
+      },
+      {
+        "id": 12,
+        "label": "sby"
+      },
+      {
+        "id": 16,
+        "label": "cls"
+      },
+      {
+        "id": 13,
+        "label": "act"
+      },
+      {
+        "id": 15,
+        "label": "act"
+      },
+      {
+        "id": 18,
+        "label": "cls"
+      },
+      {
+        "id": 17,
+        "label": "act"
+      },
+      {
+        "id": 26,
+        "label": "act"
+      },
+      {
+        "id": 27,
+        "label": "opn"
+      },
+      {
+        "id": 29,
+        "label": "opn"
+      },
+      {
+        "id": 28,
+        "label": "act"
+      },
+      {
+        "id": 31,
+        "label": "sby"
+      },
+      {
+        "id": 30,
+        "label": "sby"
+      },
+      {
+        "id": 5,
+        "label": "opn"
+      },
+      {
+        "id": 8,
+        "label": "opn"
+      },
+      {
+        "id": 4,
+        "label": "act"
+      },
+      {
+        "id": 1,
+        "label": "opn"
+      },
+      {
+        "id": 3,
+        "label": "sby"
+      },
+      {
+        "id": 20,
+        "label": "act"
+      },
+      {
+        "id": 21,
+        "label": "opn"
+      },
+      {
+        "id": 23,
+        "label": "act"
+      },
+      {
+        "id": 22,
+        "label": "sby"
+      },
+      {
+        "id": 24,
+        "label": "cls"
+      },
+      {
+        "id": 19,
+        "label": "sby"
+      },
+      {
+        "id": 25,
+        "label": "sby"
+      },
+      {
+        "id": 7,
+        "label": "cls"
+      }
+    ]
+  },
+  "meta": {
+    "type": "dictionary",
+    "version": 1
+  }
+}
