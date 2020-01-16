@@ -1,6 +1,8 @@
 #include "json.hpp"
 #include "../stdIncludes.h"
 #include "../Data/Network.h"
+#include <ctime>
+#include <time.h>
 
 class Generate {
 public:
@@ -79,9 +81,9 @@ public:
         std::vector<std::shared_ptr<State>> states;
          
         std::vector<std::shared_ptr<Transition>> transitions;
-        int nTransition=2;
-        int nStates=2;
-        int id=0;
+       // int nTransition=2;
+        //int nStates=2;
+        //int id=0;
         std::string componentName="IC";
         //TRANSIZIONI E LINK
         
@@ -464,9 +466,9 @@ public:
         std::vector<std::shared_ptr<State>> states;
          
         std::vector<std::shared_ptr<Transition>> transitions;
-        int nTransition=2;
-        int nStates=2;
-        int id=0;
+       // int nTransition=2;
+       // int nStates=2;
+        //int id=0;
         std::string componentName="IC";
         //TRANSIZIONI E LINK
         
@@ -943,9 +945,9 @@ public:
            std::vector<std::shared_ptr<State>> states;
             
            std::vector<std::shared_ptr<Transition>> transitions;
-           int nTransition=2;
-           int nStates=2;
-           int id=0;
+          // int nTransition=2;
+           // int nStates=2;
+           // int id=0;
            std::string componentName="IC";
            //TRANSIZIONI E LINK
            
@@ -1070,7 +1072,7 @@ public:
         countT=countT+1;
 
          std::vector<std::shared_ptr<Event>> outEvents2;
-        auto aaas= OutR.get();
+       // auto aaas= OutR.get();
          outEvents2.push_back(std::make_shared<Event>(OutR.get(), e0));
          //std::string observation, relevancy;
         relevancy="f2";
@@ -1242,7 +1244,7 @@ public:
        }
        
     static std::shared_ptr<Network> createNetworkLin(int numberComponent){
-           int nLinks=(numberComponent+1)*2;
+          // int nLinks=(numberComponent+1)*2;
            int nEvents=4;
            int countE=0;
            int countL=0;
@@ -1289,10 +1291,10 @@ public:
        
        
        static std::shared_ptr<Network> createNetworkStar(int numberComponent){
-           int nLinks=numberComponent;
-           int nEvents=4;
-           int countE=0;
-           int countL=0;
+          // int nLinks=numberComponent;
+           //int nEvents=4;
+           //int countE=0;
+           //int countL=0;
            int countS=0;
             int countC=0;
            std::shared_ptr<std::vector<std::shared_ptr<TransitionEvent>>> transEvs(new std::vector<std::shared_ptr<TransitionEvent>>());
@@ -1635,10 +1637,11 @@ public:
 
     
     
-    static std::vector<std::string> generateRandomObs(std::set<std::string> alphabet){
+    static std::vector<std::string> generateRandomObs(std::shared_ptr<Network> network){
    
         
         // Iterator to the beginning of set
+        /*
         std::set<std::string>::iterator iter = alphabet.begin();
         std::vector<std::string> obs;
         int r = (rand() % 10);
@@ -1651,8 +1654,201 @@ public:
             
         }
         return obs;
+         */
+        int numOBS=0;
+       
+        std::shared_ptr<SimpleNetwork> observation;
+        std::shared_ptr<SimpleNetwork> bond;
+        struct timespec ts;
+        clock_gettime(CLOCK_MONOTONIC, &ts);
+
+        /* using nano-seconds instead of seconds */
+        srand((time_t)ts.tv_nsec);
+       //  srand ( time(NULL) );
+        int r = (rand() % 50);
+        std::vector<std::string> obs;
+
+            Logger::section("Behavioral Space Construction");
+            std::string filters;
+            if (observation) filters += "Observation ";
+            if (bond) filters += "Bond";
+
+            if (filters.empty()) Logger::log("No filters.");
+            else Logger::log("Selected filters: " + filters);
+
+            auto startingTime = std::chrono::high_resolution_clock::now();
+            // resetta la rete allo stato iniziale
+            network->reset();
+            BehavioralState::nextId = 0;
+            BehavioralTransition::nextId = 0;
+
+
+            // acquisisce lo stato (iniziale) della rete
+            std::map<std::string, std::string> componentsState = network->getComponentsState();
+            std::map<std::string, std::string> linksState = network->getLinksState();
+
+            if (observation) observation->resetState();
+            if (bond) bond->resetState();
+
+            std::shared_ptr<BehavioralState> currentState = std::make_shared<BehavioralState>(componentsState, linksState, true, true);
+            if (observation) currentState->observationState = observation->currentState;
+            if (bond) currentState->bondState = bond->currentState;
+ 
+            // inserisce lo stato iniziale nel vettore e nell'automa
+            std::queue<std::shared_ptr<BehavioralState>> toVisit;
+            auto space = std::make_shared<BehavioralSpace>();
+            toVisit.push(currentState);
+            space->states.push_back(currentState);
+
+            bool alreadyPresent;
+
+            while (!toVisit.empty() and numOBS!=r) {
+                auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+
+                
+                // prende il primo stato del vettore
+                currentState = toVisit.front();
+                network->setState(currentState->componentsState, currentState->linksState);
+                if (observation) observation->currentState = currentState->observationState;
+                if (bond) bond->currentState = currentState->bondState;
+                std::vector<std::shared_ptr<Transition>> qt;
+                std::vector<int> comp;
+                int cont=0;
+                for (const auto &component : network->components) {
+                    // se una delle transizioni è abilitata la fa scattare
+                    std::vector<std::shared_ptr<Transition>> qualifiedTransitions = component->qualifiedTransitions(
+                            observation ? observation->getQualifiedLabels() : nullptr,
+                            bond ? bond->getQualifiedLabels() : nullptr);
+                    
+                    if(qualifiedTransitions.size()>0 ){
+                        qt.insert(qt.end(),qualifiedTransitions.begin(),qualifiedTransitions.end());
+                    comp.push_back(qualifiedTransitions.size()-1+ cont);
+                    
+                        cont=qualifiedTransitions.size()-1;}
+                    else{
+                        comp.push_back(-1);
+                    }
+                }
+                    
+                    if (qt.size()>0){
+                        int l= qt.size();
+                       struct timespec ts;
+                        clock_gettime(CLOCK_MONOTONIC, &ts);
+
+                        /* using nano-seconds instead of seconds */
+                        srand((time_t)ts.tv_nsec);
+                        int r1 = (rand() % l);
+                        if (r1==l) r1=r1-1;
+                        std::vector<std::shared_ptr<Transition>>:: iterator transition1= qt.begin()+r1;
+                        auto transition=*transition1;
+                        int indComp =-1;
+                        for( auto int i=0; i<comp.size();i++){
+                            if (i==0){
+                                if (r1>=0 && r1<= comp[i] && comp[i]!=-1){
+                                    
+                                    indComp=i;
+                                    break;
+                                }
+                            }
+                            else {
+                                if (r1>comp[i-1] && r1<= comp[i] && comp[i]!=-1){
+                                indComp=i;
+                                break;
+                                }
+                            }
+                            
+                        }
+                        const auto &componentit=network->components.begin()+indComp;
+                        auto component=*componentit;
+                        alreadyPresent = false;
+
+                        // acquisisce lo stato così raggiunto dalla rete
+                        component->performTransition(transition);
+                        componentsState = network->getComponentsState();
+                        linksState = network->getLinksState();
+                    
+
+                        if (observation) observation->performTransition(transition->observabilityLabel);
+                        if (bond) bond->performTransition(transition->name);
+
+                        // crea una nuova transizione dello spazio comportamentale e la aggiunge come transizione in uscita allo
+                        // stato corrente e all'automa
+                        auto newTransition = std::make_shared<BehavioralTransition>(transition->name,
+                                                                                    transition->relevancyLabel,
+                                                                                   transition->observabilityLabel);
+
+                        space->transitions.push_back(newTransition);
+                    if (transition->observabilityLabel != ""){
+                        obs.push_back(transition->observabilityLabel);
+                        numOBS=numOBS+1;
+                    }
+                        currentState->out.push_back(newTransition);
+
+                        // se lo stato raggiunto è già nel grafo aggiunge la transizione a quelle in ingresso
+                        for (const auto &state : space->states) {
+                            bool condition = state->componentsState == componentsState && state->linksState == linksState;
+                            if (observation) condition &= state->observationState == observation->currentState;
+                            if (bond) condition &= state->bondState == bond->currentState;
+                            if (condition) {
+                                alreadyPresent = true;
+                                toVisit.push(state);
+                                state->in.push_back(newTransition);
+                                break;
+                            }
+                        }
+
+                        // se lo stato raggiunto non è già presente lo crea, vi aggiunge la transizione in ingresso e lo aggiunge
+                        // al vettore e all'automa
+                        if (!alreadyPresent) {
+                            bool final = true;
+                            for (auto linkState : linksState)
+                                if (linkState.second != "empty")
+                                    final = false;
+                            if (observation && !observation->reachedFinalState()) final = false;
+                            auto newState = std::make_shared<BehavioralState>(componentsState, linksState, false, final);
+                            newState->in.push_back(newTransition);
+                            if (observation) newState->observationState = observation->currentState;
+                            if (bond) newState->bondState = bond->currentState;
+                            toVisit.push(newState);
+                            space->states.push_back(newState);
+                        }
+
+                       //2  torna allo stato precedente prima di controllare il componente successivo
+                        
+                        //network->setState(currentState->componentsState, currentState->linksState);
+                       // if (observation) observation->currentState = currentState->observationState;
+                       //if (bond) bond->currentState = currentState->bondState;
+                         
+                    
+                    
+                }
+                // elimina lo stato corrente dal vettore, da questo momento ad esso si possono solo aggiungere nuove transizioni
+                // in ingresso
+                toVisit.pop();
+            }
+            int nFinal=0;
+            std::pair<int, int> dimensions = space->getDimensions();
+            for (auto s :space->states){
+                if( s->final){
+                    nFinal++;
+                }
+            }
+            std::vector<std::string> messages = {
+                "BS construction completed.",
+                "  States: " + std::to_string(dimensions.first),
+                 " Final States: "+ std::to_string(nFinal),
+                "  Transitions: " + std::to_string(dimensions.second)
+            };
+            std::string info="BS construction completed.\n  States: " + std::to_string(dimensions.first)+"\n Final States: "+ std::to_string(nFinal)+
+        " \n Transitions: " + std::to_string(dimensions.second)+"\n";
+             std::cout << info;
+            Logger::log(messages);
+
+
+            return obs;
+        }
        
         
     
-    }
+    
 };

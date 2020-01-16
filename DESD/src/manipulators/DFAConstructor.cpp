@@ -210,7 +210,7 @@ std::shared_ptr<std::vector<std::shared_ptr<DFAState>>> DFAConstructor::subsetCo
 
         auto currentState = unmarkedStates.front();
         auto level=livelli.front();
-        unsigned  int indice=0;
+       // unsigned  int indice=0;
         livelli.erase(livelli.begin());
         unmarkedStates.pop();
         if (level<prefix){
@@ -312,7 +312,7 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionary(std::shared_ptr<
         std::vector<std::shared_ptr<BehavioralState>> statiNfa;
         for (const auto &behavioralState : state->nfaStates){
             std::string transizioniOString="";
-             unsigned int a=behavioralState->getIdd();
+            // unsigned int a=behavioralState->getIdd();
             for(const auto &outTra : behavioralState->getOutTransitions()){
                 transizioniOString=transizioniOString+outTra->toString();
 
@@ -571,7 +571,7 @@ bool foundTransitionSubgrafh(std::vector<std::shared_ptr<NFAStateInterface>> beh
 
 
     }
-    bool rrfound;
+    //bool rrfound;
     bool refound=false;
     if (found){
         for(auto state :behavioralStates){
@@ -662,7 +662,7 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionaryPrefix(unsigned  
         std::vector<std::shared_ptr<BehavioralState>> statiNfa;
         for (const auto &behavioralState : state->nfaStates){
             std::string transizioniOString="";
-            unsigned int a=behavioralState->getIdd();
+            //unsigned int a=behavioralState->getIdd();
             for(const auto &outTra : behavioralState->getOutTransitions()){
                 transizioniOString=transizioniOString+outTra->toString();
 
@@ -680,7 +680,7 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionaryPrefix(unsigned  
             st=st+1;
         }
 
-        DFAConstructor::createPair(state);
+       // DFAConstructor::createPair(state);
         std::set<std::set<std::string>>diagnosis_p=state->getDiagnosis();
         std::vector<std::vector<std::shared_ptr<NFAStateInterface>>> pairs;
         /* pairs=state->getPairs();*/
@@ -792,9 +792,9 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionaryPrefix(unsigned  
         i++;
     }
 
-
-
-    for( i=indiciT.size()-1 ;i>=0 ;i--){
+   //dovrebbe essere int auto i=indiciT.size()-1 ;i>=0 ;i--
+   
+    for(  int i=indiciT.size()-1 ;i>=0 ;i--){
         trans.erase(trans.begin()+indiciT[i]);
     }
     dictionary->setBhState(bhStates);
@@ -847,7 +847,7 @@ std::vector<std::shared_ptr<NFAStateInterface>>  DFAConstructor::foundNfaStateDi
     std::vector<std::shared_ptr<NFAStateInterface>> behavioralStates;
     for ( auto state: dictionary->states){
         for(auto bhstate: state->nfaStates){
-            int i=0;
+           // int i=0;
             if(not(foundBhevioralState(behavioralStates,bhstate))){
                 behavioralStates.push_back(bhstate);
             }
@@ -1072,7 +1072,7 @@ bool comparePairSets2(std::vector<std::vector<unsigned int>> pairs,
 
 std::vector<std::vector<unsigned int>> convertPairSets(std::vector<std::vector<std::shared_ptr<NFAStateInterface>>> pairs){
     std::vector<std::vector<unsigned int>>   v2(sizeof(pairs), std::vector< unsigned int>(2));
-    int n= sizeof(pairs);
+    //int n= sizeof(pairs);
     int i=0;
     int j=0;
     for (auto &pair: pairs ){
@@ -1315,6 +1315,7 @@ void DFAConstructor::move3(std::shared_ptr<NFAStateInterface> ts,
                             break;
                         }
                         if (found && nextState != nullptr) {
+                            
                             move3(ts, nextState, state, pairs);
 
                         }
@@ -1995,7 +1996,7 @@ bool foundTransition3(std::vector< unsigned int> destination,int source,std::vec
 
 
 bool DFAConstructor::compareDiagnosis(std::vector<std::string> diagnosis, std::vector<std::vector<std::string>> diagnosisNext){
-    bool found;
+    bool found=true;
     for(auto candi: diagnosisNext){
 
         for( auto candidate: diagnosis){
@@ -2079,6 +2080,7 @@ std::vector<std::shared_ptr<temporalAbduction>> computeTemporalAbduce(std::vecto
     auto nextObs = observation[i];
     std::vector<unsigned int> reachState;
     std::vector<unsigned int> out;
+    bool connected=false;
     auto tA = std::make_shared<temporalAbduction>(inDictionary->states[inDictionary->currentState]);
     for (auto &state: inDictionary->states[inDictionary->currentState]->nfaStates2) {
         reachState.push_back(state->getIdd());
@@ -2086,15 +2088,15 @@ std::vector<std::shared_ptr<temporalAbduction>> computeTemporalAbduce(std::vecto
         for (auto t: state->getOutTransitions2()) {
             if (t->getObservabilityLabel() == nextObs) {
                 out.push_back(state->getIdd());
-                break;
+                connected=true;
             }
-
         }
-
-
     }
 
-
+    if (!connected){
+        std::cout << "not connected";
+        return newAb;
+    }
     tA->addReachState(reachState);
     tA->addOutState(out);
     tA->setDiagnosis(inDictionary->states[inDictionary->currentState]->diagnosis);
@@ -2102,10 +2104,11 @@ std::vector<std::shared_ptr<temporalAbduction>> computeTemporalAbduce(std::vecto
     tA->setAcceptingState(inDictionary->states[inDictionary->currentState]->getIdd());
     std::set<std::set<std::string>> jjj = inDictionary->states[inDictionary->currentState]->diagnosis;
 
-    auto stato = inDictionary->currentState;
+   // auto stato = inDictionary->currentState;
     bool found = false;
     newAb.push_back(tA);
     for (int h = 0; h < observation.size(); h++) {
+        found = false;
         std::shared_ptr<NFATransitionInterface> transInter;
         nextObs=observation[h];
         for (auto transition: inDictionary->states[inDictionary->currentState]->getOutTransitions()) {
@@ -2113,7 +2116,6 @@ std::vector<std::shared_ptr<temporalAbduction>> computeTemporalAbduce(std::vecto
                 transInter = transition;
                 found = true;
                 break;
-
             }
         }
         if (found) {
@@ -2224,6 +2226,9 @@ std::vector<std::shared_ptr<temporalAbduction>> computeTemporalAbduce(std::vecto
 
                 }
                 }
+        else{
+            return newAb;
+        }
             }
 
 
@@ -2258,7 +2263,7 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
     int indice=0;
     for (auto &t : newAb){
         std::cout << "\"Abduce\": "+ std::to_string(indice);
-        bool firstSet = true;
+        //bool firstSet = true;
         std::cout << "{\"Reach State\":[ ";
         if(t->reachStates.size()>0){
             for (auto re : t->reachStates) {
@@ -2269,9 +2274,9 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
         }
 
 
-        for (const auto di : t->getDiagnosis2()) {
+        for (const auto &di : t->getDiagnosis2()) {
             std::cout << "{";
-            for(const auto d : di){
+            for(const auto &d : di){
 
 
                 std::cout << "\"" << d << ",\"";
@@ -2461,7 +2466,7 @@ std::set<std::set<std::string>> getDiagnosisNewDicState(std::vector<std::shared_
 }
 
 std::shared_ptr<dictabd> DFAConstructor::extendDictionaryFromObs(
-        const std::shared_ptr<Dictionary> inDictionary, std::vector<std::string> &observation,
+        const std::shared_ptr<Dictionary> inDictionary, std::vector<std::string> &observation,std::string &net,
         std::shared_ptr<long> maxExecTime) {
 
     auto startingTime = std::chrono::high_resolution_clock::now();
@@ -2470,7 +2475,7 @@ std::shared_ptr<dictabd> DFAConstructor::extendDictionaryFromObs(
 
     Logger::section("Diagnosis Extraction");
     auto transictionId = inDictionary->transitions.size();
-    int lastIdDictionary = inDictionary->states.size() - 1;
+    //int lastIdDictionary = inDictionary->states.size() - 1;
     Logger::log("Input Observation:");
     for (int i = 0; i < observation.size(); i++) Logger::log("  " + std::to_string(i) + ". " + observation[i]);
 /*
@@ -2484,7 +2489,7 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
     //associazione stato osservazione poszione i con stato del dizionario contentuto
     std::vector<int> obsLabel;
     int starting = inDictionary->currentState;
-    bool start = true;
+    //bool start = true;
     bool error;
     obsLabel.push_back(starting);
     auto lunghezza = observation.size();
@@ -2496,7 +2501,7 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
         error = true;
         for (auto &outTransition : inDictionary->states[inDictionary->currentState]->out) {
             if (outTransition->getObservabilityLabel() == label) {
-                int const prevState = inDictionary->currentState;
+                //int const prevState = inDictionary->currentState;
                 inDictionary->performTransition(outTransition);
                 error = false;
                 obsLabel.push_back(inDictionary->currentState);
@@ -2551,7 +2556,7 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
         }
         // aggiungere stato e transizione
         if (error) {
-            auto network = NetworkIO::load("reteL3.json");
+            auto network = NetworkIO::load(net);
             auto newTransition = std::make_shared<BehavioralTransition>("", transictionId, "", label);
             transictionId++;
             inDictionary->states[obsLabel[obsLabel.size() - 1]]->out.push_back(newTransition);
@@ -2594,7 +2599,6 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
                 obsLabel.push_back(indiceDizionario);
             }
         }
-
     }
     if (inDictionary->states[inDictionary->currentState]->final || true) {
 
@@ -2825,7 +2829,7 @@ std::shared_ptr<Dictionary> DFAConstructor::extendDictionaryFromScenario(
 
     Logger::section("Diagnosis Extraction");
     auto transictionId = inDictionary->transitions.size();
-    int lastIdDictionary = inDictionary->states.size() - 1;
+    //int lastIdDictionary = inDictionary->states.size() - 1;
     Logger::log("Input Observation:");
 
     std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb(
@@ -2834,7 +2838,7 @@ std::shared_ptr<Dictionary> DFAConstructor::extendDictionaryFromScenario(
     //associazione stato osservazione poszione i con stato del dizionario contentuto
 
     int starting = inDictionary->currentState;
-    bool start = true;
+   // bool start = true;
     bool error;
 
 

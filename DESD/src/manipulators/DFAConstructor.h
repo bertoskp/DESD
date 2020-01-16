@@ -221,7 +221,7 @@ public:
 
     static std::shared_ptr <dictabd> extendDictionaryFromObs(
             const std::shared_ptr<Dictionary> inDictionary,
-            std::vector<std::string> &observation, std::shared_ptr<long> maxExecTime);
+            std::vector<std::string> &observation,std::string &net, std::shared_ptr<long> maxExecTime);
 
 
 

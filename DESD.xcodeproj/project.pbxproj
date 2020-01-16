@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B817FD1E23C788E2003A4F18 /* project.xcworkspace in Frameworks */ = {isa = PBXBuildFile; fileRef = B817FD1D23C788E2003A4F18 /* project.xcworkspace */; };
+		B817FD2123C788FD003A4F18 /* tinyfiledialogs.h in Frameworks */ = {isa = PBXBuildFile; fileRef = B817FD1F23C788FD003A4F18 /* tinyfiledialogs.h */; };
+		B817FD2223C788FD003A4F18 /* tinyfiledialogs.c in Frameworks */ = {isa = PBXBuildFile; fileRef = B817FD2023C788FD003A4F18 /* tinyfiledialogs.c */; };
 		B82A696423325EEA005A973D /* Menu.h in Frameworks */ = {isa = PBXBuildFile; fileRef = B82A696323325EEA005A973D /* Menu.h */; };
 		B82A696723325F29005A973D /* Menu.h in Sources */ = {isa = PBXBuildFile; fileRef = B82A696623325F29005A973D /* Menu.h */; };
+		B8521E1A23CDC2A7005B5D72 /* tinyfiledialogs.c in Frameworks */ = {isa = PBXBuildFile; fileRef = B8521E1823CDC2A6005B5D72 /* tinyfiledialogs.c */; };
+		B8521E1B23CDC2A7005B5D72 /* tinyfiledialogs.h in Frameworks */ = {isa = PBXBuildFile; fileRef = B8521E1923CDC2A7005B5D72 /* tinyfiledialogs.h */; };
 		B8E6EB6A22E85E980043D8D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8E6EB6922E85E970043D8D0 /* main.cpp */; };
 		B8E6EB6D22E864EB0043D8D0 /* CLI11.hpp in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E6EB6C22E864EB0043D8D0 /* CLI11.hpp */; };
 		B8E6EB6F22E8650A0043D8D0 /* nlohmann in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E6EB6E22E8650A0043D8D0 /* nlohmann */; };
@@ -55,8 +60,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B817FD1D23C788E2003A4F18 /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = DESD.xcodeproj/project.xcworkspace; sourceTree = "<group>"; };
+		B817FD1F23C788FD003A4F18 /* tinyfiledialogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tinyfiledialogs.h; path = DESD/include/tinyfiledialogs.h; sourceTree = "<group>"; };
+		B817FD2023C788FD003A4F18 /* tinyfiledialogs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = tinyfiledialogs.c; path = DESD/include/tinyfiledialogs.c; sourceTree = "<group>"; };
 		B82A696323325EEA005A973D /* Menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Menu.h; path = DESD/src/Utils/Menu.h; sourceTree = "<group>"; };
 		B82A696623325F29005A973D /* Menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Menu.h; path = DESD/src/Utils/Menu.h; sourceTree = "<group>"; };
+		B8521E1823CDC2A6005B5D72 /* tinyfiledialogs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = tinyfiledialogs.c; path = DESD/src/Utils/tinyfiledialogs.c; sourceTree = "<group>"; };
+		B8521E1923CDC2A7005B5D72 /* tinyfiledialogs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tinyfiledialogs.h; path = DESD/src/Utils/tinyfiledialogs.h; sourceTree = "<group>"; };
 		B85CDAB323718CC900D48CD9 /* TopologicalGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TopologicalGenerator.cpp; path = DESD/src/manipulators/TopologicalGenerator.cpp; sourceTree = "<group>"; };
 		B8E6EB5922E859980043D8D0 /* DESD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DESD; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E6EB6322E859FC0043D8D0 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
@@ -99,6 +109,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8521E1A23CDC2A7005B5D72 /* tinyfiledialogs.c in Frameworks */,
+				B8521E1B23CDC2A7005B5D72 /* tinyfiledialogs.h in Frameworks */,
+				B817FD2123C788FD003A4F18 /* tinyfiledialogs.h in Frameworks */,
+				B817FD2223C788FD003A4F18 /* tinyfiledialogs.c in Frameworks */,
+				B817FD1E23C788E2003A4F18 /* project.xcworkspace in Frameworks */,
 				B82A696423325EEA005A973D /* Menu.h in Frameworks */,
 				B8FA5A50231403A900AD45AA /* stdIncludes.h in Frameworks */,
 				B8E6EBA822E89A3D0043D8D0 /* dirent.h in Frameworks */,
@@ -168,6 +183,11 @@
 		B8E6EB6B22E864EB0043D8D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B817FD2023C788FD003A4F18 /* tinyfiledialogs.c */,
+				B817FD1F23C788FD003A4F18 /* tinyfiledialogs.h */,
+				B8521E1823CDC2A6005B5D72 /* tinyfiledialogs.c */,
+				B8521E1923CDC2A7005B5D72 /* tinyfiledialogs.h */,
+				B817FD1D23C788E2003A4F18 /* project.xcworkspace */,
 				B82A696323325EEA005A973D /* Menu.h */,
 				B8FA5A4F231403A900AD45AA /* stdIncludes.h */,
 				B8E6EBA722E89A3D0043D8D0 /* dirent.h */,

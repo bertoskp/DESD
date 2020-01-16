@@ -14,7 +14,12 @@ public:
         return exists(path);
     }
     
-    
+    static std::string getProjectName( std::string projName){
+     std::string path;
+     std::size_t psub=projName.find("/");
+     std::string sub=projName.substr(psub+1) ;
+        return sub;
+    }
     // leggere i file quando si carica un progetto
     static void readFileInProject(bool online, std::string projName, int space){
      std::string path;
@@ -51,6 +56,15 @@ public:
     
     static std::vector<std::string> get_directories(const std::string& s) {
         std::vector<std::string> r;
+        for(auto& p : std::filesystem::directory_iterator(s)){
+             if(p.status().type() == std::filesystem::file_type::directory)
+               
+                 if (std::filesystem::is_empty(p.path().string())){
+                       std::filesystem::remove(p.path().string());
+                 }
+            
+        }
+        
         for(auto& p : std::filesystem::directory_iterator(s))
             if(p.status().type() == std::filesystem::file_type::directory)
                 r.push_back(p.path().string());

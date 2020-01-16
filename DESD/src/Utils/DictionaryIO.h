@@ -398,7 +398,7 @@ public:
                                                                                     s->getObservabilityLabel());
                         newTransition->id=s->getId();
 
-                        int c=1;
+                       // int c=1;
 
                         tr.push_back(newTransition);
 
@@ -426,7 +426,7 @@ public:
                 std::vector<std::shared_ptr<BehavioralState>> nfaStates2;
                 for (auto st :nfaStates){
                     auto s= std::make_shared<BehavioralState>();
-                    int c=1;
+                    //int c=1;
                     s=st;
                     nfaStates2.push_back(s);
 
@@ -488,7 +488,7 @@ public:
                                                                                 s->getObservabilityLabel());
                     newTransition->id=s->getId();
 
-                    int c=1;
+                    //int c=1;
 
                     tr.push_back(newTransition);
 
@@ -828,11 +828,11 @@ public:
 
                 std::string st = "";
                 int conta = 0;
-                for (const auto di : cs->diagn) {
+                for ( auto di : cs->diagn) {
                     int contatore = 1;
                     std::string sep = "";
 
-                    for (const auto d : di) {
+                    for ( auto d : di) {
                         if (contatore < di.size()) {
                             sep = " ";
 
@@ -906,11 +906,11 @@ public:
 
                 std::string st = "";
                 int conta = 0;
-                for (const auto di : abd->getDiagnosis2()) {
+                for ( auto const &di : abd->getDiagnosis2()) {
                     int contatore = 1;
                     std::string sep = "";
 
-                    for (const auto d : di) {
+                    for ( const auto  &d : di) {
                         if (contatore < di.size()) {
                             sep = " ";
 

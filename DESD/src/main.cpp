@@ -31,6 +31,8 @@
 
 #include <filesystem>
 
+#include "tinyfiledialogs.c"
+
 
 
 
@@ -56,10 +58,10 @@ std::string ExePath();
 
 int main(int argc, char *argv[]) {
     std::string bsObservation, bsBond, bsOutObservation,inFile, outFile,dicBond;
-    bool observation,scenario = false;
-    bool prune, label,saveFile;
+    bool observation = false,scenario = false;
+   // bool prune, label,saveFile;
     long maxExecutionTime = 0;
-    int depth= 0;
+    //int depth= 0;
     std::string temp1 ,temp2;
     std::vector<std::string> inFiles;
     std::vector<std::string> observations;
@@ -67,6 +69,42 @@ int main(int argc, char *argv[]) {
     std::cout<<"Working directory"<<std::endl;
     std::string cwd = std::filesystem::current_path();
     std::cout<<cwd+"\n"<<std::endl;
+   
+    
+    
+     /*char const * lTmp;
+       char const * lTheSaveFileName;
+       char const * lTheOpenFileName;
+       char const * lTheSelectFolderName;
+       char const * lTheHexColor;
+       char const * lWillBeGraphicMode;
+       unsigned char lRgbColor[3];
+       FILE * lIn;
+       char lBuffer[1024];
+       char lThePassword[1024];
+       char const * lFilterPatterns[2] = { "*.txt", "*.text" };
+
+       lWillBeGraphicMode = tinyfd_inputBox("tinyfd_query", NULL, NULL);
+       
+       lTheSelectFolderName = tinyfd_selectFolderDialog(
+           "let us just select a directory", NULL);
+
+       if (!lTheSelectFolderName)
+       {
+           tinyfd_messageBox(
+               "Error",
+               "Select folder name is NULL",
+               "ok",
+               "error",
+               1);
+           return 1;
+       }
+
+       tinyfd_messageBox("The selected folder is",
+           lTheSelectFolderName, "ok", "info", 1);
+
+     
+  */
            
     static int choice;
     do{
@@ -93,6 +131,7 @@ int main(int argc, char *argv[]) {
                     
                         //CARICA UNA NUOVA RETE MODALITA OFFLINE
                     case 2:{
+                        
                         Menu::MenuCaricamentoOfflineNuovaRete(observation,scenario,maxExecutionTime);
                         break;
                     }
@@ -122,7 +161,7 @@ int main(int argc, char *argv[]) {
                         case 1:{
                             //VISUALIZZA CARTELLE DI PORGETTI ONline
                             auto directories= File::get_directories("online");
-                            Menu::MenuOnlineCaricamento( directories);
+                            Menu::MenuOnlineCaricamento( directories,maxExecutionTime);
                             break;
                         }
                             
@@ -547,7 +586,7 @@ void handleAbd(long time, std::vector<std::string> &observations, const std::str
 
         */
 
-                int it=1;
+               // int it=1;
 
             auto result = DFAConstructor::diagnoseFromAbduce(dictionary,observations, maxExecutionTime);
             DictionaryIO::saveAbduce(outFile, result,observations);
@@ -578,7 +617,7 @@ void handleAbd(long time, std::vector<std::string> &observations, const std::str
 
 
 // estensione online di un dizionario partendo da un osservazione lineare
-void handleAbdO(long time, std::vector<std::string> &observations, const std::string &inFile,const std::string &outFile) {
+void handleAbdO(long time, std::vector<std::string> &observations, const std::string &inFile,const std::string &outFile,std::string &net) {
 
     auto dictionary = DictionaryIO::load(inFile);
     std::shared_ptr<long> maxExecutionTime = nullptr;
@@ -598,7 +637,7 @@ void handleAbdO(long time, std::vector<std::string> &observations, const std::st
                     osservazione.push_back(el);
                 }
 
-                auto result = DFAConstructor::extendDictionaryFromObs(dictionary,osservazione, maxExecutionTime);
+                auto result = DFAConstructor::extendDictionaryFromObs(dictionary,osservazione,net, maxExecutionTime);
                 auto dic=result->inDictionary.get();
                 DictionaryIO::save(outFile, *dic);
                 auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();

@@ -19,18 +19,19 @@ EXTERN  std::string online="online/";
 EXTERN int depth=0;
 EXTERN std::string nameSpace="";
 EXTERN std::string nameObs="";
+EXTERN std::string networkName="";
 
 #import "Computation.h"
 #import "Generate.h"
+#import "File.h"
+#include "tinyfiledialogs.h"
 class Menu{
-private:
     
+private:
      
     public:
    
     
-    
-   
     // menu iniziale scelta iniziale
      static int menuFirst(){
        
@@ -99,7 +100,7 @@ private:
     }
 
    static int newOnline(){
-        int choice;
+        int choice=99;
         std::cout << std::endl
                   << " 0 - Compute a Dictionary(BS) from a given Network.\n"
                   << " 1 - Compute a Behavioral Space (BS) from a given Network.\n"
@@ -112,7 +113,8 @@ private:
                   << " 8 - Extende Partial dictionary from obs.\n"
                   << " 9 - Extende Partial dictionary from scenario.\n"
                   << " 10 - Create observations.\n"
-                  << " 11 - Exit.\n"
+                  << " 11 - Extend dictionary from random obs.\n"
+                  << " 12 - Exit.\n"
                   << " Enter your choice and press return: ";
         std::cin >> choice;
         return choice;
@@ -123,15 +125,23 @@ private:
         
         int choice;
         std::cout << std::endl
+                 << " Enter your choice and press return: "
                  << " 1 - Load a Behavioral Space .\n"
                  << " 2 - Load Decorate Behavioral Space.\n"
                  << " 3 - Load Dictionary.\n"
-                 << " 4 - Merges two or more dictionaries into a single one.\n"
-                 << " 5 - Create a Behavioral Space from a Observation.\n"
-                 << " 6 - Create a Behavioral Space from a Given Scenario.\n"
-                 << " 7 - Search a Observation in a Dictionary.\n"
-                 << " 8 - Exit.\n"
-                 << " Enter your choice and press return: ";
+                 << " 4 - Labels an input Behavioral Space.\n"
+                 << " 5 - Compute a Dictionary from a given Labeled Behavioral Space.\n"
+                 << " 6 - Compute a Dictionary from a given Labeled Behavioral Space and depth.\n"
+                 << " 7 - Merges two or more dictionaries into a single one.\n"
+                 << " 8 - Diagnoses a problem, given a dictionary and an observation.\n"
+                 << " 9 - Temporal abduce from a given dictionary and an observation.\n"
+                 << " 10 - Extende Partial dictionary from obs.\n"
+                 << " 11- Extende Partial dictionary from scenario.\n"
+                 << " 12 - Create observations.\n"
+                 << " 13 - Extend dictionary from random obs.\n"
+                 << " 14 - Exit.\n"
+        << " Enter your choice and press return: ";
+                 
        std::cin >> choice;
         return choice;
     }
@@ -203,7 +213,10 @@ private:
     }
     
     //MENU PRINCIPALE PER CARICARE PROGRETTI ONLINE
-    static void MenuOnlineCaricamento(std::vector<std::string> directories){
+    static void MenuOnlineCaricamento(std::vector<std::string> directories,long maxExecutionTime){
+        std::string temp1 ,temp2;
+        std::vector<std::string> inFiles;
+        std::vector<std::string> observations;
         while(true){
             int h=1;
             int choice5;
@@ -217,7 +230,282 @@ private:
             std::cin >> choice5;
             if( choice5>0 &&choice5<=h-1){
                 do {
-                    choice5=Menu::loadOnline();
+                   std::string namePrj=directories[choice5-1];
+                   // File::path_empty(namePrj);
+                    auto emp= std::filesystem::is_empty(namePrj);
+                    if (emp){
+
+                       
+                        std::filesystem::remove(namePrj);
+                        break;
+                    }
+                    else{
+                        int choice8;
+                        do{
+                            choice8=Menu::loadOnline();
+                            online="online/";
+                            projcetName=File::getProjectName(namePrj);
+                            networkName=online+projcetName+"/"+projcetName+".json";
+                             auto percorso=online+projcetName;
+                            //CARICA SPAZI COMPORTAMENTALI
+                            if(choice8>=1 and choice8<=3) {
+                                File::readFileInProject(false,  namePrj, choice8);
+                            }
+                            else{
+                                switch(choice8){
+                                      
+                                        
+                                       
+                                        
+                                       
+                                          // << " 4 - Labels an input Behavioral Space.\n"
+                                       
+                                          case 4:{
+                                              
+                                              decoratedBehavioralSpaceOnline( maxExecutionTime);
+                                              break;
+                                                
+                                          }
+                                         //<< " 5 - Compute a Dictionary from a given Labeled Behavioral Space.\n"
+                                        case 5:{
+                                               createDictionaryOnline( maxExecutionTime);
+
+                                                break;
+                                        }
+                                        // << " 6 - Compute a Dictionary from a given Labeled Behavioral Space and depth.\n"
+
+                                        case 6:{
+                                            
+                                            createDictionaryPrefixOnline(maxExecutionTime);
+                                                break;
+                                        }
+                                        
+                                         //<< " 7 - Merges two or more dictionaries into a single one.\n"
+                                          case 7:{
+                                                  std::cout << "Insert the name of the first dictionary \n";
+                                                  std::cin >> temp1;
+                                                  inFiles.push_back(temp1);
+                                                  std::cout << "Insert the name of the first dictionary \n";
+                                                  std::cin >> temp1;
+                                                  inFiles.push_back(temp1);
+                                                  saveFile = Menu::menuYN("Do you want to save the dictionary's merged?");
+
+
+                                                  if (saveFile) {
+                                                      std::cout << "Insert name \n";
+                                                      std::cin >> outFile;
+                                                  }
+                                                  Computation::handleMD(maxExecutionTime, inFiles, outFile);
+                                                  break;
+                                          }
+                                      //  << " 8 - Diagnoses a problem, given a dictionary and an observation.\n"
+                                          case 8:{
+                                                  std::cout << "Insert the name of the dictionary \n";
+                                                  std::cin >> inFile;
+                                                  std::cout
+                                                          << "Insert the name of the observation \n(each observation in the sequence must be  separte with blank character) \n ex: o1 o2 o3\n";
+                                                  std::cin >> temp1;
+
+                                                  getline(std::cin, temp2);
+
+
+                                                  observations = Computation::convertObsStringToVector(temp1 + temp2);
+
+                                                  Computation::handleDiag(maxExecutionTime, observations, inFile);
+                                          
+                                              break;
+                                              
+                                              }
+                                       // << " 9 - Temporal abduce from a given dictionary and an observation.\n"
+                                          case 9:{
+                                                  std::cout << "Insert the name of the dictionary \n";
+                                                  std::cin >> inFile;
+                                                  std::cout
+                                                          << "Insert the name of the observation \n(each observation in the sequence must be  separte with blank character) \n ex: o1 o2 o3\n";
+                                                  std::cin >> temp1;
+                                                  getline(std::cin, temp2);
+                                                  observations = Computation::convertObsStringToVector(temp1 + temp2);
+                                                  saveFile = Menu::menuYN("Do you want to save the abduction?");
+
+
+                                                  if (saveFile) {
+                                                      std::cout << "Insert name \n";
+                                                      std::cin >> outFile;
+                                                  }
+                                                  Computation::handleAbd(maxExecutionTime, observations, inFile, outFile);
+                                                  break;
+                                          }
+                                        //<< " 10 - Extende Partial dictionary from obs.\n"
+                                          case 10:{
+                                                  std::cout << "Insert the name of the dictionary to extend \n";
+                                                  std::cin >> inFile;
+                                                 std::cout << "Insert the name of the network \n";
+                                              std::string net;
+                                                                       std::cin >> net;
+                                                  std::cout
+                                                          << "Insert the name of the observation \n(each observation in the sequence must be  separte with blank character) \n ex: o1 o2 o3\n";
+                                                  std::cin >> temp1;
+                                                  getline(std::cin, temp2);
+                                                  observations = Computation::convertObsStringToVector(temp1 + temp2);
+                                                  saveFile = Menu::menuYN("Do you want to save the extended dictionary?");
+
+
+                                                  if (saveFile) {
+                                                      std::cout << "Insert name \n";
+                                                      std::cin >> outFile;
+                                                  }
+
+                                                  Computation::handleAbdO(maxExecutionTime, observations, inFile, outFile,net);
+
+                                                  break;
+                                              
+                                          }
+                                        //<< " 11- Extende Partial dictionary from scenario.\n"
+                                          case 11:{
+
+                                                  std::cout << "Insert the name of the dictionary to extend \n";
+                                                  std::cin >> inFile;
+                                                  std::cout << "Insert the name scenario name\n";
+                                                  std::cin >> dicBond;
+
+                                                  saveFile = Menu::menuYN("Do you want to save the extended dictionary?");
+
+
+                                                  if (saveFile) {
+                                                      std::cout << "Insert name \n";
+                                                      std::cin >> outFile;
+                                                  }
+                                                  Computation::handleAbdS(maxExecutionTime, dicBond, inFile,
+                                                             outFile);//extra information about the mode and the controlle
+                                                  break;
+                                              
+                                              
+                                          }
+                                        
+                                       // << " 12 - Create observations.\n"
+                                                                         
+                                               
+                                           case 12:{
+                                               std::vector<std::vector<std::string>> obss;
+                                               //std::cout << "Insert network's name \n";
+                                               //std::cin >> inFile;
+                                               std::set<std::string> alphabet;
+                                               auto network = NetworkIO::load(networkName);
+                                               for (const auto &comp : network->getComponents()){
+                                                   for( const auto &tran: comp->getTransitions()){
+                                                       if (tran->getObservabilityLabel()!=""){
+                                                           alphabet.insert(tran->getObservabilityLabel());
+
+                                                       }
+                                                   }
+                                              }
+                                               for (int i=0; i<100;i++){
+                                                   auto ob=Generate::generateRandomObs( network);
+                                                   if (ob.size()>0){
+                                                       obss.push_back(ob);
+
+                                                   }
+                                               }
+                                               saveFile = Menu::menuYN("Do you want to save the abduction?");
+
+                                               std::cout << "Insert the name of the dictionary \n";
+                                               
+                                             
+
+                                               std::cin >> inFile;
+                                               auto nomem=percorso+"/"+inFile;
+                                              // auto nomem=lTheSelectFolderName;
+                                               for (auto ob: obss){
+                                               
+                                               
+                                                
+                                                   outFile="";
+                                                if (saveFile) {
+                                                    std::cout << "Insert abname \n";
+                                                    std::cin >> outFile;
+                                                }
+                                                Computation::handleAbd(maxExecutionTime, ob, nomem, outFile);
+                                               }
+                                               
+                                               break;
+                                           }
+                                        
+                                        // << " 13 - Extend dictionary from random obs.\n"
+                                            case 13:{
+                                               // std::string net;
+                                                std::vector<std::vector<std::string>> obss;
+                                               // std::cout << "Insert network's name \n";
+                                                //std::cin >> net;
+                                                
+                                                 
+                                                       std::set<std::string> alphabet;
+                                                        auto network = NetworkIO::load(networkName);
+                                                        for (const auto &comp : network->getComponents()){
+                                                            for( const auto &tran: comp->getTransitions()){
+                                                                if (tran->getObservabilityLabel()!=""){
+                                                                    alphabet.insert(tran->getObservabilityLabel());
+
+                                                                }
+                                                            }
+                                                       }
+                                                saveFile = Menu::menuYN("Do you want to save the extended dictionary?");
+                                                std::cout << "Insert the name of the dictionary to extend \n";
+                                                //std::cin >> inFile;
+                                              
+                                                                                           
+                                              
+                                                inFile=selezionaFile();
+                                                outFile="";
+                                                            if (saveFile) {
+                                                                std::cout << "Insert name \n";
+                                                                std::cin >> outFile;
+                                                            }
+                                                
+                                                        for (int i=0; i<100;i++){
+                                                            auto ob=Generate::generateRandomObs(network);
+                                                            if (ob.size()>0){
+                                                                obss.push_back(ob);
+
+                                                            }
+
+
+                                                            
+
+                                                           
+
+                                                        }
+                                                int cont=0;
+                                                for (auto obs:obss ){
+                                                   
+                                                   //2 auto nomem=percorso+"/"+inFile;
+                                                   outFile=percorso+"/"+"ext"+std::to_string(cont)+".json";
+                                                    cont=cont+1;
+
+                                                    
+                                                    Computation::handleAbdO(maxExecutionTime, obs, inFile, outFile,networkName);
+
+                                                }
+
+
+                                                       break;
+                                                   
+                                               }
+                                        //<< " 14 - Exit.\n"
+                                          case 14:{
+                                                      std::cout << "End of Program.\n";
+                                                      break;
+                                          }
+                                          default:{
+                                                  std::cout << "Not a Valid Choice. \n"
+                                                            << "Choose again.\n";
+                                          }
+                                }
+                            }
+                        }while(choice8!=14);
+
+                            
+                            }
+                    
                 }while(choice5==8);
             }
             else if(choice5==h){
@@ -237,7 +525,8 @@ private:
         std::vector<std::string> observations;
         
         std::string bsObservation, bsBond, bsOutObservation,inFile, outFile,dicBond;
-        bool prune, label,saveFile;
+        bool saveFile;
+        //bool prune, label;
         std::cout <<"Insert the name of the project"<< std::endl;
         std::cin >> projcetName;
         
@@ -376,9 +665,10 @@ private:
           mkdir( percorso.c_str(),S_IRWXU);
           std::cout <<"creata"<< std::endl;
           int choice6=0;
+          networkName="";
          do {
                choice6=Menu::newOnline();
-              
+             
                switch (choice6) {
                   case 0:{
                       if(behavioralSpaceOnline(maxExecutionTime)){
@@ -459,6 +749,9 @@ private:
                   case 8:{
                           std::cout << "Insert the name of the dictionary to extend \n";
                           std::cin >> inFile;
+                         std::cout << "Insert the name of the network \n";
+                      std::string net;
+                                               std::cin >> net;
                           std::cout
                                   << "Insert the name of the observation \n(each observation in the sequence must be  separte with blank character) \n ex: o1 o2 o3\n";
                           std::cin >> temp1;
@@ -472,7 +765,7 @@ private:
                               std::cin >> outFile;
                           }
 
-                          Computation::handleAbdO(maxExecutionTime, observations, inFile, outFile);
+                          Computation::handleAbdO(maxExecutionTime, observations, inFile, outFile,net);
 
                           break;
                       
@@ -500,10 +793,10 @@ private:
                        
                    case 10:{
                        std::vector<std::vector<std::string>> obss;
-                       std::cout << "Insert network's name \n";
-                       std::cin >> inFile;
+                       //std::cout << "Insert network's name \n";
+                       //std::cin >> inFile;
                        std::set<std::string> alphabet;
-                       auto network = NetworkIO::load(inFile);
+                       auto network = NetworkIO::load(networkName);
                        for (const auto &comp : network->getComponents()){
                            for( const auto &tran: comp->getTransitions()){
                                if (tran->getObservabilityLabel()!=""){
@@ -512,29 +805,96 @@ private:
                                }
                            }
                       }
-                       for (int i=0; i<10;i++){
-                           auto ob=Generate::generateRandomObs(alphabet);
-                           obss.push_back(ob);
+                       for (int i=0; i<100;i++){
+                           auto ob=Generate::generateRandomObs( network);
+                           if (ob.size()>0){
+                               obss.push_back(ob);
+
+                           }
                        }
                        saveFile = Menu::menuYN("Do you want to save the abduction?");
 
+                       std::cout << "Insert the name of the dictionary \n";
+                       
+                     
+
+                       std::cin >> inFile;
+                       auto nomem=percorso+"/"+inFile;
+                      // auto nomem=lTheSelectFolderName;
                        for (auto ob: obss){
                        
-                       std::cout << "Insert the name of the dictionary \n";
-                        std::cin >> inFile;
+                       
                         
-                        
-
+                           outFile="";
                         if (saveFile) {
                             std::cout << "Insert abname \n";
                             std::cin >> outFile;
                         }
-                        Computation::handleAbd(maxExecutionTime, ob, inFile, outFile);
+                        Computation::handleAbd(maxExecutionTime, ob, nomem, outFile);
                        }
                        
                        break;
                    }
-                  case 11:{
+                    case 11:{
+                       // std::string net;
+                        std::vector<std::vector<std::string>> obss;
+                       // std::cout << "Insert network's name \n";
+                        //std::cin >> net;
+                        
+                         
+                               std::set<std::string> alphabet;
+                                auto network = NetworkIO::load(networkName);
+                                for (const auto &comp : network->getComponents()){
+                                    for( const auto &tran: comp->getTransitions()){
+                                        if (tran->getObservabilityLabel()!=""){
+                                            alphabet.insert(tran->getObservabilityLabel());
+
+                                        }
+                                    }
+                               }
+                        saveFile = Menu::menuYN("Do you want to save the extended dictionary?");
+                        std::cout << "Insert the name of the dictionary to extend \n";
+                        //std::cin >> inFile;
+                      
+                                                                   
+                      
+                        inFile=selezionaFile();
+                        outFile="";
+                                    if (saveFile) {
+                                        std::cout << "Insert name \n";
+                                        std::cin >> outFile;
+                                    }
+                        
+                                for (int i=0; i<100;i++){
+                                    auto ob=Generate::generateRandomObs(network);
+                                    if (ob.size()>0){
+                                        obss.push_back(ob);
+
+                                    }
+
+
+                                    
+
+                                   
+
+                                }
+                        int cont=0;
+                        for (auto obs:obss ){
+                           
+                           //2 auto nomem=percorso+"/"+inFile;
+                           outFile=percorso+"/"+"ext"+std::to_string(cont)+".json";
+                            cont=cont+1;
+
+                            
+                            Computation::handleAbdO(maxExecutionTime, obs, inFile, outFile,networkName);
+
+                        }
+
+
+                               break;
+                           
+                       }
+                  case 12:{
                               std::cout << "End of Program.\n";
                               break;
                   }
@@ -544,13 +904,49 @@ private:
                   }
         }
                          
-          }while (choice6 != 11);
+          }while (choice6 != 12);
     }
         else{
                                        std::cout <<"Nome gia esistente"<< std::endl;
                                    }
  }
     
+    
+    static std::string selezionaFile(){
+        char const * lTmp;
+            char const * lTheSaveFileName;
+            char const * lTheOpenFileName;
+            char const * lTheSelectFolderName;
+            char const * lTheHexColor;
+            char const * lWillBeGraphicMode;
+            unsigned char lRgbColor[3];
+            FILE * lIn;
+            char lBuffer[1024];
+            char lThePassword[1024];
+            char const * lFilterPatterns[2] = { "*.txt", "*.json" };
+            lWillBeGraphicMode = tinyfd_inputBox("tinyfd_query", NULL, NULL);
+            lTheSelectFolderName = tinyfd_openFileDialog(
+                                     "let us read the password back",
+                                     "",
+                                     2,
+                                     lFilterPatterns,
+                                     NULL,
+                                     0);
+                              if (!lTheSelectFolderName)
+                              {
+                                  tinyfd_messageBox(
+                                      "Error",
+                                      "Select folder name is NULL",
+                                      "ok",
+                                      "error",
+                                      1);
+                                  return "";
+                              }
+        
+        
+        return lTheSelectFolderName;
+        
+    }
     static bool behavioralSpaceOffline(long maxExecutionTime){
         
               std::cout << "Insert network's name \n";
@@ -648,7 +1044,7 @@ private:
               Computation::handleBS(maxExecutionTime, bsObservation, bsBond, bsOutObservation, prune,
               label, inFile, outFile);
                 
-            bool dic = Menu::menuYN("Do you want create this dictionary?");
+           Menu::menuYN("Do you want create this dictionary?");
                 
                 
             }
@@ -700,7 +1096,7 @@ private:
               Computation::handleBS(maxExecutionTime, bsObservation, bsBond, bsOutObservation, prune,
               label, inFile, outFile);
                 
-            bool dic = Menu::menuYN("Do you want create this dictionary?");
+           Menu::menuYN("Do you want create this dictionary?");
                 
                 
             }
@@ -714,12 +1110,58 @@ private:
     }
         
         static bool behavioralSpaceOnline(long maxExecutionTime){
+            if (networkName==""){
+            
             std::cout << "Insert network's name \n";
-            std::cin >> inFile;
-            std::filesystem::path sourceFile = inFile;
+             char const * lTmp;
+                      char const * lTheSaveFileName;
+                      char const * lTheOpenFileName;
+                      char const * lTheSelectFolderName;
+                      char const * lTheHexColor;
+                      char const * lWillBeGraphicMode;
+                      unsigned char lRgbColor[3];
+                      FILE * lIn;
+                      char lBuffer[1024];
+                      char lThePassword[1024];
+                      char const * lFilterPatterns[2] = { "*.txt", "*.json" };
+
+                      lWillBeGraphicMode = tinyfd_inputBox("tinyfd_query", NULL, NULL);
+                      
+                      lTheSelectFolderName = tinyfd_openFileDialog(
+                             "let us read the password back",
+                             "",
+                             2,
+                             lFilterPatterns,
+                             NULL,
+                             0);
+                      if (!lTheSelectFolderName)
+                      {
+                          tinyfd_messageBox(
+                              "Error",
+                              "Select folder name is NULL",
+                              "ok",
+                              "error",
+                              1);
+                          return 1;
+                      }
+
+                      
+
+
+               
+                inFile=lTheSelectFolderName;
+           
+                std::filesystem::path sourceFile =inFile;
             std::filesystem::path targetParent = online+projcetName;
-            if(File::path_exists(inFile)){
-            File::copyfile( inFile , targetParent,projcetName);
+                if(File::path_exists(inFile)){
+                    File::copyfile( sourceFile , targetParent,projcetName);
+                    networkName=online+projcetName+"/"+projcetName+".json";
+                }
+            else{
+             std::cout << "This network doesn't exist \n";
+             return false;
+                           
+            }}
                 
             /*
             observation = Menu::menuYN(
@@ -759,12 +1201,8 @@ private:
             Computation::handleBS(maxExecutionTime, bsObservation, bsBond, bsOutObservation, false,
                      label, inFile, outFile);
                return true;
-            }
-            else{
-                 std::cout << "This network doesn't exist \n";
-                return false;
-                
-            }
+            
+            
         }
     
     static void decoratedBehavioralSpaceOffline(long maxExecutionTime){

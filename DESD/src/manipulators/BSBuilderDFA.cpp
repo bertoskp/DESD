@@ -496,7 +496,7 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
 
                     if (condition) {
                         alreadyPresent = true;
-                        bool condition2=true;
+                        //bool condition2=true;
 
                         for(auto in: state->getInTransitions()){
 
@@ -563,11 +563,11 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
         }
         // elimina lo stato corrente dal vettore, da questo momento ad esso si possono solo aggiungere nuove transizioni
         // in ingresso
-       auto ss= toVisit.size();
+      // auto ss= toVisit.size();
         toVisit.pop();
-        auto sa= toVisit.size();
+        //auto sa= toVisit.size();
         empty=toVisit.empty();
-        int aaa=0;
+        // int aaa=0;
 
 
     }

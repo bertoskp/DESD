@@ -39,7 +39,7 @@ DictionaryState::DictionaryState(bool _final, bool _starting,
 std::string DictionaryState::toString() {
     std::string result;
     std::string name = "\t";
-    result = id + ": { ";
+    result = std::to_string(id) + ": { ";
     if (starting) result += "starting, ";
     if (final) result += "final, ";
     result += "in = [ ";
@@ -156,13 +156,13 @@ void DictionaryState::setNfaState2(std::vector<std::shared_ptr<BehavioralState>>
 
 
 void DictionaryState::addInTransition(std::shared_ptr<BehavioralTransition> transizioneOsservabile){
-    int i=0;
+    //int i=0;
 };
 void DictionaryState::addOutTransition(std::shared_ptr<BehavioralTransition> transizioneOsservabile){
-    int i=0;
+   // int i=0;
 };
 void DictionaryState::removeInTransition(std::shared_ptr<BehavioralTransition> transizione) {
-    int i=0;
+   // int i=0;
 };
 
 void DictionaryState::setDiangosis(std::set<std::set<std::string>> dia){

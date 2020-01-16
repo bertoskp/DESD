@@ -14,3 +14,4 @@ std:string decbh;
 int depth;
 std::string nameSpace="";
  std::string nameObs="",
+std::string networkName="";

@@ -315,7 +315,7 @@ public:
 
              */
 
-                     int it=1;
+                   //  int it=1;
 
                  auto result = DFAConstructor::diagnoseFromAbduce(dictionary,observations, maxExecutionTime);
                  DictionaryIO::saveAbduce(outFile, result,observations);
@@ -346,7 +346,7 @@ public:
 
 
      // estensione online di un dizionario partendo da un osservazione lineare
-     static void handleAbdO(long time, std::vector<std::string> &observations, const std::string &inFile,const std::string &outFile) {
+     static void handleAbdO(long time, std::vector<std::string> &observations, const std::string &inFile,const std::string &outFile,std::string &net) {
 
          auto dictionary = DictionaryIO::load(inFile);
          std::shared_ptr<long> maxExecutionTime = nullptr;
@@ -366,7 +366,7 @@ public:
                          osservazione.push_back(el);
                      }
 
-                     auto result = DFAConstructor::extendDictionaryFromObs(dictionary,osservazione, maxExecutionTime);
+                     auto result = DFAConstructor::extendDictionaryFromObs(dictionary,osservazione,net, maxExecutionTime);
                      auto dic=result->inDictionary.get();
                      DictionaryIO::save(outFile, *dic);
                      auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();

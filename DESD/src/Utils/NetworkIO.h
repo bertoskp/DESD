@@ -103,7 +103,7 @@ public:
 
     
     static void save(const std::string &path, std::shared_ptr<Network> &network) {
-           int numStates,numTransitions,finalStates;
+           //int numStates,numTransitions,finalStates;
            nlohmann::json jLinks;
         for (const auto &link: network->links) jLinks.push_back(link->name);
             

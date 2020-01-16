@@ -106,7 +106,8 @@ public:
     }
 
     static void save(const std::string &path, BehavioralSpace &bs) {
-        int numTransitions,finalStates;
+        int finalStates;
+       // int numTransitions;
         
 
         nlohmann::json jTransitions;

@@ -301,7 +301,7 @@ std::shared_ptr<long> maxExecTime, int prefix) {
         auto currentTransitions = bs->getCurrentState()->out;
 
         int startingState = toVisit.front().second;
-        int deepth=0;
+        //int deepth=0;
         for (auto &transition : currentTransitions) {
 
             bs->currentState = startingState;

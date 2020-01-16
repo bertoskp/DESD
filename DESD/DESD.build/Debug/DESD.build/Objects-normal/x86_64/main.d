@@ -70,8 +70,12 @@ dependencies: /Users/nicolabertoglio/Documents/DESD/DESD/src/main.cpp \
   /Users/nicolabertoglio/Documents/DESD/DESD/src/Utils/Menu.h \
   /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Utils/Computation.h \
   /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Utils/Generate.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Utils/File.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/../Utils/tinyfiledialogs.h \
   /Users/nicolabertoglio/Documents/DESD/DESD/src/Utils/Generate.h \
   /Users/nicolabertoglio/Documents/DESD/DESD/src/Utils/SimpleNetworkIO.h \
   /Users/nicolabertoglio/Documents/DESD/DESD/src/Utils/DictionaryIO.h \
   /Users/nicolabertoglio/Documents/DESD/DESD/src/Utils/BehavioralSpaceIO.h \
-  /Users/nicolabertoglio/Documents/DESD/DESD/src/Utils/AbduceIO.h
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/Utils/AbduceIO.h \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/tinyfiledialogs.c \
+  /Users/nicolabertoglio/Documents/DESD/DESD/src/tinyfiledialogs.h
