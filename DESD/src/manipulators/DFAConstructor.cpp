@@ -2410,24 +2410,29 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> computeTemporal
 
 
 int verificaEsistenzaStatoDic(std::shared_ptr<Dictionary> inDictionary,
-                              std::vector<std::shared_ptr<BehavioralState>> statiNfa) {
+                              std::vector<std::shared_ptr<BehavioralState>> statiNfa, std::set<std::set<std::string>> diag) {
     auto statiDizionario = inDictionary->states;
     int id = -1;
+    int count=0;
+    
     for (auto dState: statiDizionario) {
-        if (dState->nfaStates2.size() == statiNfa.size()) {
+        count=0;
+        if (dState->nfaStates2.size() == statiNfa.size() && dState->getDiagnosis()==diag) {
             bool trovato = false;
             for (auto statoN :statiNfa) {
                 trovato = false;
                 for (auto statoD :dState->nfaStates2) {
                     if (statoD->getIdd() == statoN->getIdd()) {
                         trovato = true;
+                        count=count+1;
                         break;
                     }
                 }
 
 
             }
-            if (trovato) {
+            if (trovato && count==statiNfa.size() ) {
+                
                 return dState->getIdd();
             }
 
@@ -2568,7 +2573,8 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
 
             auto nuoviNfa = BSBuilderDFA::silentClosure(network, nfaState, label, inDictionary->bhState,
                                                         nuoveTransizioni, inDictionary);
-            auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nuoviNfa);
+            auto diag= getDiagnosisNewDicState(nuoviNfa);
+            auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nuoviNfa,diag);
 
             if (indiceDizionario == -1) {
                 auto dicState = std::make_shared<DictionaryState>(true, false);
@@ -2586,8 +2592,19 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
 
                 inDictionary->transitions.push_back(newTransition);
                 inDictionary->states.push_back(dicState);
-
-
+                for (auto sta: nuoviNfa){
+                    auto linkState=sta->linksState;
+                    auto  componentState=sta->componentsState;
+                    bool found=false;
+                    for( auto  state :inDictionary->bhState){
+                        if ( linkState== state->getLinksState() && componentState==state->getComponentsState() && sta->relevancyLabels==state->getRelevancyLabels()){
+                           //std::shared_ptr<BehavioralState> *sss = reinterpret_cast<std::shared_ptr<BehavioralState> *>(&state);
+                            found=true;
+                            break;
+                        }
+                    }
+                    if(!found) inDictionary->bhState.push_back(sta);
+                }
                 inDictionary->currentState = dicState->getIdd();
 
                 obsLabel.push_back(dicState->getIdd());
@@ -2905,13 +2922,14 @@ std::shared_ptr<Dictionary> DFAConstructor::extendDictionaryFromScenario(
 
                 auto nuoviNfa = BSBuilderDFA::silentClosure(network, nfaState, label, inDictionary->bhState,
                                                             nuoveTransizioni, inDictionary);
-                auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nuoviNfa);
+                auto diag=getDiagnosisNewDicState(nuoviNfa);
+                auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nuoviNfa,diag);
 
                 if (indiceDizionario == -1) {
                     auto dicState = std::make_shared<DictionaryState>(true, false);
                     dicState->in.push_back(newTransition);
                     dicState->setNfaState2(nuoviNfa);
-                    dicState->setDiangosis(getDiagnosisNewDicState(nuoviNfa));
+                    dicState->setDiangosis(diag);
                     inDictionary->transitions.push_back(newTransition);
                     inDictionary->states.push_back(dicState);
                     inDictionary->currentState = dicState->getIdd();

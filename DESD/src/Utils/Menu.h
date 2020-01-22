@@ -337,11 +337,8 @@ private:
                                           }
                                         //<< " 10 - Extende Partial dictionary from obs.\n"
                                           case 10:{
-                                                  std::cout << "Insert the name of the dictionary to extend \n";
-                                                  std::cin >> inFile;
-                                                 std::cout << "Insert the name of the network \n";
-                                              std::string net;
-                                                                       std::cin >> net;
+                                                   inFile=selezionaFile();
+                                                
                                                   std::cout
                                                           << "Insert the name of the observation \n(each observation in the sequence must be  separte with blank character) \n ex: o1 o2 o3\n";
                                                   std::cin >> temp1;
@@ -355,7 +352,7 @@ private:
                                                       std::cin >> outFile;
                                                   }
 
-                                                  Computation::handleAbdO(maxExecutionTime, observations, inFile, outFile,net);
+                                                  Computation::handleAbdO(maxExecutionTime, observations, inFile, outFile,networkName);
 
                                                   break;
                                               
@@ -386,7 +383,7 @@ private:
                                                                          
                                                
                                            case 12:{
-                                               std::vector<std::vector<std::string>> obss;
+                                               std::set<std::vector<std::string>> obss;
                                                //std::cout << "Insert network's name \n";
                                                //std::cin >> inFile;
                                                std::set<std::string> alphabet;
@@ -402,7 +399,7 @@ private:
                                                for (int i=0; i<100;i++){
                                                    auto ob=Generate::generateRandomObs( network);
                                                    if (ob.size()>0){
-                                                       obss.push_back(ob);
+                                                       obss.insert(ob);
 
                                                    }
                                                }
@@ -433,7 +430,7 @@ private:
                                         // << " 13 - Extend dictionary from random obs.\n"
                                             case 13:{
                                                // std::string net;
-                                                std::vector<std::vector<std::string>> obss;
+                                                std::set<std::vector<std::string>> obss;
                                                // std::cout << "Insert network's name \n";
                                                 //std::cin >> net;
                                                 
@@ -449,22 +446,23 @@ private:
                                                             }
                                                        }
                                                 saveFile = Menu::menuYN("Do you want to save the extended dictionary?");
-                                                std::cout << "Insert the name of the dictionary to extend \n";
+                                                //std::cout << "Insert the name of the dictionary to extend \n";
                                                 //std::cin >> inFile;
                                               
                                                                                            
                                               
                                                 inFile=selezionaFile();
                                                 outFile="";
+                                                std::string outt;
                                                             if (saveFile) {
                                                                 std::cout << "Insert name \n";
-                                                                std::cin >> outFile;
+                                                                std::cin >> outt;
                                                             }
                                                 
-                                                        for (int i=0; i<100;i++){
+                                                        for (int i=0; i<100000;i++){
                                                             auto ob=Generate::generateRandomObs(network);
                                                             if (ob.size()>0){
-                                                                obss.push_back(ob);
+                                                                obss.insert(ob);
 
                                                             }
 
@@ -478,7 +476,7 @@ private:
                                                 for (auto obs:obss ){
                                                    
                                                    //2 auto nomem=percorso+"/"+inFile;
-                                                   outFile=percorso+"/"+"ext"+std::to_string(cont)+".json";
+                                                   outFile=percorso+"/"+outt+std::to_string(cont)+".json";
                                                     cont=cont+1;
 
                                                     
@@ -792,7 +790,7 @@ private:
                   }
                        
                    case 10:{
-                       std::vector<std::vector<std::string>> obss;
+                       std::set<std::vector<std::string>> obss;
                        //std::cout << "Insert network's name \n";
                        //std::cin >> inFile;
                        std::set<std::string> alphabet;
@@ -808,7 +806,7 @@ private:
                        for (int i=0; i<100;i++){
                            auto ob=Generate::generateRandomObs( network);
                            if (ob.size()>0){
-                               obss.push_back(ob);
+                               obss.insert(ob);
 
                            }
                        }
@@ -837,7 +835,7 @@ private:
                    }
                     case 11:{
                        // std::string net;
-                        std::vector<std::vector<std::string>> obss;
+                        std::set<std::vector<std::string>> obss;
                        // std::cout << "Insert network's name \n";
                         //std::cin >> net;
                         
@@ -868,7 +866,7 @@ private:
                                 for (int i=0; i<100;i++){
                                     auto ob=Generate::generateRandomObs(network);
                                     if (ob.size()>0){
-                                        obss.push_back(ob);
+                                        obss.insert(ob);
 
                                     }
 

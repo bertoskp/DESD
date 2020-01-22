@@ -239,7 +239,18 @@ std::shared_ptr<BehavioralTransition> trovaTransizioniCoerenti( std::shared_ptr<
     return nullptr;
 }
 
-
+std::shared_ptr<BehavioralState>  checkIfStateExist(std::shared_ptr<Dictionary> inDictionary, std::shared_ptr<BehavioralState> s){
+    auto linkState=s->getLinksState();
+    auto componentState=s->componentsState;
+    auto rel=s->relevancyLabels;
+    for( auto  state :inDictionary->bhState){
+        if ( linkState== state->getLinksState() && componentState==state->getComponentsState() && rel==state->getRelevancyLabels()){
+           std::shared_ptr<BehavioralState> *sss = reinterpret_cast<std::shared_ptr<BehavioralState> *>(&state);
+            return *sss;
+        }
+    }
+    return s;
+}
 std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::shared_ptr<Network> network,std::vector<std::shared_ptr<BehavioralState>> nfaStates,std::string label,std::vector<std::shared_ptr<NFAStateInterface>> totalBhs,std::vector<std::shared_ptr<BehavioralTransition>> nuoveTransizioni, std::shared_ptr<Dictionary> inDictionary) {
 
 
@@ -333,8 +344,11 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
                                 }
 
                                 auto newState = std::make_shared<BehavioralState>(componentsState, linksState,
+                                  
                                                                                   false, final);
                                 newState->relevancyLabels=newDiagnosi;
+                                newState=checkIfStateExist(inDictionary,newState);
+                                //newState->relevancyLabels=newDiagnosi;
 
                                 newState->in.push_back(newTransition);
 
@@ -429,6 +443,7 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
                                 }
 
                                 auto newState = std::make_shared<BehavioralState>(componentsState, linksState, false, final);
+                                newState=checkIfStateExist(inDictionary,newState);
                                 newState->in.push_back(newTransition);
                                 newState->relevancyLabels=newDiagnosi;
                                 toVisit.push(newState);
@@ -546,8 +561,10 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
                         }
 
                         auto newState = std::make_shared<BehavioralState>(componentsState, linksState, false, final);
-                        newState->in.push_back(newTransition);
                         newState->relevancyLabels=newDiagnosi;
+                        newState=checkIfStateExist(inDictionary,newState);
+                        newState->in.push_back(newTransition);
+                       // newState->relevancyLabels=newDiagnosi;
                         newState->in.push_back(newTransition);
 
                         toVisit.push(newState);

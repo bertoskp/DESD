@@ -1728,6 +1728,7 @@ public:
                     else{
                         comp.push_back(-1);
                     }
+                    network->setState(currentState->componentsState, currentState->linksState);
                 }
                     
                     if (qt.size()>0){

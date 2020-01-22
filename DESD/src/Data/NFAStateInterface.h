@@ -1,5 +1,5 @@
 //
-// Created by alessandro on 8/1/18.
+
 //
 
 #ifndef AUTOMATAMANAGER_NFASTATEINTERFACE_H
