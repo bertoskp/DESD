@@ -159,9 +159,7 @@ std::shared_ptr<Dictionary> DictionaryMerge::merge(std::vector<std::shared_ptr<D
                 }
                 else{
                     toVisit.push(std::make_shared<Node>(newFound, found));
-                    for (auto const &nF: newFound->nfaStates2){
-                        for (auto const &f: found->nfaStates2){
-                    }
+                
                 }
             }
         }
