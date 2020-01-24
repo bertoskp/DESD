@@ -71,6 +71,8 @@ public:
     bool isStarting() override;
 
     bool isFinal() override;
+    
+    void setId(unsigned int _id);
 
     std::vector<std::shared_ptr<NFATransitionInterface>> getInTransitions() override;
 

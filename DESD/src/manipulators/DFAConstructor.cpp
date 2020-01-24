@@ -743,7 +743,7 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionaryPrefix(unsigned  
                 messaggio1=messaggio1+"}";
             }
             Logger::log(messaggio1);
-            auto dicState=std::make_shared<DictionaryState>(isFinal, true, state->in, state->out, state->getDiagnosis(),state->getPairs());
+            auto dicState=std::make_shared<DictionaryState>(isFinal, false, state->in, state->out, state->getDiagnosis(),state->getPairs());
             dicState->setNfaState(state->nfaStates);
             states.push_back(dicState);
         }
@@ -2564,7 +2564,7 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
             auto network = NetworkIO::load(net);
             auto newTransition = std::make_shared<BehavioralTransition>("", transictionId, "", label);
             transictionId++;
-            inDictionary->states[obsLabel[obsLabel.size() - 1]]->out.push_back(newTransition);
+//            inDictionary->states[obsLabel[obsLabel.size() - 1]]->out.push_back(newTransition);
             std::vector<std::shared_ptr<BehavioralState>> nfaState = inDictionary->states[obsLabel[obsLabel.size() -
                                                                                                    1]]->nfaStates2;
             std::vector<std::shared_ptr<BehavioralTransition>> nuoveTransizioni;
@@ -2573,48 +2573,69 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
 
             auto nuoviNfa = BSBuilderDFA::silentClosure(network, nfaState, label, inDictionary->bhState,
                                                         nuoveTransizioni, inDictionary);
-            auto diag= getDiagnosisNewDicState(nuoviNfa);
-            auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nuoviNfa,diag);
+            std::vector<std::shared_ptr<BehavioralState>> nN(nuoviNfa.begin(),nuoviNfa.end());
+            if( nuoviNfa.size()>0){
+                inDictionary->states[obsLabel[obsLabel.size() - 1]]->out.push_back(newTransition);
+                //auto diag= getDiagnosisNewDicState(nuoviNfa);
 
-            if (indiceDizionario == -1) {
-                auto dicState = std::make_shared<DictionaryState>(true, false);
-                dicState->in.push_back(newTransition);
-                dicState->setNfaState2(nuoviNfa);
+                auto diag= getDiagnosisNewDicState(nN);
+                //auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nuoviNfa,diag);
+
+                auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nN,diag);
+
+                if (indiceDizionario == -1) {
+                    auto dicState = std::make_shared<DictionaryState>(true, false);
+                    dicState->in.push_back(newTransition);
+//                    dicState->setNfaState2(nuoviNfa);
+                    dicState->setNfaState2(nN);
 
 
 
-                dicState->setDiangosis(getDiagnosisNewDicState(nuoviNfa));
+                    //dicState->setDiangosis(getDiagnosisNewDicState(nuoviNfa));
+
+                    dicState->setDiangosis(getDiagnosisNewDicState(nN));
 
 
 
 
 
-
-                inDictionary->transitions.push_back(newTransition);
-                inDictionary->states.push_back(dicState);
-                for (auto sta: nuoviNfa){
-                    auto linkState=sta->linksState;
-                    auto  componentState=sta->componentsState;
-                    bool found=false;
-                    for( auto  state :inDictionary->bhState){
-                        if ( linkState== state->getLinksState() && componentState==state->getComponentsState() && sta->relevancyLabels==state->getRelevancyLabels()){
-                           //std::shared_ptr<BehavioralState> *sss = reinterpret_cast<std::shared_ptr<BehavioralState> *>(&state);
-                            found=true;
-                            break;
+                    inDictionary->transitions.push_back(newTransition);
+                    inDictionary->states.push_back(dicState);
+                    for (auto sta: nuoviNfa){
+                        auto linkState=sta->linksState;
+                        auto  componentState=sta->componentsState;
+                        bool found=false;
+                        for( auto  state :inDictionary->bhState){
+                            if ( linkState== state->getLinksState() && componentState==state->getComponentsState() && sta->relevancyLabels==state->getRelevancyLabels()){
+                               //std::shared_ptr<BehavioralState> *sss = reinterpret_cast<std::shared_ptr<BehavioralState> *>(&state);
+                                found=true;
+                                break;
+                            }
                         }
+                        if(!found) inDictionary->bhState.push_back(sta);
                     }
-                    if(!found) inDictionary->bhState.push_back(sta);
+                    inDictionary->currentState = dicState->getIdd();
+
+                    obsLabel.push_back(dicState->getIdd());
+                    
+                } else {
+                    inDictionary->states[indiceDizionario]->in.push_back(newTransition);
+                    inDictionary->transitions.push_back(newTransition);
+                    inDictionary->currentState = indiceDizionario;
+                    obsLabel.push_back(indiceDizionario);
                 }
-                inDictionary->currentState = dicState->getIdd();
-
-                obsLabel.push_back(dicState->getIdd());
-
-            } else {
-                inDictionary->states[indiceDizionario]->in.push_back(newTransition);
-                inDictionary->transitions.push_back(newTransition);
-                inDictionary->currentState = indiceDizionario;
-                obsLabel.push_back(indiceDizionario);
             }
+            else{
+                 std::cout << "\"Osservazione non valida\": " + label+"\n";
+                std::string parziale="";
+                for (auto k=0; k<i; k++){
+                   parziale= parziale+observation[k]+ "";
+                    
+                }
+                std::cout << parziale;
+            }
+            
+
         }
     }
     if (inDictionary->states[inDictionary->currentState]->final || true) {
@@ -2696,11 +2717,11 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
             auto startingState = std::shared_ptr<NFAStateInterface>(state);
 
         }
-        for (auto outT: state->getOutTransitions()){
+        for (auto &outT: state->getOutTransitions()){
             auto tI = std::make_shared<transitionsInfo>(outT->getId(),outT->getObservabilityLabel(),state->getIdd());
             bool found=false;
             for ( auto &state2 : inDictionary->bhState ){
-                for (auto inT: state2->getInTransitions()){
+                for (auto &inT: state2->getInTransitions()){
                     if (inT->getId()==outT->getId()){
                         tI->setDestination(state2->getIdd());
                         found=true;
@@ -2922,13 +2943,21 @@ std::shared_ptr<Dictionary> DFAConstructor::extendDictionaryFromScenario(
 
                 auto nuoviNfa = BSBuilderDFA::silentClosure(network, nfaState, label, inDictionary->bhState,
                                                             nuoveTransizioni, inDictionary);
-                auto diag=getDiagnosisNewDicState(nuoviNfa);
-                auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nuoviNfa,diag);
+                
+                std::vector<std::shared_ptr<BehavioralState>> nN(nuoviNfa.begin(),nuoviNfa.end());
+                //auto diag=getDiagnosisNewDicState(nuoviNfa);
+                auto diag=getDiagnosisNewDicState(nN);
+
+                //auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nuoviNfa,diag);
+                auto indiceDizionario = verificaEsistenzaStatoDic(inDictionary, nN,diag);
 
                 if (indiceDizionario == -1) {
                     auto dicState = std::make_shared<DictionaryState>(true, false);
                     dicState->in.push_back(newTransition);
-                    dicState->setNfaState2(nuoviNfa);
+                    //dicState->setNfaState2(nuoviNfa);
+                    
+                    dicState->setNfaState2(nN);
+
                     dicState->setDiangosis(diag);
                     inDictionary->transitions.push_back(newTransition);
                     inDictionary->states.push_back(dicState);

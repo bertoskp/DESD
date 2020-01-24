@@ -255,8 +255,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1218"
-            endingLineNumber = "1218"
+            startingLineNumber = "1220"
+            endingLineNumber = "1220"
             landmarkName = "decoratedBehavioralSpaceOffline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -271,8 +271,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1217"
-            endingLineNumber = "1217"
+            startingLineNumber = "1219"
+            endingLineNumber = "1219"
             landmarkName = "decoratedBehavioralSpaceOffline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -287,8 +287,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "673"
-            endingLineNumber = "673"
+            startingLineNumber = "675"
+            endingLineNumber = "675"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -303,8 +303,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1284"
-            endingLineNumber = "1284"
+            startingLineNumber = "1286"
+            endingLineNumber = "1286"
             landmarkName = "createDictionaryOfflineObservation(nameObs, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -319,8 +319,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1294"
-            endingLineNumber = "1294"
+            startingLineNumber = "1296"
+            endingLineNumber = "1296"
             landmarkName = "createDictionaryOfflineObservation(nameObs, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -335,8 +335,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1297"
-            endingLineNumber = "1297"
+            startingLineNumber = "1299"
+            endingLineNumber = "1299"
             landmarkName = "Menu"
             landmarkType = "3">
          </BreakpointContent>
@@ -351,8 +351,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1209"
-            endingLineNumber = "1209"
+            startingLineNumber = "1211"
+            endingLineNumber = "1211"
             landmarkName = "decoratedBehavioralSpaceOffline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -367,8 +367,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1000"
-            endingLineNumber = "1000"
+            startingLineNumber = "1002"
+            endingLineNumber = "1002"
             landmarkName = "behavioralSpaceOffline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -383,8 +383,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "988"
-            endingLineNumber = "988"
+            startingLineNumber = "990"
+            endingLineNumber = "990"
             landmarkName = "behavioralSpaceOffline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -399,8 +399,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "990"
-            endingLineNumber = "990"
+            startingLineNumber = "992"
+            endingLineNumber = "992"
             landmarkName = "behavioralSpaceOffline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -431,8 +431,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "977"
-            endingLineNumber = "977"
+            startingLineNumber = "979"
+            endingLineNumber = "979"
             landmarkName = "behavioralSpaceOffline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -623,8 +623,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1181"
-            endingLineNumber = "1181"
+            startingLineNumber = "1183"
+            endingLineNumber = "1183"
             landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -639,8 +639,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1255"
-            endingLineNumber = "1255"
+            startingLineNumber = "1257"
+            endingLineNumber = "1257"
             landmarkName = "Menu"
             landmarkType = "3">
          </BreakpointContent>
@@ -1311,8 +1311,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "835"
-            endingLineNumber = "835"
+            startingLineNumber = "837"
+            endingLineNumber = "837"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1327,8 +1327,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "548"
-            endingLineNumber = "548"
+            startingLineNumber = "550"
+            endingLineNumber = "550"
             landmarkName = "MenuCaricamentoOfflineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1359,8 +1359,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "547"
-            endingLineNumber = "547"
+            startingLineNumber = "549"
+            endingLineNumber = "549"
             landmarkName = "MenuCaricamentoOfflineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1375,8 +1375,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1203"
-            endingLineNumber = "1203"
+            startingLineNumber = "1205"
+            endingLineNumber = "1205"
             landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1615,8 +1615,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1202"
-            endingLineNumber = "1202"
+            startingLineNumber = "1204"
+            endingLineNumber = "1204"
             landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1711,8 +1711,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "557"
-            endingLineNumber = "557"
+            startingLineNumber = "559"
+            endingLineNumber = "559"
             landmarkName = "MenuCaricamentoOfflineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1727,8 +1727,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "978"
-            endingLineNumber = "978"
+            startingLineNumber = "980"
+            endingLineNumber = "980"
             landmarkName = "behavioralSpaceOffline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2431,8 +2431,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "895"
-            endingLineNumber = "895"
+            startingLineNumber = "897"
+            endingLineNumber = "897"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2447,8 +2447,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "897"
-            endingLineNumber = "897"
+            startingLineNumber = "899"
+            endingLineNumber = "899"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2495,8 +2495,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "549"
-            endingLineNumber = "549"
+            startingLineNumber = "551"
+            endingLineNumber = "551"
             landmarkName = "MenuCaricamentoOfflineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2799,8 +2799,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "627"
-            endingLineNumber = "627"
+            startingLineNumber = "629"
+            endingLineNumber = "629"
             landmarkName = "MenuCaricamentoOfflineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2911,8 +2911,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "614"
-            endingLineNumber = "614"
+            startingLineNumber = "616"
+            endingLineNumber = "616"
             landmarkName = "MenuCaricamentoOfflineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2927,8 +2927,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "612"
-            endingLineNumber = "612"
+            startingLineNumber = "614"
+            endingLineNumber = "614"
             landmarkName = "MenuCaricamentoOfflineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2943,8 +2943,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "611"
-            endingLineNumber = "611"
+            startingLineNumber = "613"
+            endingLineNumber = "613"
             landmarkName = "MenuCaricamentoOfflineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2975,8 +2975,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1077"
-            endingLineNumber = "1077"
+            startingLineNumber = "1079"
+            endingLineNumber = "1079"
             landmarkName = "behavioralSpaceOfflineScenario(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3007,8 +3007,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "834"
-            endingLineNumber = "834"
+            startingLineNumber = "836"
+            endingLineNumber = "836"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3023,8 +3023,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "804"
-            endingLineNumber = "804"
+            startingLineNumber = "806"
+            endingLineNumber = "806"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3055,8 +3055,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "798"
-            endingLineNumber = "798"
+            startingLineNumber = "800"
+            endingLineNumber = "800"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
             <Locations>
@@ -3103,8 +3103,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "807"
-            endingLineNumber = "807"
+            startingLineNumber = "809"
+            endingLineNumber = "809"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3167,8 +3167,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "744"
-            endingLineNumber = "744"
+            startingLineNumber = "746"
+            endingLineNumber = "746"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3183,8 +3183,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "813"
-            endingLineNumber = "813"
+            startingLineNumber = "815"
+            endingLineNumber = "815"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3279,8 +3279,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "831"
-            endingLineNumber = "831"
+            startingLineNumber = "833"
+            endingLineNumber = "833"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3295,8 +3295,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "812"
-            endingLineNumber = "812"
+            startingLineNumber = "814"
+            endingLineNumber = "814"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3359,8 +3359,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1742"
-            endingLineNumber = "1742"
+            startingLineNumber = "1744"
+            endingLineNumber = "1744"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3375,8 +3375,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1733"
-            endingLineNumber = "1733"
+            startingLineNumber = "1735"
+            endingLineNumber = "1735"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3423,8 +3423,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "867"
-            endingLineNumber = "867"
+            startingLineNumber = "869"
+            endingLineNumber = "869"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3503,8 +3503,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1734"
-            endingLineNumber = "1734"
+            startingLineNumber = "1736"
+            endingLineNumber = "1736"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3519,8 +3519,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "868"
-            endingLineNumber = "868"
+            startingLineNumber = "870"
+            endingLineNumber = "870"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3535,8 +3535,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1794"
-            endingLineNumber = "1794"
+            startingLineNumber = "1797"
+            endingLineNumber = "1797"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3551,8 +3551,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1763"
-            endingLineNumber = "1763"
+            startingLineNumber = "1766"
+            endingLineNumber = "1766"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3567,8 +3567,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1802"
-            endingLineNumber = "1802"
+            startingLineNumber = "1805"
+            endingLineNumber = "1805"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3583,8 +3583,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "865"
-            endingLineNumber = "865"
+            startingLineNumber = "867"
+            endingLineNumber = "867"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3615,8 +3615,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1111"
-            endingLineNumber = "1111"
+            startingLineNumber = "1113"
+            endingLineNumber = "1113"
             landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3631,8 +3631,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1128"
-            endingLineNumber = "1128"
+            startingLineNumber = "1130"
+            endingLineNumber = "1130"
             landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3641,70 +3641,6 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E4D4A870-E29E-4F72-B9A7-787BCD6412B3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DESD/src/Utils/Menu.h"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1150"
-            endingLineNumber = "1150"
-            landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "495D0143-6542-4638-BCFA-1EBA31B916F4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DESD/src/Utils/Menu.h"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1198"
-            endingLineNumber = "1198"
-            landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FD3AEA01-E36C-4BB6-BA08-DBEE138A94E3"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DESD/src/Utils/Menu.h"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1126"
-            endingLineNumber = "1126"
-            landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "70ECF236-997F-4593-BED3-9DA42031BF06"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DESD/src/Utils/Menu.h"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1155"
-            endingLineNumber = "1155"
-            landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "20E1A53D-09D4-41BA-9F64-8E36A6FBA3DC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -3720,15 +3656,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D785E5FD-5D26-42E1-94FE-C92868AC464B"
-            shouldBeEnabled = "No"
+            uuid = "495D0143-6542-4638-BCFA-1EBA31B916F4"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1153"
-            endingLineNumber = "1153"
+            startingLineNumber = "1200"
+            endingLineNumber = "1200"
             landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3736,7 +3672,39 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "42B688F8-C774-4646-AF1D-DD16EDED9387"
+            uuid = "FD3AEA01-E36C-4BB6-BA08-DBEE138A94E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/Utils/Menu.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1128"
+            endingLineNumber = "1128"
+            landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70ECF236-997F-4593-BED3-9DA42031BF06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/Utils/Menu.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1157"
+            endingLineNumber = "1157"
+            landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20E1A53D-09D4-41BA-9F64-8E36A6FBA3DC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -3752,7 +3720,23 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C5BEDC20-B717-408C-BB94-0FE58DA08DCE"
+            uuid = "D785E5FD-5D26-42E1-94FE-C92868AC464B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/Utils/Menu.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1155"
+            endingLineNumber = "1155"
+            landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42B688F8-C774-4646-AF1D-DD16EDED9387"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -3761,6 +3745,22 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1156"
             endingLineNumber = "1156"
+            landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5BEDC20-B717-408C-BB94-0FE58DA08DCE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/Utils/Menu.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1158"
+            endingLineNumber = "1158"
             landmarkName = "behavioralSpaceOnline(maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3855,8 +3855,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1766"
-            endingLineNumber = "1766"
+            startingLineNumber = "1769"
+            endingLineNumber = "1769"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3871,8 +3871,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1761"
-            endingLineNumber = "1761"
+            startingLineNumber = "1764"
+            endingLineNumber = "1764"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3919,8 +3919,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1740"
-            endingLineNumber = "1740"
+            startingLineNumber = "1742"
+            endingLineNumber = "1742"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3967,8 +3967,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "506"
-            endingLineNumber = "506"
+            startingLineNumber = "508"
+            endingLineNumber = "508"
             landmarkName = "MenuOnlineCaricamento(directories, maxExecutionTime)"
             landmarkType = "7">
             <Locations>
@@ -3983,9 +3983,9 @@
                   urlString = "file:///Users/nicolabertoglio/Documents/DESD/DESD/src/Utils/Menu.h"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "507"
-                  endingLineNumber = "507"
-                  offsetFromSymbolStart = "8147">
+                  startingLineNumber = "509"
+                  endingLineNumber = "509"
+                  offsetFromSymbolStart = "8203">
                </Location>
                <Location
                   uuid = "D9C8EFBE-E5D2-48BB-90AD-A1E73C9471D1 - d0f8f9588d9f849"
@@ -3998,9 +3998,9 @@
                   urlString = "file:///Users/nicolabertoglio/Documents/DESD/DESD/src/Utils/Menu.h"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "507"
-                  endingLineNumber = "507"
-                  offsetFromSymbolStart = "8220">
+                  startingLineNumber = "509"
+                  endingLineNumber = "509"
+                  offsetFromSymbolStart = "8276">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -4127,8 +4127,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "462"
-            endingLineNumber = "462"
+            startingLineNumber = "464"
+            endingLineNumber = "464"
             landmarkName = "MenuOnlineCaricamento(directories, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4143,8 +4143,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "483"
-            endingLineNumber = "483"
+            startingLineNumber = "485"
+            endingLineNumber = "485"
             landmarkName = "MenuOnlineCaricamento(directories, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4159,8 +4159,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "463"
-            endingLineNumber = "463"
+            startingLineNumber = "465"
+            endingLineNumber = "465"
             landmarkName = "MenuOnlineCaricamento(directories, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4175,8 +4175,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1828"
-            endingLineNumber = "1828"
+            startingLineNumber = "1831"
+            endingLineNumber = "1831"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4191,8 +4191,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1746"
-            endingLineNumber = "1746"
+            startingLineNumber = "1748"
+            endingLineNumber = "1748"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4207,8 +4207,8 @@
             filePath = "DESD/src/Utils/Generate.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1745"
-            endingLineNumber = "1745"
+            startingLineNumber = "1747"
+            endingLineNumber = "1747"
             landmarkName = "generateRandomObs(network)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4223,8 +4223,8 @@
             filePath = "DESD/src/Utils/Menu.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "809"
-            endingLineNumber = "809"
+            startingLineNumber = "811"
+            endingLineNumber = "811"
             landmarkName = "MenuCaricamentoOnlineNuovaRete(observation, scenario, maxExecutionTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4271,8 +4271,8 @@
             filePath = "DESD/src/manipulators/BSBuilderDFA.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "350"
-            endingLineNumber = "350"
+            startingLineNumber = "353"
+            endingLineNumber = "353"
             landmarkName = "BSBuilderDFA::silentClosure(network, nfaStates, label, totalBhs, nuoveTransizioni, inDictionary)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4351,8 +4351,8 @@
             filePath = "DESD/src/manipulators/BSBuilderDFA.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "564"
-            endingLineNumber = "564"
+            startingLineNumber = "571"
+            endingLineNumber = "571"
             landmarkName = "BSBuilderDFA::silentClosure(network, nfaStates, label, totalBhs, nuoveTransizioni, inDictionary)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4367,73 +4367,9 @@
             filePath = "DESD/src/manipulators/BSBuilderDFA.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "357"
-            endingLineNumber = "357"
+            startingLineNumber = "360"
+            endingLineNumber = "360"
             landmarkName = "BSBuilderDFA::silentClosure(network, nfaStates, label, totalBhs, nuoveTransizioni, inDictionary)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3E9B96E5-C71F-40D6-9EC6-0FA3FBA24D40"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DESD/src/manipulators/DFAConstructor.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2595"
-            endingLineNumber = "2595"
-            landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3E9B96E5-C71F-40D6-9EC6-0FA3FBA24D40 - a43f1813dd44a3d4"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DFAConstructor::extendDictionaryFromObs(std::__1::shared_ptr&lt;Dictionary&gt;, std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::allocator&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::shared_ptr&lt;long&gt;)"
-                  moduleName = "DESD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/DFAConstructor.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "2589"
-                  endingLineNumber = "2589"
-                  offsetFromSymbolStart = "3943">
-               </Location>
-               <Location
-                  uuid = "3E9B96E5-C71F-40D6-9EC6-0FA3FBA24D40 - a43f1813dd44a3d4"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DFAConstructor::extendDictionaryFromObs(std::__1::shared_ptr&lt;Dictionary&gt;, std::__1::vector&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::allocator&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::shared_ptr&lt;long&gt;)"
-                  moduleName = "DESD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/DFAConstructor.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "2589"
-                  endingLineNumber = "2589"
-                  offsetFromSymbolStart = "4034">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A0758EDF-AF17-4640-94AC-00D603D10E14"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DESD/src/manipulators/DFAConstructor.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2577"
-            endingLineNumber = "2577"
-            landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -4449,22 +4385,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2511"
             endingLineNumber = "2511"
-            landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0179B2BD-5424-4B7E-8CC3-2C598B6DB865"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DESD/src/manipulators/DFAConstructor.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2608"
-            endingLineNumber = "2608"
             landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4504,22 +4424,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4C6A84D8-F2AC-4ECA-9CCA-2A62E6BDCB6D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DESD/src/manipulators/DFAConstructor.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2579"
-            endingLineNumber = "2579"
-            landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "7705D22C-4A8A-4B12-9DF4-46C7F862BA8B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -4552,16 +4456,288 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B325E091-57BA-4CEF-BAA1-2930B7A6E6A3"
+            uuid = "5C0979D2-2E4E-46FD-856F-F6A2766A4E13"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2606"
-            endingLineNumber = "2606"
+            startingLineNumber = "746"
+            endingLineNumber = "746"
+            landmarkName = "DFAConstructor::constructDictionaryPrefix(prefix, inputSpace, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE4C6A32-D75E-44CE-AA57-0DD9AE8894AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DFAConstructor.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2633"
+            endingLineNumber = "2633"
             landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B407DAAF-B1EF-49AF-AD06-3234E34D32C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/Utils/Generate.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1723"
+            endingLineNumber = "1723"
+            landmarkName = "generateRandomObs(network)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C02EE337-56E7-4BB3-95B0-B5D7935F1B78"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DFAConstructor.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2581"
+            endingLineNumber = "2581"
+            landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B60FC299-6FB1-4473-9687-E1912DCC4D83"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/BSBuilderDFA.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "BSBuilderDFA::silentClosure(network, nfaStates, label, totalBhs, nuoveTransizioni, inDictionary)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3302EE8-BAFF-4DA4-9A53-5ECB00C87C46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A3302EE8-BAFF-4DA4-9A53-5ECB00C87C46 - 20bb517501ea4606"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DictionaryMerge::merge(std::__1::vector&lt;std::__1::shared_ptr&lt;Dictionary&gt;, std::__1::allocator&lt;std::__1::shared_ptr&lt;Dictionary&gt; &gt; &gt;, std::__1::shared_ptr&lt;long&gt;)"
+                  moduleName = "DESD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/DictionaryMerge.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "517">
+               </Location>
+               <Location
+                  uuid = "A3302EE8-BAFF-4DA4-9A53-5ECB00C87C46 - 20bb517501ea4606"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DictionaryMerge::merge(std::__1::vector&lt;std::__1::shared_ptr&lt;Dictionary&gt;, std::__1::allocator&lt;std::__1::shared_ptr&lt;Dictionary&gt; &gt; &gt;, std::__1::shared_ptr&lt;long&gt;)"
+                  moduleName = "DESD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolabertoglio/Documents/DESD/DESD/src/manipulators/DictionaryMerge.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "608">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7693A6F-F6E3-4A0F-B340-BE6786809DF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F74D5430-8007-4048-B7FF-DD6818B2C1CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88D3AA63-9687-4014-B9F0-C1156BCF95B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E12317B0-8E38-4B0D-A6FC-12D9FB67E8C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9BA6FF0-D8DC-46CA-8DA9-F697E6201DDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F411B59-951E-4660-81FC-F255F9181B42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C80B107-CF6B-4BBF-BF0F-73C9EC1EB0DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5467C07C-0B17-490D-83BB-A99D66060F45"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "001F5C70-DB62-49A9-BE96-2974E7D2D04D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7ADF834E-3823-4246-9E07-93B714EE3832"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DictionaryMerge.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

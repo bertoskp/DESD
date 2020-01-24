@@ -282,12 +282,14 @@ private:
                                         
                                          //<< " 7 - Merges two or more dictionaries into a single one.\n"
                                           case 7:{
+                                              temp1="";
+                                              temp2="";
                                                   std::cout << "Insert the name of the first dictionary \n";
                                                   std::cin >> temp1;
                                                   inFiles.push_back(temp1);
                                                   std::cout << "Insert the name of the first dictionary \n";
-                                                  std::cin >> temp1;
-                                                  inFiles.push_back(temp1);
+                                                  std::cin >> temp2;
+                                                  inFiles.push_back(temp2);
                                                   saveFile = Menu::menuYN("Do you want to save the dictionary's merged?");
 
 

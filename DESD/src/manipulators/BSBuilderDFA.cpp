@@ -251,13 +251,13 @@ std::shared_ptr<BehavioralState>  checkIfStateExist(std::shared_ptr<Dictionary> 
     }
     return s;
 }
-std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::shared_ptr<Network> network,std::vector<std::shared_ptr<BehavioralState>> nfaStates,std::string label,std::vector<std::shared_ptr<NFAStateInterface>> totalBhs,std::vector<std::shared_ptr<BehavioralTransition>> nuoveTransizioni, std::shared_ptr<Dictionary> inDictionary) {
+std::set<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::shared_ptr<Network> network,std::vector<std::shared_ptr<BehavioralState>> nfaStates,std::string label,std::vector<std::shared_ptr<NFAStateInterface>> totalBhs,std::vector<std::shared_ptr<BehavioralTransition>> nuoveTransizioni, std::shared_ptr<Dictionary> inDictionary) {
 
 
 
     auto startingTime = std::chrono::high_resolution_clock::now();
     // resetta la rete allo stato iniziale
-    std::vector<std::shared_ptr<BehavioralState>> nuoviStatiNfa;
+    std::set<std::shared_ptr<BehavioralState>> nuoviStatiNfa;
 
     //std::vector<std::shared_ptr<BehavioralTransition>> nuoveTransizioni;
     bool observableOutTransition ;
@@ -303,12 +303,13 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
                             component->performTransition(transition);
                             componentsState = network->getComponentsState();
                             linksState = network->getLinksState();
+                            
 
                             // crea una nuova transizione dello spazio comportamentale e la aggiunge come transizione in uscita allo
                             // stato corrente e all'automa
                             auto newTransition =trovaTransizioniCoerenti(transition,state->getOutTransitions2());
                             for ( auto state : totalBhs) {
-                                bool condition = state->getComponentsState() == componentsState && state->getLinksState() == linksState;
+                                bool condition = state->getComponentsState() == componentsState && state->getLinksState() == linksState && state->getRelevancyLabels()==newRelevancyLabels  ;
                                 if (condition) {
                                     alreadyPresent = true;
                                     state->addInTransition(newTransition);
@@ -327,7 +328,9 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
                                     sss->get()->relevancyLabels=newDiagnosi;
                                     toVisit.push(*sss);
 
-                                    nuoviStatiNfa.push_back(*sss);
+                                    //nuoviStatiNfa.push_back(*sss);
+                                    nuoviStatiNfa.insert(*sss);
+
                                     //int i = 0;
                                     break;
                                     }
@@ -354,7 +357,8 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
 
                                 totalBhs.push_back(newState);
                                 toVisit.push(newState);
-                                nuoviStatiNfa.push_back(newState);
+                                //nuoviStatiNfa.push_back(newState);
+                                nuoviStatiNfa.insert(newState);
                             }
 
                                 // torna allo stato precedente prima di controllare il componente successivo
@@ -422,7 +426,8 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
                                 sss->get()->relevancyLabels=newDiagnosi;
 
                                 toVisit.push(*sss);
-                                nuoviStatiNfa.push_back(*sss);
+                                //nuoviStatiNfa.push_back(*sss);
+                                nuoviStatiNfa.insert(*sss);
                                 break;
                             }
                             //break; PRIMA ERA QUI IL BREAK SOPORA VERIFICARE
@@ -447,7 +452,8 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
                                 newState->in.push_back(newTransition);
                                 newState->relevancyLabels=newDiagnosi;
                                 toVisit.push(newState);
-                                nuoviStatiNfa.push_back(newState);
+                                //nuoviStatiNfa.push_back(newState);
+                            nuoviStatiNfa.insert(newState);
 
                         }
                         // torna allo stato precedente prima di controllare il componente successivo
@@ -537,7 +543,8 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
                             }
                             sss->get()->relevancyLabels=newDiagnosi;
                             toVisit.push(*sss);
-                            nuoviStatiNfa.push_back(*sss);
+                            //nuoviStatiNfa.push_back(*sss);
+                            nuoviStatiNfa.insert(*sss);
                         }
 
 
@@ -568,7 +575,8 @@ std::vector<std::shared_ptr<BehavioralState>> BSBuilderDFA::silentClosure(std::s
                         newState->in.push_back(newTransition);
 
                         toVisit.push(newState);
-                        nuoviStatiNfa.push_back(newState);
+                       // nuoviStatiNfa.push_back(newState);
+                        nuoviStatiNfa.insert(newState);
                     }
 
                 }

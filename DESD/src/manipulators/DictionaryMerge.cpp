@@ -24,7 +24,35 @@ std::shared_ptr<Dictionary> DictionaryMerge::merge(std::vector<std::shared_ptr<D
     std::vector<std::shared_ptr<NFATransitionInterface>> transitions;
     std::vector<std::shared_ptr<DictionaryState>> states;
 
-    Logger::section("Dictionary Merge");
+    std::vector<std::shared_ptr<NFAStateInterface>> first;
+    std::vector<std::shared_ptr<NFAStateInterface>> second;
+    int c=0;
+    for (const auto &dictionary : dictionaries) {
+        if(c==0){
+            first=dictionary->bhState;
+            c++;
+        }
+        else{
+            second=dictionary->bhState;
+        }
+        
+    }
+    for( const auto &s1: first){
+        for ( auto s2: second){
+            bool condition;
+            condition=s1->getLinksState()==s2->getLinksState() && s1->getComponentsState()==s2->getComponentsState() && s1->getRelevancyLabels()==s2->getRelevancyLabels();
+            
+            if (condition){
+                auto id= s1->getIdd();
+                std::shared_ptr<BehavioralState> *ss2 = reinterpret_cast<std::shared_ptr<BehavioralState> *>(&s2);
+
+               auto ss= *ss2->get();
+                ss.setId(id);
+            }
+        }
+    }
+     
+     Logger::section("Dictionary Merge");
 
     DictionaryState::nextId = 0;
     BehavioralTransition::nextId = 0;
@@ -39,9 +67,19 @@ std::shared_ptr<Dictionary> DictionaryMerge::merge(std::vector<std::shared_ptr<D
 
         // Trovo il nodo iniziale del dizionario, e lo copio in un nuovo stato
         auto initialState = dictionary->getInitialState();
-        auto newInitialState = std::make_shared<DictionaryState>(initialState->isFinal(), false);
-        newInitialState->diagnosis = initialState->diagnosis;
+        std::shared_ptr<DictionaryState> newInitialState= nullptr;
+        for ( auto const &sd: states){
+            if (sd->isStarting()){
+                newInitialState=sd;
+            }
+        }
+        if (newInitialState==nullptr){
+            newInitialState = std::make_shared<DictionaryState>(initialState->isFinal(), false);
+            newInitialState->diagnosis = initialState->diagnosis;
+            newInitialState->nfaStates2=initialState->nfaStates2;
 
+        }
+         
         // Dato che e' il nodo iniziale, aggiungo la eps-transizione dal parent
         auto newTransitionFromParent = std::make_shared<BehavioralTransition>("", "", "");
         parent->out.push_back(newTransitionFromParent);
@@ -80,8 +118,8 @@ std::shared_ptr<Dictionary> DictionaryMerge::merge(std::vector<std::shared_ptr<D
                 if (found == nullptr) throw std::logic_error("Found a transition without a target state");
 
                 auto newTransition =  std::make_shared<BehavioralTransition>("", "", outTransition->getObservabilityLabel());
-                transitions.push_back(newTransition);
-                currentNode->newState->out.push_back(newTransition);
+                //transitions.push_back(newTransition);
+               // currentNode->newState->out.push_back(newTransition);
 
                 std::shared_ptr<DictionaryState> newFound = nullptr;
                 for (const auto &n : visitedNodes)
@@ -89,15 +127,42 @@ std::shared_ptr<Dictionary> DictionaryMerge::merge(std::vector<std::shared_ptr<D
                         newFound = n->newState;
                         break;
                     }
+                bool exist=false;
+                if(newFound==nullptr){
+                    for (auto const &t: currentNode->newState->getOutTransitions()){
+                        if (t->getObservabilityLabel()==outTransition->getObservabilityLabel()){
+                            for( auto const &s : states){
+                                for ( auto const &inT: s->getInTransitions()){
+                                    if ( inT==t){
+                                        newFound=s;
+                                        exist=true;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                }
 
                 if (newFound == nullptr) {
                     // Lo stato non e' ancora stato visitato
                     newFound = std::make_shared<DictionaryState>(found->isFinal(), false);
                     newFound->diagnosis = found->diagnosis;
+                    newFound->nfaStates2=found->nfaStates2;
                     toVisit.push(std::make_shared<Node>(newFound, found));
                 }
+                if(!exist){
                 // In ogni caso, aggiungi la transizione
+                    transitions.push_back(newTransition);
+                                   currentNode->newState->out.push_back(newTransition);
                 newFound->in.push_back(newTransition);
+                }
+                else{
+                    toVisit.push(std::make_shared<Node>(newFound, found));
+                    for (auto const &nF: newFound->nfaStates2){
+                        for (auto const &f: found->nfaStates2){
+                    }
+                }
             }
         }
 

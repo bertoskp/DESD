@@ -216,6 +216,11 @@ void BehavioralState::addInT(NFATransitionInterface i){
 void BehavioralState::resetId(){
     nextId=0;
 }
+void BehavioralState::setId(unsigned int _id){
+
+    id=_id;
+    
+}
 void BehavioralState::removeInTransition(std::shared_ptr<BehavioralTransition> transizione){
     int i=0;
     for (auto tra :in){

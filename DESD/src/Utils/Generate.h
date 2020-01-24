@@ -1722,9 +1722,11 @@ public:
                     
                     if(qualifiedTransitions.size()>0 ){
                         qt.insert(qt.end(),qualifiedTransitions.begin(),qualifiedTransitions.end());
+                         
                     comp.push_back(qualifiedTransitions.size()-1+ cont);
+                        cont=qt.size();
                     
-                        cont=qualifiedTransitions.size()-1;}
+                       }
                     else{
                         comp.push_back(-1);
                     }
@@ -1739,7 +1741,7 @@ public:
                         /* using nano-seconds instead of seconds */
                         srand((time_t)ts.tv_nsec);
                         int r1 = (rand() % l);
-                        if (r1==l) r1=r1-1;
+                        if (r1>=l) r1=l-1;
                         std::vector<std::shared_ptr<Transition>>:: iterator transition1= qt.begin()+r1;
                         auto transition=*transition1;
                         int indComp =-1;
@@ -1756,6 +1758,7 @@ public:
                                 indComp=i;
                                 break;
                                 }
+                                
                             }
                             
                         }
