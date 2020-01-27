@@ -3135,8 +3135,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2261"
-            endingLineNumber = "2261"
+            startingLineNumber = "2284"
+            endingLineNumber = "2284"
             landmarkName = "DFAConstructor::diagnoseFromAbduce(inDictionary, observation, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3199,9 +3199,9 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2109"
-            endingLineNumber = "2109"
-            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation)"
+            startingLineNumber = "2121"
+            endingLineNumber = "2121"
+            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation, maxExecTime)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -3215,9 +3215,9 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2095"
-            endingLineNumber = "2095"
-            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation)"
+            startingLineNumber = "2107"
+            endingLineNumber = "2107"
+            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation, maxExecTime)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -3231,9 +3231,9 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2147"
-            endingLineNumber = "2147"
-            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation)"
+            startingLineNumber = "2170"
+            endingLineNumber = "2170"
+            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation, maxExecTime)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -3247,9 +3247,9 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2111"
-            endingLineNumber = "2111"
-            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation)"
+            startingLineNumber = "2134"
+            endingLineNumber = "2134"
+            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation, maxExecTime)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -3263,9 +3263,9 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2237"
-            endingLineNumber = "2237"
-            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation)"
+            startingLineNumber = "2260"
+            endingLineNumber = "2260"
+            landmarkName = "computeTemporalAbduce(newAb, inDictionary, observation, maxExecTime)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -3311,8 +3311,8 @@
             filePath = "DESD/src/Utils/Computation.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "369"
-            endingLineNumber = "369"
+            startingLineNumber = "374"
+            endingLineNumber = "374"
             landmarkName = "handleAbdO(time, observations, inFile, outFile, net)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3327,8 +3327,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2506"
-            endingLineNumber = "2506"
+            startingLineNumber = "2539"
+            endingLineNumber = "2539"
             landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4239,8 +4239,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2495"
-            endingLineNumber = "2495"
+            startingLineNumber = "2518"
+            endingLineNumber = "2518"
             landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4255,8 +4255,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2442"
-            endingLineNumber = "2442"
+            startingLineNumber = "2465"
+            endingLineNumber = "2465"
             landmarkName = "verificaEsistenzaStatoDic(inDictionary, statiNfa, diag)"
             landmarkType = "9">
          </BreakpointContent>
@@ -4335,8 +4335,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2574"
-            endingLineNumber = "2574"
+            startingLineNumber = "2607"
+            endingLineNumber = "2607"
             landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4383,8 +4383,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2511"
-            endingLineNumber = "2511"
+            startingLineNumber = "2544"
+            endingLineNumber = "2544"
             landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4399,8 +4399,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2415"
-            endingLineNumber = "2415"
+            startingLineNumber = "2438"
+            endingLineNumber = "2438"
             landmarkName = "verificaEsistenzaStatoDic(inDictionary, statiNfa, diag)"
             landmarkType = "9">
          </BreakpointContent>
@@ -4415,8 +4415,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2420"
-            endingLineNumber = "2420"
+            startingLineNumber = "2443"
+            endingLineNumber = "2443"
             landmarkName = "verificaEsistenzaStatoDic(inDictionary, statiNfa, diag)"
             landmarkType = "9">
          </BreakpointContent>
@@ -4431,8 +4431,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2436"
-            endingLineNumber = "2436"
+            startingLineNumber = "2459"
+            endingLineNumber = "2459"
             landmarkName = "verificaEsistenzaStatoDic(inDictionary, statiNfa, diag)"
             landmarkType = "9">
          </BreakpointContent>
@@ -4447,8 +4447,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2426"
-            endingLineNumber = "2426"
+            startingLineNumber = "2449"
+            endingLineNumber = "2449"
             landmarkName = "verificaEsistenzaStatoDic(inDictionary, statiNfa, diag)"
             landmarkType = "9">
          </BreakpointContent>
@@ -4479,8 +4479,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2633"
-            endingLineNumber = "2633"
+            startingLineNumber = "2666"
+            endingLineNumber = "2666"
             landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4511,8 +4511,8 @@
             filePath = "DESD/src/manipulators/DFAConstructor.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2581"
-            endingLineNumber = "2581"
+            startingLineNumber = "2614"
+            endingLineNumber = "2614"
             landmarkName = "DFAConstructor::extendDictionaryFromObs(inDictionary, observation, net, maxExecTime)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4738,6 +4738,70 @@
             startingLineNumber = "76"
             endingLineNumber = "76"
             landmarkName = "DictionaryMerge::merge(dictionaries, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC726A0A-870C-47EB-AD85-B7A9856FC14A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/Utils/Menu.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "271"
+            endingLineNumber = "271"
+            landmarkName = "MenuOnlineCaricamento(directories, maxExecutionTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B5C8059-631D-456A-8171-4CFB7A3DCC85"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/Utils/Computation.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "380"
+            endingLineNumber = "380"
+            landmarkName = "handleAbdO(time, observations, inFile, outFile, net)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94E4CDCF-62DF-446A-9DB5-EC171C4C11E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/DFAConstructor.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "DFAConstructor::subsetConstruction(inputSpace, online, maxExecTime)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "420E22BD-A10E-4978-9276-C0B3F7C9B47E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DESD/src/manipulators/BSBuilder.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "BSBuilder::build(network, maxExecTime, observation, bond)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

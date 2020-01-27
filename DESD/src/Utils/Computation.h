@@ -170,12 +170,12 @@ public:
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
              
              std::cout << "Time elapsed (ms): " + std::to_string(elapsed);
-             Logger::log("Time elapsed (ms): " + std::to_string(elapsed));
+             Logger::log("Time elapsed (ms): dictionary constuction: " + std::to_string(elapsed));
              if (maxExecutionTime) Logger::log("Time remaining to reach limit (ms): " + std::to_string(startingMaxExecutionTime - elapsed));
              DictionaryIO::save(outFile, *dictionary);
          } catch (std::runtime_error &e) {
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
-             Logger::err("Time elapsed (ms): " + std::to_string(elapsed));
+             Logger::err("Time elapsed (ms) dictionary constuction: " + std::to_string(elapsed));
          }
      }
 
@@ -202,7 +202,7 @@ public:
              DictionaryIO::save(outFile, *dictionary);
          } catch (std::runtime_error &e) {
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
-             Logger::err("Time elapsed (ms): " + std::to_string(elapsed));
+             Logger::err("Time elapsed (ms) dictionary prefix "+std::to_string(lunghezzaPrefisso)+" construction" + std::to_string(elapsed));
          }
      }
 
@@ -226,7 +226,7 @@ public:
              DictionaryIO::save(outFile, *merged);
          } catch (std::runtime_error &e) {
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
-             Logger::err("Time elapsed (ms): " + std::to_string(elapsed));
+             Logger::err("Time elapsed (ms) to merge two dictionaries: " + std::to_string(elapsed));
          }
      }
 
@@ -270,7 +270,7 @@ public:
              Logger::log("Could not diagnose. Error: " + std::string(e.what()));
          } catch (std::runtime_error &e) {
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
-             Logger::err("Time elapsed (ms): " + std::to_string(elapsed));
+             Logger::err("Time elapsed (ms) to found an observation and diagnosis relative to it: " + std::to_string(elapsed));
          }
      }
 
@@ -288,7 +288,7 @@ public:
          auto startingTime = std::chrono::high_resolution_clock::now();
          std::vector<std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>>> abduces;
          std::vector< std::vector<std::string>> osservazioni;
-         /*try {*/
+         try {
 
              //machine learingin
             /* std::string line;
@@ -318,6 +318,10 @@ public:
                    //  int it=1;
 
                  auto result = DFAConstructor::diagnoseFromAbduce(dictionary,observations, maxExecutionTime);
+             auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+             Logger::log("Time elapsed (ms): " + std::to_string(elapsed));
+             if (maxExecutionTime) Logger::log("Time remaining to reach limit (ms): " + std::to_string(startingMaxExecutionTime - elapsed));
+
                  DictionaryIO::saveAbduce(outFile, result,observations);
                     /* abduces.push_back(result);
                      osservazioni.push_back(diagnosis);*/
@@ -335,13 +339,14 @@ public:
 
 
 
-        /* } catch (std::invalid_argument &e) {
+         } catch (std::invalid_argument &e) {
              std::cout << R"({"error": ")" + std::string(e.what()) + "\"}";
              Logger::log("Could not diagnose. Error: " + std::string(e.what()));
          } catch (std::runtime_error &e) {
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
              Logger::err("Time elapsed (ms): " + std::to_string(elapsed));
-         }*/
+         }
+     
      }
 
 
@@ -370,7 +375,9 @@ public:
                      auto dic=result->inDictionary.get();
                      DictionaryIO::save(outFile, *dic);
                      auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
-                     Logger::log("Time elapsed (ms): " + std::to_string(elapsed));
+                     std::string s;
+                     for (const auto &piece : osservazione) s += piece +" ";
+                     Logger::log("Time elapsed to extend dictinary with "+ s +" (ms):  " + std::to_string(elapsed));
                      if (maxExecutionTime) Logger::log("Time remaining to reach limit (ms): " + std::to_string(startingMaxExecutionTime - elapsed));
 
                      //DictionaryIO::saveAbduce("abduce.json", result,osservazione);

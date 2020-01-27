@@ -2073,7 +2073,7 @@ bool verifyReach(    std::vector<std::shared_ptr<BehavioralState>> bhState,std::
 
 
     }
-std::vector<std::shared_ptr<temporalAbduction>> computeTemporalAbduce(std::vector<std::shared_ptr<temporalAbduction>> newAb,std::shared_ptr<Dictionary> inDictionary, std::vector<std::string> &observation) {
+std::vector<std::shared_ptr<temporalAbduction>> computeTemporalAbduce(std::vector<std::shared_ptr<temporalAbduction>> newAb,std::shared_ptr<Dictionary> inDictionary, std::vector<std::string> &observation,std::shared_ptr<long> maxExecTime) {
     auto starting = inDictionary->states[inDictionary->currentState];
     int i = 0;
     int j = 0;
@@ -2081,8 +2081,20 @@ std::vector<std::shared_ptr<temporalAbduction>> computeTemporalAbduce(std::vecto
     std::vector<unsigned int> reachState;
     std::vector<unsigned int> out;
     bool connected=false;
+    auto startingTime = std::chrono::high_resolution_clock::now();
     auto tA = std::make_shared<temporalAbduction>(inDictionary->states[inDictionary->currentState]);
     for (auto &state: inDictionary->states[inDictionary->currentState]->nfaStates2) {
+        
+        auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+
+                    if(maxExecTime && elapsed > *maxExecTime){
+                        std::vector<std::string> errorMessages = {
+                            "Maximum execution time exceeded during abduce construction! (" + std::to_string(elapsed) + ")",
+                            
+                        };
+                        Logger::err(errorMessages);
+                        throw std::runtime_error("execution time");
+                    }
         reachState.push_back(state->getIdd());
 
         for (auto t: state->getOutTransitions2()) {
@@ -2108,6 +2120,17 @@ std::vector<std::shared_ptr<temporalAbduction>> computeTemporalAbduce(std::vecto
     bool found = false;
     newAb.push_back(tA);
     for (int h = 0; h < observation.size(); h++) {
+        auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+
+                           if(maxExecTime && elapsed > *maxExecTime){
+                               std::vector<std::string> errorMessages = {
+                                   "Maximum execution time exceeded during abduce construction! (" + std::to_string(elapsed) + ")",
+                                   
+                               };
+                               Logger::err(errorMessages);
+                               throw std::runtime_error("execution time");
+                           }
+        
         found = false;
         std::shared_ptr<NFATransitionInterface> transInter;
         nextObs=observation[h];
@@ -2259,7 +2282,7 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
             break;
         }
     }
-    newAb = computeTemporalAbduce(newAb, inDictionary, observation);
+    newAb = computeTemporalAbduce(newAb, inDictionary, observation,maxExecTime);
     int indice=0;
     for (auto &t : newAb){
         std::cout << "\"Abduce\": "+ std::to_string(indice);
@@ -2501,6 +2524,16 @@ std::shared_ptr<std::vector<std::shared_ptr<temporalAbduction>>> newAb;
 
     /*for (auto &label : observation) {*/
     for (int i = 0; i < lunghezza; i++) {
+        auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+
+               
+        if(maxExecTime && elapsed > *maxExecTime){
+                   std::vector<std::string> errorMessages = {
+                       "Maximum execution time exceeded during extension construction! (" + std::to_string(elapsed) + ")"
+                   };
+                   Logger::err(errorMessages);
+                   throw std::runtime_error("Time");
+               }
         auto label = observation[i];
 
         error = true;
