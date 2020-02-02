@@ -25,6 +25,7 @@ EXTERN std::string networkName="";
 #import "Generate.h"
 #import "File.h"
 #include "tinyfiledialogs.h"
+#include "Logger.h"
 class Menu{
     
 private:
@@ -535,6 +536,8 @@ private:
         
         //VERIFICa UNIVOCITA NOME
         if(!  File::path_exists(percorso)){
+            
+            Logger::log("************~~~~~~~~~~  "+projcetName+ " ~~~~~~~~~~************\n");
             mkdir( percorso.c_str(),S_IRWXU);
             //MENU OFFLINE
             int choice4;
@@ -664,6 +667,7 @@ private:
       if(! File::path_exists(percorso)){
           mkdir( percorso.c_str(),S_IRWXU);
           std::cout <<"creata"<< std::endl;
+        Logger::log("************~~~~~~~~~~  "+projcetName+ " ~~~~~~~~~~************\n");
           int choice6=0;
           networkName="";
          do {
@@ -1204,6 +1208,20 @@ private:
             
             
         }
+    
+    static void behavioralSpaceDictionaryBatch(std::string networkName,std::string projcetNameI, long maxExecutionTime){
+       
+        
+            
+        std::string nomefin;
+        nomefin=projcetNameI;
+        outFile=online+projcetNameI+"/"+nomefin;
+        
+        Computation::handleTodo(maxExecutionTime, bsObservation, bsBond, bsOutObservation, false,
+                                label, networkName, outFile);
+        
+        
+    }
     
     static void decoratedBehavioralSpaceOffline(long maxExecutionTime){
 

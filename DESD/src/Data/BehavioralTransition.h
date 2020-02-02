@@ -6,8 +6,10 @@
 #define AUTOMATAMANAGER_BEHAVIORALTRANSITION_H
 
 #include "../stdIncludes.h"
+
 #include "NFATransitionInterface.h"
 
+class BehavioralState;
 
 class BehavioralTransition : public NFATransitionInterface {
 public:
@@ -15,7 +17,7 @@ public:
     std::string name;
     unsigned int id;
     static unsigned int nextId;
-
+    std::shared_ptr<BehavioralState> stato;
     std::string relevancyLabel;
     std::string observabilityLabel;
     int deepth;
@@ -38,6 +40,9 @@ public:
     std::string getObservabilityLabel() override;
     int getDeepth();
     void setDeepth(int d);
+    void setStato(    std::shared_ptr<BehavioralState> s);
+    std::shared_ptr<BehavioralState> getStato();
+
     std::string getName()override;
     std::string getRelevancyLabel()override;
 };

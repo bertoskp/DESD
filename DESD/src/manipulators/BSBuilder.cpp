@@ -94,7 +94,9 @@ std::shared_ptr<BehavioralSpace> BSBuilder::build(std::shared_ptr<Network> netwo
                     if (bond) condition &= state->bondState == bond->currentState;
                     if (condition) {
                         alreadyPresent = true;
+                        newTransition->setStato(state);
                         state->in.push_back(newTransition);
+                        
                         break;
                     }
                 }
@@ -111,6 +113,8 @@ std::shared_ptr<BehavioralSpace> BSBuilder::build(std::shared_ptr<Network> netwo
                     newState->in.push_back(newTransition);
                     if (observation) newState->observationState = observation->currentState;
                     if (bond) newState->bondState = bond->currentState;
+                    newTransition->setStato(newState);
+
                     toVisit.push(newState);
                     space->states.push_back(newState);
                 }
@@ -405,6 +409,7 @@ std::shared_ptr<BehavioralSpace> BSBuilder::buildFromDFA(std::shared_ptr<Network
                     if (bond) condition &= state->bondState == bond->currentState;
                     if (condition) {
                         alreadyPresent = true;
+                        newTransition->setStato(state);
                         state->in.push_back(newTransition);
                         break;
                     }
@@ -422,6 +427,8 @@ std::shared_ptr<BehavioralSpace> BSBuilder::buildFromDFA(std::shared_ptr<Network
                     newState->in.push_back(newTransition);
                     if (observation) newState->observationState = observation->currentState;
                     if (bond) newState->bondState = bond->currentState;
+                    newTransition->setStato(newState);
+
                     toVisit.push(newState);
                     space->states.push_back(newState);
                 }

@@ -419,6 +419,11 @@ public:
     //********************************************************
     //FINE LINEARE BIDIREZIONALE
     
+    
+    
+    
+    
+    
     // ****************************************************************
     //LINEARE UNIDIREZIONALE ZANELLA
     
@@ -1635,6 +1640,364 @@ public:
               
           }
 
+    
+    
+    // ***** stella implosiva
+    
+     static void createCenterComponentStarI(std::vector<std::shared_ptr<Link>> links,  int &countT, int &countS,int &countC ,     std::vector<std::shared_ptr<Component>> &components){
+        
+       // links.push_back(InR);
+        std::vector<std::shared_ptr<State>> states;
+         
+        std::vector<std::shared_ptr<Transition>> transitions;
+        
+         std::vector<std::string> events;
+                
+        std::string op="op";
+        events.push_back(op);
+      std::string cl= "cl";
+        events.push_back(cl);
+        
+         
+        
+       // transizioni
+        //t1
+         std::shared_ptr<Transition>t1,t2,t3,t4;
+         std::vector<std::shared_ptr<Transition>> inTransitions1, outTransitions1, inTransitions2, outTransitions2,inTransitions3, outTransitions3;
+         for(auto link: links){
+        std::shared_ptr<Event> inEvent;
+        std::string transitionName = "T"+ std::to_string(countT);
+        countT=countT+1;
+        std::vector<std::shared_ptr<Event>> outEvents1;
+        
+       
+         std::string observation, relevancy;
+        observation="act";
+       
+        relevancy="";
+        std::vector<std::shared_ptr<Link>> links2;
+        
+        inEvent=std::make_shared<Event>(link.get(), op);
+        
+       // outEvents1.push_back(std::make_shared<Event>(lin->get(), op));
+          t1=std::make_shared<Transition>(transitionName, inEvent, outEvents1, relevancy, observation);
+         transitions.push_back(t1);
+        
+        
+        //t2
+        std::shared_ptr<Event> inEvent2;
+                  transitionName = "T"+ std::to_string(countT);
+                  countT=countT+1;
+                  std::vector<std::shared_ptr<Event>> outEvents2;
+                  
+                 
+                   
+                  observation="act";
+                  relevancy="fos";
+                  inEvent2= std::make_shared<Event>(link.get(), cl);
+                  
+                    t2=std::make_shared<Transition>(transitionName, inEvent2, outEvents2, relevancy, observation);
+                   transitions.push_back(t2);
+                 
+                 
+                 //t3;
+                std::shared_ptr<Event> inEvent3;
+                   transitionName = "T"+ std::to_string(countT);
+                  countT=countT+1;
+                  std::vector<std::shared_ptr<Event>> outEvents3;
+                  
+                 
+                   
+                  observation="sby";
+                  relevancy="";
+                  
+                    inEvent3= std::make_shared<Event>(link.get(), cl);
+                    t3=std::make_shared<Transition>(transitionName, inEvent3, outEvents3, relevancy, observation);
+                   transitions.push_back(t3);
+                 
+                 //t4
+                 std::shared_ptr<Event> inEvent4 ;
+                   transitionName = "T"+ std::to_string(countT);
+                  countT=countT+1;
+                  std::vector<std::shared_ptr<Event>> outEvents4;
+                  
+                 
+                   
+                  observation="sby";
+                  relevancy="fcs";
+                  
+                    inEvent4 =std::make_shared<Event>(link.get(), op);
+                 
+                    t4=std::make_shared<Transition>(transitionName, inEvent4, outEvents4, relevancy, observation);
+                   transitions.push_back(t4);
+             
+             
+
+             inTransitions1.push_back(t3);
+                      
+             outTransitions1.push_back(t1);
+             outTransitions1.push_back(t2);
+             inTransitions2.push_back(t1);
+                             outTransitions2.push_back(t3);
+             outTransitions2.push_back(t4);
+
+                    inTransitions3.push_back(t2);
+             inTransitions3.push_back(t4);
+         }
+                
+                 //stati
+                 //s1
+                 std::string name = "s"+std::to_string(countS);
+                 countS=countS+1;
+                 bool starting = true;
+
+                 
+                
+
+                
+
+                 states.push_back(std::make_shared<State>(name, starting, inTransitions1, outTransitions1));
+                 //s2
+                 name = "s"+std::to_string(countS);
+                  countS=countS+1;
+                 starting = false;
+
+
+                 states.push_back(std::make_shared<State>(name, starting, inTransitions2, outTransitions2));
+                 //s3
+                 name = "s"+std::to_string(countS);
+                         countS=countS+1;
+                         starting = false;
+
+                         
+                        
+
+                        
+                         
+                        
+                         
+
+                         states.push_back(std::make_shared<State>(name, starting, inTransitions3, outTransitions3));
+                  std::string componentName="S"+ std::to_string(countC);
+                 countC=countC+1;
+                 auto component=std::make_shared<Component>(states, transitions, componentName);
+                 components.push_back(component);
+                 
+                 
+                 //auto aaa=std::make_shared<ComponentLinks>(InL,OutL,InR,OutR,component);
+                 //compLin.push_back();
+                  std::string e4n="e4";
+      
+        
+    }
+    
+    
+    
+    
+    static void createIntermedialComponentStarI(std::shared_ptr<Link> &link,  int &countT, int &countS, int &countC,     std::vector<std::shared_ptr<Component>> &components){
+          
+         // links.push_back(InR);
+          std::vector<std::shared_ptr<State>> states;
+           
+          std::vector<std::shared_ptr<Transition>> transitions;
+          
+           std::vector<std::string> events;
+                  
+          std::string op= "op";
+          events.push_back(op);
+          std::string  cl= "cl";
+          events.push_back(cl);
+          
+           
+          
+         // transizioni
+          //t1
+          std::shared_ptr<Event> inEvent;
+          std::string transitionName = "Tb"+ std::to_string(countT);
+          countT=countT+1;
+          std::vector<std::shared_ptr<Event>> outEvents1;
+          
+           outEvents1.push_back(  std::make_shared<Event>(link.get(), op));
+           std::string observation, relevancy;
+          observation="opn";
+          relevancy="";
+         
+         
+           auto t1=std::make_shared<Transition>(transitionName, inEvent, outEvents1, relevancy, observation);
+           transitions.push_back(t1);
+          
+        //t2
+          std::shared_ptr<Event>  inEvent2 ;
+            transitionName = "Tb"+ std::to_string(countT);
+           countT=countT+1;
+           std::vector<std::shared_ptr<Event>> outEvents2;
+           
+         
+           observation="";
+           relevancy="fob";
+           outEvents2.push_back(  std::make_shared<Event>(link.get(), op));
+                     
+          
+            auto t2=std::make_shared<Transition>(transitionName, inEvent2, outEvents2, relevancy, observation);
+            transitions.push_back(t2);
+    
+         //t3
+          std::shared_ptr<Event> inEvent3 ;
+         transitionName = "Tb"+ std::to_string(countT);
+          countT=countT+1;
+          std::vector<std::shared_ptr<Event>> outEvents3;
+          
+                               outEvents3.push_back( std::make_shared<Event>(link.get(), cl));
+          observation="";
+          relevancy="";
+         
+         
+           auto t3=std::make_shared<Transition>(transitionName, inEvent3, outEvents3, relevancy, observation);
+           transitions.push_back(t3);
+    
+            //t4
+          std::shared_ptr<Event> inEvent4 ;
+           transitionName = "Tb"+ std::to_string(countT);
+          countT=countT+1;
+          std::vector<std::shared_ptr<Event>> outEvents4;
+         
+          observation="cls";
+          relevancy="";
+         
+        outEvents4.push_back(std::make_shared<Event>(link.get(), cl));
+           auto t4=std::make_shared<Transition>(transitionName, inEvent4, outEvents4, relevancy, observation);
+           transitions.push_back(t4);
+    
+    //t5
+          std::shared_ptr<Event> inEvent5 ;
+          transitionName = "Tb"+ std::to_string(countT);
+          countT=countT+1;
+          std::vector<std::shared_ptr<Event>> outEvents5;
+        
+          observation="";
+        outEvents5.push_back( std::make_shared<Event>(link.get(), cl));
+          relevancy="fcb";
+         
+         
+           auto t5=std::make_shared<Transition>(transitionName, inEvent5, outEvents5, relevancy, observation);
+           transitions.push_back(t5);
+    
+    //t6
+          std::shared_ptr<Event> inEvent6 ;
+          transitionName = "Tb"+ std::to_string(countT);
+          countT=countT+1;
+          std::vector<std::shared_ptr<Event>> outEvents6;
+      
+          observation="";
+          relevancy="";
+          outEvents6.push_back( std::make_shared<Event>(link.get(), op));
+           auto t6=std::make_shared<Transition>(transitionName, inEvent6, outEvents6, relevancy, observation);
+           transitions.push_back(t6);
+          
+          
+         
+          //stati
+          //s1
+          std::string name = "s"+std::to_string(countS);
+          countS=countS+1;
+          bool starting = true;
+
+          
+          std::vector<std::shared_ptr<Transition>> inTransitions, outTransitions;
+
+          inTransitions.push_back(t2);
+         inTransitions.push_back(t3);
+          inTransitions.push_back(t4);
+          
+                outTransitions.push_back(t1);
+                outTransitions.push_back(t2);
+              outTransitions.push_back(t3);
+                
+         
+
+          states.push_back(std::make_shared<State>(name, starting, inTransitions, outTransitions));
+          //s2
+          name = "s"+std::to_string(countS);
+           countS=countS+1;
+          starting = false;
+
+          
+          std::vector<std::shared_ptr<Transition>> inTransitions2, outTransitions2;
+
+          inTransitions2.push_back(t1);
+          inTransitions2.push_back(t5);
+          inTransitions2.push_back(t6);
+    
+    
+          outTransitions2.push_back(t4);
+          outTransitions2.push_back(t5);
+          outTransitions2.push_back(t6);
+          
+
+          states.push_back(std::make_shared<State>(name, starting, inTransitions2, outTransitions2));
+       
+           std::string componentName="S"+ std::to_string(countC);
+          countC=countC+1;
+          auto component=std::make_shared<Component>(states, transitions, componentName);
+          components.push_back(component);
+          
+          
+          //auto aaa=std::make_shared<ComponentLinks>(InL,OutL,InR,OutR,component);
+          //compLin.push_back();
+           std::string e4n="e4";
+          
+      }
+    
+    
+    static std::shared_ptr<Network> createNetworkStarI(int numberComponent){
+             // int nLinks=numberComponent;
+              //int nEvents=4;
+              //int countE=0;
+              //int countL=0;
+              int countS=0;
+               int countC=0;
+              std::shared_ptr<std::vector<std::shared_ptr<TransitionEvent>>> transEvs(new std::vector<std::shared_ptr<TransitionEvent>>());
+              std::shared_ptr<std::vector<std::shared_ptr<ComponentLinks>>> compLin(new std::vector<std::shared_ptr<ComponentLinks>>());
+
+              std::vector<std::shared_ptr<Component>> components;
+              int countT=0;
+              std::vector<std::shared_ptr<Link>> links;
+              for ( int i=0; i<numberComponent; i++){
+                  
+                  auto L=std::make_shared<Link>("L"+std::to_string(i));
+                  links.push_back(L);
+              }
+              
+             
+              std::vector<std::string> events;
+              
+              auto e= "op";
+              events.push_back(e);
+              e= "cl";
+              events.push_back(e);
+              createCenterComponentStarI(links,countT,countS,countC,components);
+              for (auto link :links){
+                  createIntermedialComponentStarI(link,  countT, countS,countC,components);
+              }
+             
+             
+              auto network=std::make_shared<Network>(components, links);
+              std::shared_ptr<SimpleNetwork> observation = nullptr, bond = nullptr;
+                     
+              std::shared_ptr<long> maxExecutionTime = nullptr;
+              long startingMaxExecutionTime = 0;
+             
+
+                      auto startingTime = std::chrono::high_resolution_clock::now();
+                  //auto bs=BSBuilder::build(network, maxExecutionTime, observation, bond);
+              return network;
+          }
+          
+          
+    
+    
+    
+    // ********fine stella implosiva
     
     
     static std::vector<std::string> generateRandomObs(std::shared_ptr<Network> network){

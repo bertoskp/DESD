@@ -72,6 +72,102 @@ int main(int argc, char *argv[]) {
    
     
     
+    
+
+
+        CLI::App app("Automata Manager");
+        app.require_subcommand(1);
+
+        // Opzioni principali applicazione
+        app.set_help_all_flag("--help-all", "Expand help");
+        std::string fileIn, fileOut,name;
+
+        // Sottocomandi
+        CLI::App *bs   = app.add_subcommand("bs",   "Compute a Behavioral Space (BS) from a given Network");
+        CLI::App *lbs  = app.add_subcommand("lbs",  "Labels an input Behavioral Space");
+        CLI::App *dic  = app.add_subcommand("dic",  "Compute a Dictionary from a given Labeled Behavioral Space");
+        CLI::App *md   = app.add_subcommand("md",   "Merges two or more dictionaries into a single one.");
+        CLI::App *diag = app.add_subcommand("diag", "Diagnoses a problem, given a dictionary and an observation");
+    
+    CLI::App *dictionary = app.add_subcommand("dictionary", "Compute a Dictionary from a given network");
+
+       
+        app.add_option("-t,--time", maxExecutionTime, "Maximum execution time (expressed in milliseconds). "
+                                                      "If the execution of an algorithm continues after this value, it preemptively stops.");
+
+        std::vector<std::string> mdFiles;
+        // Aggiunta in/out ad ognuno
+        bs->add_option("-i,--in", fileIn, "Input (Network JSON). If none provided, reads input from standard input")->expected(1);
+        bs->add_option("-o,--out", fileOut, "Output (BehavioralSpace JSON). If none provided, writes output to standard output")->expected(1);
+        lbs->add_option("-i,--in", fileIn, "Input (BehavioralSpace JSON). If none provided, reads input from standard input")->expected(1);
+        lbs->add_option("-o,--out", fileOut, "Output (BehavioralSpace JSON). If none provided, writes output to standard output")->expected(1);
+        dic->add_option("-i,--in", fileIn, "Input (BehavioralSpace JSON). If none provided, reads input from standard input")->expected(1);
+        dic->add_option("-o,--out", fileOut, "Output (Dictionary JSON). If none provided, writes output to standard output")->expected(1);
+        md->add_option( "-i, --in", mdFiles, "List of dictionary files to merge (Dictionary JSON). This subcommand does not allow standard input.")->required()->expected(-2);
+        md->add_option("-o,--out", fileOut, "Output (Dictionary JSON). If none provided, writes output to standard output")->expected(1);
+        diag->add_option("-i,--in", fileIn, "Input (Dictionary JSON). If none provided, reads input from standard input")->expected(1);
+        dictionary->add_option("-i,--in", fileIn, "Input (Network JSON). If none provided, reads input from standard input")->expected(1);
+        dictionary->add_option("-n,--nn", name, "nameproject")->expected(1);
+
+        // Spazio Comportamentale
+        //std::string bsObservation, bsBond, bsOutObservation;
+        bool bsPrune = false, bsLabel = false;
+        bs->add_flag("-p,--prune", bsPrune, "Prunes the computed Behavioral Space");
+        bs->add_flag(
+            "-l,--label",
+            bsLabel,
+            "While computing the Behavioral Space, automatically label it. This returns a Labeled Behavioral Space."
+            );
+
+        bs->add_option(
+            "--observation",
+            bsObservation,
+            "Computes a Partial Behavioral Space, restricted by this observation. Expects a JSON SimpleNetwork file "
+            "representing the observation."
+            )->expected(1);
+
+        auto bondOption = bs->add_option(
+            "--bond",
+            bsBond,
+            "Computes a Partial Behavioral Space, restricted by this bond. Expects a JSON SimpleNetwork file representing "
+            "the bond."
+            )->expected(1);
+
+        bs->add_option(
+            "--out-observation",
+            bsOutObservation,
+            "After computing the Behavioral Space, constructs a Physically Possible Observation from it."
+            "Expects name of the output file"
+            )->needs(bondOption)->expected(1);
+
+
+        // Etichettatura
+        bool lbsPrune = false;
+        lbs->add_flag("-p,--prune", lbsPrune, "Prunes the computed Labeled Behavioral Space");
+
+        // Diagnosi
+        std::vector<std::string> diagDiagnosis;
+        diag->add_option(
+            "observation",
+            diagDiagnosis,
+            "Input observation. Must only contain observable labels from the input dictionary, separated by a space. "
+            "For example: o3 o2 o3")->required();
+
+        CLI11_PARSE(app, argc, argv);
+
+        if (bs->parsed()) handleBS(maxExecutionTime, bsObservation, bsBond, bsOutObservation, bsPrune, bsLabel, fileIn, fileOut);
+        if (lbs->parsed()) handleLBS(maxExecutionTime, lbsPrune, fileIn, fileOut);
+  
+
+        if (dic->parsed()) handleDic(maxExecutionTime, fileIn, fileOut,true);
+        if (md->parsed()) handleMD(maxExecutionTime, mdFiles, fileOut);
+        if (diag->parsed()) handleDiag(maxExecutionTime, diagDiagnosis, fileIn);
+    if (dictionary->parsed()) Menu::behavioralSpaceDictionaryBatch(fileIn,name,maxExecutionTime);
+
+        Logger::end();
+        
+
+    
      /*char const * lTmp;
        char const * lTheSaveFileName;
        char const * lTheOpenFileName;
@@ -105,7 +201,10 @@ int main(int argc, char *argv[]) {
 
      
   */
-           
+      
+    
+    //******* menu testuale****************
+    /*
     static int choice;
     do{
         
@@ -185,16 +284,27 @@ int main(int argc, char *argv[]) {
             }
 
             case 3:{
-               auto network= Generate::createNetwork(1);
-                NetworkIO::save("retenew.json", network);
-                auto networkz= Generate::createNetworkZ(1);
-                NetworkIO::save("z.json", networkz);
-                auto network2= Generate::createNetworkLin(1);
-                NetworkIO::save("retelin.json", network2);
+
+                std::cout << "Insert number of duplicate components. \n";
+
+                int num;
+                std::cin>>num;
+
+               auto network= Generate::createNetwork(num);
+                NetworkIO::save("linbi.json", network);
+                auto networkz= Generate::createNetworkZ(num);
+                NetworkIO::save("uniz.json", networkz);
+                auto network2= Generate::createNetworkLin(num);
+                NetworkIO::save("linuni.json", network2);
                 
-                auto network3=Generate::createNetworkStar(4);
-                  NetworkIO::save("retestrar.json", network3);
+                auto network3=Generate::createNetworkStar(num);
+                  NetworkIO::save("stella.json", network3);
+               
+                
+                auto network4=Generate::createNetworkStarI(num);
+                  NetworkIO::save("stellaI.json", network4);
                 break;
+                
                 
             }
             case 4:{
@@ -214,7 +324,7 @@ int main(int argc, char *argv[]) {
 
             }while(choice!=4);
 
-
+*/
 
     return 0;
 }

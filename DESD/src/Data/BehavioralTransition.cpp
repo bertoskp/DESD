@@ -68,3 +68,10 @@ int BehavioralTransition::getDeepth(){
 void BehavioralTransition::setDeepth(int d){
      deepth=d;
 }
+
+void BehavioralTransition::setStato(std::shared_ptr<BehavioralState> s){
+    stato=s;
+}
+std::shared_ptr<BehavioralState> BehavioralTransition::getStato(){
+    return stato;
+}

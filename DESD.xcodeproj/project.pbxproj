@@ -444,7 +444,7 @@
 				B8E6EB5F22E859980043D8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		B8E6EB6022E859980043D8D0 /* Build configuration list for PBXNativeTarget "DESD" */ = {
 			isa = XCConfigurationList;
@@ -453,7 +453,7 @@
 				B8E6EB6222E859980043D8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

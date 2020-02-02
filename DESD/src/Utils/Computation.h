@@ -48,17 +48,108 @@ public:
              }
 
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
-             Logger::log("Time elapsed (ms): " + std::to_string(elapsed));
+             Logger::log("Time elapsed bhs (ms): " + std::to_string(elapsed));
              if (maxExecutionTime) Logger::log("Time remaining to reach limit (ms): " + std::to_string(startingMaxExecutionTime - elapsed));
 
              BehavioralSpaceIO::save(outFile, *bs);
 
          } catch(std::runtime_error& e) {
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
-             Logger::err("Time elapsed (ms): " + std::to_string(elapsed));
+             Logger::err("Time elapsed  bhs(ms): " + std::to_string(elapsed));
          }
      }
 
+     
+     // calcolo tutto per batch
+     static void handleTodo(long time, const std::string &bsObservation, const std::string &bsBond, const std::string &bsOutObservation, bool prune, bool label,
+                   const std::string &inFile, const std::string &outFile) {
+         Logger::log("\n************~~~~~~~~~~  "+outFile+ " ~~~~~~~~~~************\n");
+
+         auto network = NetworkIO::load(inFile);
+         std::shared_ptr<BehavioralSpace> bs;
+         std::shared_ptr<BehavioralSpace> lbs;
+         std::shared_ptr<SimpleNetwork> observation = nullptr, bond = nullptr;
+         if (!bsObservation.empty()) observation = SimpleNetworkIO::load(bsObservation);
+         if (!bsBond.empty()) bond = SimpleNetworkIO::load(bsBond);
+
+         std::shared_ptr<long> maxExecutionTime = nullptr;
+         long startingMaxExecutionTime = 0;
+         if (time > 0) {
+             maxExecutionTime = std::make_shared<long>(time);
+             startingMaxExecutionTime = time;
+         }
+
+         auto startingTime = std::chrono::high_resolution_clock::now();
+
+
+         
+
+         try {
+             if (label) bs = LabeledBSBuilder::build(network, maxExecutionTime, observation, bond);
+            
+            
+             else bs = BSBuilder::build(network, maxExecutionTime, observation, bond);
+
+             if (prune) BSBuilder::prune(bs, maxExecutionTime);
+
+             if (!bsOutObservation.empty()) {
+                 auto constructedObservation = DFAConstructor::constructObservation(bs, true,maxExecutionTime);
+                 SimpleNetworkIO::save(bsOutObservation, *constructedObservation);
+             }
+
+             auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+             Logger::log("Time elapsed bhs (ms): " + std::to_string(elapsed));
+             if (maxExecutionTime) Logger::log("Time remaining to reach limit (ms): " + std::to_string(startingMaxExecutionTime - elapsed));
+
+             BehavioralSpaceIO::save(outFile+"_bs.json", *bs);
+
+         } catch(std::runtime_error& e) {
+             auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+             Logger::err("Time elapsed  bhs(ms): " + std::to_string(elapsed));
+         }
+         
+         
+          startingMaxExecutionTime = 0;
+         if (time > 0) {
+             maxExecutionTime = std::make_shared<long>(time);
+             startingMaxExecutionTime = time;
+         }
+          startingTime = std::chrono::high_resolution_clock::now();
+
+         try {
+              lbs = LabeledBSBuilder::build(bs, maxExecutionTime);
+             
+
+             auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+             Logger::log("Time elapsed dbhs (ms): " + std::to_string(elapsed));
+             if (maxExecutionTime) Logger::log("Time remaining to reach limit (ms): " + std::to_string(startingMaxExecutionTime - elapsed));
+             BehavioralSpaceIO::save(outFile+"lbs.json", *lbs);
+         } catch (std::runtime_error &e) {
+             auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+             Logger::err("Time elapsed (ms): " + std::to_string(elapsed));
+         }
+         
+         startingMaxExecutionTime = 0;
+                 if (time > 0) {
+                     maxExecutionTime = std::make_shared<long>(time);
+                     startingMaxExecutionTime = time;
+                 }
+                  startingTime = std::chrono::high_resolution_clock::now();
+                //auto dictionary = DFAConstructor::constructDictionary(lbs,online, maxExecutionTime);
+                
+                try {
+                     auto dictionary = DFAConstructor::constructDictionary(lbs,true, maxExecutionTime);
+                     auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+                     
+                     std::cout << "Time elapsed (ms): dictionary constuction: " + std::to_string(elapsed);
+                     Logger::log("Time elapsed (ms): dictionary constuction: " + std::to_string(elapsed));
+                     if (maxExecutionTime) Logger::log("Time remaining to reach limit (ms): " + std::to_string(startingMaxExecutionTime - elapsed));
+                     DictionaryIO::save(outFile+"_dictionary.json", *dictionary);
+                 } catch (std::runtime_error &e) {
+                     auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+                     Logger::err("Time elapsed (ms) dictionary constuction: " + std::to_string(elapsed));
+                 }
+     }
 
 
 
@@ -143,7 +234,7 @@ public:
              if (prune) BSBuilder::prune(lbs, maxExecutionTime);
 
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
-             Logger::log("Time elapsed (ms): " + std::to_string(elapsed));
+             Logger::log("Time elapsed dbhs (ms): " + std::to_string(elapsed));
              if (maxExecutionTime) Logger::log("Time remaining to reach limit (ms): " + std::to_string(startingMaxExecutionTime - elapsed));
              BehavioralSpaceIO::save(outFile, *lbs);
          } catch (std::runtime_error &e) {
@@ -169,7 +260,7 @@ public:
              auto dictionary = DFAConstructor::constructDictionary(lbs,online, maxExecutionTime);
              auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
              
-             std::cout << "Time elapsed (ms): " + std::to_string(elapsed);
+             std::cout << "Time elapsed (ms): dictionary constuction: " + std::to_string(elapsed);
              Logger::log("Time elapsed (ms): dictionary constuction: " + std::to_string(elapsed));
              if (maxExecutionTime) Logger::log("Time remaining to reach limit (ms): " + std::to_string(startingMaxExecutionTime - elapsed));
              DictionaryIO::save(outFile, *dictionary);

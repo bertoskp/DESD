@@ -81,6 +81,8 @@ std::shared_ptr<BehavioralSpace> LabeledBSBuilder::build(std::shared_ptr<Behavio
                 if (observationState != -1) condition = condition && state->observationState == observationState;
                 if (condition) {
                     alreadyPresent = true;
+                    newTransition->setStato(state);
+
                     state->in.push_back(newTransition);
                     break;
                 }
@@ -94,6 +96,8 @@ std::shared_ptr<BehavioralSpace> LabeledBSBuilder::build(std::shared_ptr<Behavio
                                                                   newRelevancyLabels);
                 if (observationState != -1) newState->observationState = observationState;
                 newState->in.push_back(newTransition);
+                newTransition->setStato(newState);
+
                 toVisit.push({newState, bs->currentState});
                 labeledSpace->states.push_back(newState);
             }
@@ -208,6 +212,8 @@ std::shared_ptr<BehavioralSpace> LabeledBSBuilder::build(std::shared_ptr<Network
                     if (condition) {
                         alreadyPresent = true;
                         state->in.push_back(newTransition);
+                        newTransition->setStato(state);
+
                         break;
                     }
                 }
@@ -224,6 +230,8 @@ std::shared_ptr<BehavioralSpace> LabeledBSBuilder::build(std::shared_ptr<Network
                     if (observation) newState->observationState = observation->currentState;
                     if (bond) newState->bondState = bond->currentState;
                     toVisit.push(newState);
+                    newTransition->setStato(newState);
+
                     space->states.push_back(newState);
                 }
 
@@ -340,6 +348,8 @@ std::shared_ptr<long> maxExecTime, int prefix) {
                 if (observationState != -1) condition = condition && state->observationState == observationState;
                 if (condition) {
                     alreadyPresent = true;
+                    newTransition->setStato(state);
+
                     state->in.push_back(newTransition);
                     break;
                 }
@@ -355,6 +365,8 @@ std::shared_ptr<long> maxExecTime, int prefix) {
                 newState->in.push_back(newTransition);
                 toVisit.push({newState, bs->currentState});
                 labeledSpace->states.push_back(newState);
+                newTransition->setStato(newState);
+
                 toVisitDeepth.push(newDeepth);
             }
         }

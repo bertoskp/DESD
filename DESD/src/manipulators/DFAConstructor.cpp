@@ -263,10 +263,14 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionary(std::shared_ptr<
     std::string message;
 
     Logger::section("Dictionary Construction");
-
-    auto dfaStates = subsetConstruction(inputSpace,online, maxExecTime);
     auto startingTime = std::chrono::high_resolution_clock::now();
-
+    auto dfaStates = subsetConstruction(inputSpace,online, maxExecTime);
+   
+    auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+                
+        std::cout << "Time elapsed (ms): determinization: " + std::to_string(elapsed);
+        Logger::log("Time elapsed (ms): determinization: " + std::to_string(elapsed));
+    startingTime = std::chrono::high_resolution_clock::now();
 
     std::shared_ptr<NFAStateInterface> startingState = nullptr;
 
@@ -284,14 +288,15 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionary(std::shared_ptr<
         }
         for (auto outT: state->getOutTransitions()){
              auto tI = std::make_shared<transitionsInfo>(outT->getId(),outT->getObservabilityLabel(),state->getIdd());
-             for ( auto &state2 : inputSpace->getStates() ){
-                 for (auto inT: state2->getInTransitions()){
-                     if (inT->getId()==outT->getId()){
-                         tI->setDestination(state2->getIdd());
-                         break;
-                     }
-                 }
-             }
+            // for ( auto &state2 : inputSpace->getStates() ){
+               //  for (auto inT: state2->getInTransitions()){
+                  //   if (inT->getId()==outT->getId()){
+            auto outTT=reinterpret_cast<std::shared_ptr<BehavioralTransition>*>(&outT)->get();
+                         tI->setDestination(outTT->getStato()->getIdd());
+                        // break;
+                     //}
+                // }
+            // }
              tInfo->push_back(tI);
         }
     }
@@ -364,7 +369,7 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionary(std::shared_ptr<
                 }
                 messaggio1=messaggio1+"}";
             }
-            Logger::log(messaggio1);
+            //Logger::log(messaggio1);
            // std::shared_ptr<DictionaryState> dicState;
             if( !online and isFinal){
                 
@@ -462,7 +467,7 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionary(std::shared_ptr<
                 }
                 messaggio1=messaggio1+"}";
             }
-            Logger::log(messaggio1);
+            //Logger::log(messaggio1);
            // std::shared_ptr<DictionaryState> dicState;
             if( !online and isFinal){
                 
@@ -514,7 +519,8 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionary(std::shared_ptr<
             states.push_back(dicState);
              */
         }
-            
+        
+        
     }
 
     std::set<std::shared_ptr<NFATransitionInterface>> transitionsSet;
@@ -550,6 +556,11 @@ std::shared_ptr<Dictionary> DFAConstructor::constructDictionary(std::shared_ptr<
     auto sss=inputSpace->getStates();
     dictionary->setBhState(sss);
     dictionary->setTinfo(tInfo);
+    auto elapsed2 = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now()-startingTime).count();
+    Logger::log("Time elapsed (ms): complete dictionary: " + std::to_string(elapsed2));
+
+    std::cout << "Time elapsed (ms): complete dictionary: " + std::to_string(elapsed2);
+        
     return dictionary;
 }
 
@@ -968,21 +979,24 @@ void DFAConstructor::epsilonClosure(NFASpaceInterface &space, std::shared_ptr<NF
     closure.insert(state);
     //auto nn= closure.size();
     auto OutT=state->getOutTransitions();
-    for (const auto &outTransition :OutT ) {
+    for (auto outTransition :OutT ) {
         if (outTransition->getObservabilityLabel().empty()) {
-            for (const auto &toState : space.getStates()) {
-                for (const auto &inTransition : toState->getInTransitions())
-                    if(inTransition == outTransition){
-                        auto ts = std::shared_ptr<NFAStateInterface>(toState);
-                        closure.insert(ts);
+           // for (const auto &toState : space.getStates()) {
+               // for (const auto &inTransition : toState->getInTransitions())
+                    //if(inTransition == outTransition){
+                        //auto ts = std::shared_ptr<NFAStateInterface>(toState);
+                        
+                        auto ts=reinterpret_cast<std::shared_ptr<BehavioralTransition> *>(&outTransition)->get();
+                        closure.insert(ts->getStato());
+            auto st=ts->getStato();
                         //if(ts!=state){
                         auto  m= closure.size();
                         if(m>n){
-                        epsilonClosure(space, ts, closure);
+                        epsilonClosure(space, st, closure);
                         }
-                        break;
-                    }
-            }
+                        //break;
+                   // }
+            //}
         }
     }
 }
@@ -999,16 +1013,17 @@ void DFAConstructor::move(NFASpaceInterface &space, std::set<std::shared_ptr<NFA
                                  std::set<std::shared_ptr<NFAStateInterface>> &toStates,
                                  std::string &symbol) {
     for (const auto &fromState : fromStates) {
-        for (const auto &outTransition : fromState->getOutTransitions()) {
+        for ( auto outTransition : fromState->getOutTransitions()) {
             if (outTransition->getObservabilityLabel() == symbol) {
-                for (const auto &toState : space.getStates()) {
-                    for (const auto &inTransition : toState->getInTransitions()) {
-                        if(inTransition == outTransition){
-                            toStates.insert(std::shared_ptr<NFAStateInterface>(toState));
-                            break;
-                        }
-                    }
-                }
+                //for (const auto &toState : space.getStates()) {
+                   // for (const auto &inTransition : toState->getInTransitions()) {
+                        //if(inTransition == outTransition){
+                            auto ts=reinterpret_cast<std::shared_ptr<BehavioralTransition> *>(&outTransition)->get();
+                toStates.insert(ts->getStato());
+                           // break;
+                        //}
+                    //}
+                //}
             }
         }
     }
